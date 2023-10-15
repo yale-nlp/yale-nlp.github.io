@@ -1,0 +1,98 @@
+- url: https://www.semanticscholar.org/paper/f13b251c8346bc3be19b71b840449831e9716999
+  title: 'SciFact-Open: Towards open-domain scientific claim verification'
+  venue: EMNLP 2022
+  year: 2022
+  authors: David Wadden, Kyle Lo, Bailey Kuehl, Arman Cohan, Iz Beltagy, Lucy Lu Wang,
+    Hannaneh Hajishirzi.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/7ff271856b6719cbeb5c5f1c7c46dc185b945d51
+  title: Generating Scientific Claims for Zero-Shot Scientific Fact Checking
+  venue: ACL 2022
+  year: 2022
+  authors: Dustin Wright, David Wadden, Kyle Lo, Bailey Kuehl, Arman Cohan, Isabelle
+    Augenstein, Lucy Lu Wang.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/dcca6811d71d043a85491c084eaf93ee4b5f73b3
+  title: Improving the Generalizability of Depression Detection by Leveraging Clinical
+    Questionnaires
+  venue: ACL 2022
+  year: 2022
+  authors: Thong Nguyen, Andrew Yates, Ayah Zirikly, Bart Desmet, Arman Cohan.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/037110f8e99488f9b8f6e962da0a912d927695e5
+  title: Zero- and Few-Shot NLP with Pretrained Language Models
+  venue: ACL 2022
+  year: 2022
+  authors: Iz Beltagy, Arman Cohan, Robert Logan IV, Sewon Min, Sameer Singh.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/f75425ef1884a7bc8d367788aef111b242cd540b
+  title: Embedding Recycling for Language Models
+  venue: Findings 2022
+  year: 2022
+  authors: Jon Saad-Falcon, Amanpreet Singh, Luca Soldaini, Mike D'Arcy, Arman Cohan,
+    Doug Downey.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/46e1d96260fc454dbbc8a8c00026076e679c9587
+  title: Overview of the First Shared Task on Multi Perspective Scientific Document
+    Summarization (MuP)
+  venue: SDP 2022
+  year: 2022
+  authors: Arman Cohan, Guy Feigenblat, Tirthankar Ghosal, Michal Shmueli-Scheuer.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/9843d4771366606368bc7e01065763af86f0c1aa
+  title: Overview of the Third Workshop on Scholarly Document Processing
+  venue: SDP 2022
+  year: 2022
+  authors: Arman Cohan, Guy Feigenblat, Dayne Freitag, Tirthankar Ghosal, Drahomira
+    Herrmannova, Petr Knoth, Kyle Lo, Philipp Mayr, Michal Shmueli-Scheuer, Anita
+    de Waard, Lucy Lu Wang.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/66d5ea65186f21f4ff786aa6a1520243ecec94cb
+  title: Exploring the Challenges of Open Domain Multi-Document Summarization
+  venue: Preprint
+  year: 2022
+  authors: John Giorgi, Luca Soldaini, Bo Wang, Gary D Bader, Kyle Lo, Lucy Lu Wang,
+    Arman Cohan.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/54ce4ab5dcb7099bda3a1ea2f004f54331479a31
+  title: Iterative Evidence Searching over Long Structured Documents for Question
+    Answering
+  venue: Preprint
+  year: 2022
+  authors: Arman Cohan.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/fc3e18542522de7732c91d2332224ec447b39d13
+  title: 'SciRepEval: A Multi-Format Benchmark for Scientific Document Representations'
+  venue: Preprint
+  year: 2022
+  authors: Amanpreet Singh, Mike D'Arcy, Arman Cohan, Doug Downey, Sergey Feldman.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/5f323abd909a2b364bfd33c5ba0b9b6b4e4d2fcc
+  title: Towards multi-document summarization in the open-domain
+  venue: Preprint
+  year: 2022
+  authors: John Giorgi, Luca Soldaini, Bo Wang, Gary Bader, Kyle Lo, Lucy Lu Wang,
+    Arman Cohan.
+  project: other
+  display: 1
+

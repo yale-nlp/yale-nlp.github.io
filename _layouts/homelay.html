@@ -1,0 +1,77 @@
+---
+layout: default
+---
+<style>
+  .date {
+      margin-right: 10px; /* Adjust the space as needed */
+  }
+  .line-through-title {
+      position: relative;
+      text-align: center;
+      margin-bottom: 15px;
+  }
+
+  .line-through-title span {
+      background-color: #fff; /* Assuming your background is white. If not, change this. */
+      padding: 0 10px; /* Adjust as needed to give space around the text. */
+      z-index: 1;
+      position: relative;
+      font-size: xx-large;
+  }
+
+  .line-through-title::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: black; /* Adjust the color as needed. */
+      z-index: 0;
+  }
+
+  #flex-container {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  #flex-container > div {
+    flex: 1;  /* This will make the divs take equal width. Adjust as needed. */
+  }
+
+  #twitter-container {
+    width: 100%;
+    overflow: auto;
+  }
+
+  #twitter-container .twitter-timeline {
+    max-width: 100%;
+    margin-left: 30px;
+  }
+
+  .news-section {
+    padding-left: 20px; /* Adjust this value according to your needs */
+  }
+</style>
+
+<div>
+  {{ content }}
+</div>
+
+<div id="flex-container">
+  <div id="twitter-container">
+    <a class="twitter-timeline" href="https://twitter.com/yalenlp?ref_src=twsrc%5Etfw" data-height="400">Tweets by yalenlp</a>
+  </div>
+
+  <div class="news-section">
+    <div class="line-through-title">
+      <span>News</span>
+    </div>
+    {% for article in site.data.news %}
+      <p>
+        <strong class="date">{{ article.date }}:</strong> {{ article.headline }}
+      </p>
+    {% endfor %}
+  </div>
+</div>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

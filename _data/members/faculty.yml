@@ -1,0 +1,10 @@
+- name: Arman Cohan
+  photo: arman_cohan.jpeg
+  info: Assistant professor, started Jan 2023
+  homepage: https://armancohan.com/
+  number_interests: 5
+  interest1: Extending LLM capabilities to new domains and tasks
+  interest2: Language modeling and representation learning for document-level tasks and long sequences
+  interest3: Multi-document and extreme multi-document language processing
+  interest4: Robust methods for generation and summarization
+  interest5: Scientific and scholarly document processing
