@@ -64,6 +64,7 @@ While first-author publications are considered as a plus, they are not required 
 If you feel like your research interests align well with our lab, feel free to reach out and send me your CV and a brief description of your research interests.  
 
 **Are you hiring postdocs?**
+
 I am not actively hiring postdocs.  
 In case of exceptional candidatees or very close research fit, please feel free to reach out.
 <figure>

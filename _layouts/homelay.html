@@ -57,20 +57,24 @@ layout: default
   {{ content }}
 </div>
 
-<div id="flex-container">
-  <div id="twitter-container">
-    <a class="twitter-timeline" href="https://twitter.com/yalenlp?ref_src=twsrc%5Etfw" data-height="400">Tweets by yalenlp</a>
+<div class="row" style="margin-bottom: 50px; margin-left: 10px; margin-right: 10px">
+  <div class="col-sm-6 clearfix">
+    <div class="news-section">
+      <div class="line-through-title">
+        <span>News</span>
+      </div>
+      {% for article in site.data.news %}
+        <p>
+          <strong class="date">{{ article.date }}:</strong> {{ article.headline }}
+        </p>
+      {% endfor %}
+    </div>
   </div>
 
-  <div class="news-section">
-    <div class="line-through-title">
-      <span>News</span>
+  <div class="col-sm-6 clearfix">
+    <div id="twitter-container">
+      <a class="twitter-timeline" href="https://twitter.com/yalenlp?ref_src=twsrc%5Etfw" data-height="400">Tweets by yalenlp</a>
     </div>
-    {% for article in site.data.news %}
-      <p>
-        <strong class="date">{{ article.date }}:</strong> {{ article.headline }}
-      </p>
-    {% endfor %}
   </div>
 </div>
 
