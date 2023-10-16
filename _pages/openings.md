@@ -1,41 +1,71 @@
 ---
-title: "Allan Lab - Vacancies"
+title: "YaleNLP - Opportunities"
 layout: textlay
-excerpt: "Openings"
+excerpt: "Opportunities"
 sitemap: false
-permalink: /vacancies
+permalink: /opportunities
 ---
 
-# Open positions
+Thank you for your interest in joining our lab! 
+Here is general information on current opportunities.
 
-**We are currently open for PhD and postdoc applications related to our ERC CoG grant. The positions are mostly related to the Electron Pair Microscopy projects.**
+<h3> Prospective PhD students </h3>
+We typically recruit 1 PhD student each year.  
+Please send me an email with your CV and a brief description of your research interests.  
+Pleae make sure that your interests and experience aligns with the problems that we are working on in the lab.  
+Research experience in relevant areas is strongly encouraged.  
+Due to overwhelming number of emails, I probably won't have time to get back to you but I'll read your email.  
 
-We are  looking for new group members with passion, talent, and grit!
+**How to apply**
 
-You will have the chance to work on the grand challenges of condensed matter physics, often at the interface of instrumental design and new physics. You will be involved in determining the important and interesting questions, creating and improving instrumental setups, performing measurements, and making discoveries.
-
-### Past open positions
-
-You find the past job openings here:
-[Opening 1]({{ site.baseurl }}/downloads/GeneralPostdoc_2019_v01.pdf),
-[Opening 2]({{ site.baseurl }}/downloads/PPMS_PhD_2019_v01.pdf),
-[Opening 3]({{ site.baseurl }}/downloads/PD.pdf),
-[Opening 4]({{ site.baseurl }}/downloads/PHD1.pdf),
-[Opening 5]({{ site.baseurl }}/downloads/PHD2.pdf).
-
-### Applications for PhD and Postdoc positions
-If you are interested in working with us as a PhD student or postdoc, please send me an [email](mailto:milan.allan@gmail.com). State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. No need for a separate cover letter or certificates. **Important**: please insert _"Application PhD"_ or _"Application Postdoc"_ in the subject line. If you are applying to a specific advertisement, note this in your email.
-
-We especially welcome postdocs with fellowships. I'd be happy to support you, also after you apply to our group. Take a look at the [veni fellowship](https://www.nwo.nl/en/calls/nwo-talent-programme-veni-science-domain) or the Marie Curie fellowship (currently closed, next deadline probably Fall 2021, [here is last years call]({{ site.baseurl }}/downloads/h2020-wp1820-msca_en.pdf)). In many country, there are also fellowships available for outdoing postdocs.**
+Please officially apply to <a href="http://yale.edu/graduateschool/admissions/">Yale Computer Science PhD Program</a>, and list me as a faculty of interest and I will take a look at your application.  
+If you have specific questions feel free to reach out.
 
 
-### Master projects for Leiden University students
-If you are a Master student at Leiden University looking for a Master project, contact me (or any group member) per email or stop by my office.
+<h3> Masters students </h3>
 
-### Bsc / Master students from elsewhere
-If you are interested in pursuing a Master degree at Leiden University, see [mastersinleiden.nl](http://www.mastersinleiden.nl/programmes/physics/en/introduction). Sometimes, we take master students or summer interns if we get exceptional applicants (this usually means very good grades and a personal recommendation).
+**Masters students enrolled at Yale**  
+If you are interested in types of problems that we work on please feel free to reach out.  
+Generally, we welcome motivated masters students who plan to apply to Ph.D. programs, or students enrolled in 2 year masters program.  
+We currently do not have specific funding to support masters students. But feel free to to ask.
+
+**Prospective masters students**  
+Please directly apply to Yale masters graduate program.  <a href="https://cpsc.yale.edu/academics/graduate-program/master-science"> [link] </a>
 
 
+<h3> Undergraduate students </h3>
+
+**Undergraduate students at Yale.**  
+If you are interested in types of problems that we work on please feel free to reach out.  
+We generally welcome motivated undergraduate students to join our lab!  
+Strong programming skills and experience in AI/ML/NLP is considered a plus.
+
+<h3> Visiting students and researchers </h3>
+
+We welcome visiting students and interns on case by case basis.  
+In case of close research fit, please reach out to us.
+
+
+<h3> FAQs </h3>
+
+**Are there any particular qualifications that you look for in potential Ph.D. students?**
+
+Generally, we look for students with a strong academic record, a strong passion for research, demonstrated research experience, and great communication and problem-solving skills.  
+Another important factor is the overall fit of the candidate's research interests and experience with research areas of my group.  
+Applications from underrepresented groups are especially encouraged.
+
+**Do I need to have first-author publications when applying to Ph.D.?** 
+
+No, you don't need to have first-author publications.  
+While first-author publications are considered as a plus, they are not required and we look at your application as a whole.  
+
+**Do I need to contact you before applying?**
+
+If you feel like your research interests align well with our lab, feel free to reach out and send me your CV and a brief description of your research interests.  
+
+**Are you hiring postdocs?**
+I am not actively hiring postdocs.  
+In case of exceptional candidatees or very close research fit, please feel free to reach out.
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/DSC_0696.jpg" width="95%">
+<!-- <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/DSC_0696.jpg" width="95%"> -->
 </figure>
