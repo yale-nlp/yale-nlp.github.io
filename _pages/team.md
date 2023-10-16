@@ -88,22 +88,11 @@ permalink: /team/
   <i>{{ member.info }}
 
   <ul style="overflow: hidden" class="no-indent">
-    {% for i in (1..member.number_interests) %}
-      {% case i %}
-        {% when 1 %}
-          <li> {{ member.interest1 }} </li>
-        {% when 2 %}
-          <li> {{ member.interest2 }} </li>
-        {% when 3 %}
-          <li> {{ member.interest3 }} </li>
-        {% when 4 %}
-          <li> {{ member.interest4 }} </li>
-        {% when 5 %}
-          <li> {{ member.interest5 }} </li>
-        {% when 6 %}
-          <li> {{ member.interest6 }} </li>
-      {% endcase %}
-    {% endfor %}
+  {% if member.interests %}  
+      {% for interest in (member.interests) %}
+            <li> {{ interest }} </li>
+      {% endfor %}
+  {% endif %}  
   </ul>
 </div>
 
