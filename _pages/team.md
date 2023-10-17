@@ -130,7 +130,7 @@ permalink: /team/
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 
-
+<div class="row">
 {% assign member_types = "Faculty,PhD,Master,Undergraduate" | split: ',' %}
 
 {% for type_name in member_types %}
@@ -189,6 +189,7 @@ permalink: /team/
 </div>
 {% endfor %}
 {% endfor %}
+</div>
 
 
 <div class="row" style="margin-bottom: 50px; margin-left: 10px; margin-right: 10px">
