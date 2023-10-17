@@ -154,16 +154,16 @@ permalink: /team/
   <h2>{{ member.name }}</h2>
   <div class="icons">
   {% if member.homepage %}
-  <a href="{{ member.homepage }}"><i class="fas fa-home pr-1 icon" style="color: white;"></i></a>
+  <a href="{{ member.homepage }}" target="_blank"><i class="fas fa-home pr-1 icon" style="color: white;"></i></a>
   {% endif %}
   {% if member.github %}
-  <a href="{{ member.github }}"><i class="fab fa-github icon" style="color: white;"></i></a>
+  <a href="{{ member.github }}" target="_blank"><i class="fab fa-github icon" style="color: white;"></i></a>
   {% endif %}
   {% if member.google_scholar %}
-  <a href="{{ member.google_scholar }}"><i class="ai ai-google-scholar ai-lg icon" style="color: white;"></i></a>
+  <a href="{{ member.google_scholar }}" target="_blank"><i class="ai ai-google-scholar ai-lg icon" style="color: white;"></i></a>
   {% endif %}
   {% if member.twitter %}
-  <a href="{{ member.twitter }}"><i class="fab fa-twitter icon" style="color: white;"></i></a>
+  <a href="{{ member.twitter }}" target="_blank"><i class="fab fa-twitter icon" style="color: white;"></i></a>
   {% endif %}
   </div>
 

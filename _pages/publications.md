@@ -39,31 +39,29 @@ permalink: /publications/
   }
 </style>
 
+{% assign years = "2023,2022" | split: ',' %}
+
+{% for year in years %}
+
+{% assign publication_data = "" %}
+{% case year %}
+  {% when '2023' %}
+    {% assign publication_data = site.data.publications.2023_publist %}
+  {% when '2022' %}
+    {% assign publication_data = site.data.publications.2022_publist %}
+{% endcase %}
 
 <div class="line-through-title">
-  <span>2023</span>
+  <span>{{year}}</span>
 </div>
 
 <div class="justified-content">
 <ul>
-{% for publi in site.data.publications.2023_publist %}
+{% for publi in publication_data %}
     {% if publi.display != 0 %}
-        <li>{{ publi.authors }} <a href="{{ publi.url }}">{{ publi.title }}.</a> <i>{{ publi.venue }}</i></li>
+        <li>{{ publi.authors }} <a href="{{ publi.url }}" target="_blank">{{ publi.title }}.</a> <i>{{ publi.venue }}</i></li>
     {% endif %}
 {% endfor %}
 </ul>
 </div>
-
-<div class="line-through-title">
-  <span>2022</span>
-</div>
-
-<div class="justified-content">
-<ul>
-{% for publi in site.data.publications.2022_publist %}
-    {% if publi.display != 0 %}
-        <li>{{ publi.authors }} <a href="{{ publi.url }}">{{ publi.title }}.</a> <i>{{ publi.venue }}</i></li>
-    {% endif %}
 {% endfor %}
-</ul>
-</div>
