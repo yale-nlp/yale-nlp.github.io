@@ -5,15 +5,6 @@ excerpt: "Yale NLP"
 sitemap: false
 permalink: /
 ---
-<style>
-  /* Styles for the flexbox container and columns */
-  #flex-container1 {
-    display: flex;
-  }
-  #flex-container1 > div {
-    flex: 1;  /* This will make the divs take equal width. Adjust as needed. */
-  }
-</style>
 
 <div class="row" style="margin-bottom: 50px; margin-left: 10px; margin-right: 10px">
 <div class="col-sm-6 clearfix">

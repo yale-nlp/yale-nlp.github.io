@@ -1,7 +1,10 @@
 - name: Ansong Ni
   photo: ansong_ni.jpeg
-  info: PhD Student, started August 2020
+  info: Final-year PhD Student
   homepage: https://niansong1996.github.io/
+  github: https://github.com/niansong1996
+  google_scholar: https://scholar.google.com/citations?user=4IA1clAAAAAJ
+  twitter: https://twitter.com/AnsongNi
   interests:
     - Program Synthesis
     - Semantic Parsing
@@ -9,7 +12,7 @@
 
 - name: Linyong Nan
   photo: linyong_nan.png
-  info: PhD Student, started August 2020
+  info: Final-year PhD Student
   homepage: https://linyongnan.github.io/
   interests:
     - Multi-modal information processing
@@ -18,7 +21,7 @@
 
 - name: Yixin Liu
   photo: yixin_liu.jpeg
-  info: PhD Student, started August 2021
+  info: Third-year PhD Student
   homepage: https://yixinl7.github.io/
   interests:
     - Summarization and Generation
@@ -26,7 +29,7 @@
 
 - name: Simeng Han
   photo: simeng_han.png
-  info: PhD Student, started August 2021
+  info: Third-year PhD Student
   homepage: https://shirleyhan6.github.io/
   interests:
     - Reasoning
@@ -34,7 +37,7 @@
 
 - name: Yilun Zhao
   photo: yilun_zhao.jpeg
-  info: PhD Student, started August 2023
+  info: First-year PhD Student
   homepage: https://yilunzhao.github.io/
   interests:
     - NLP in expert domains
@@ -42,10 +45,10 @@
 
 - name: Kaili Liu
   photo: kaili_liu.jpeg
-  info: PhD Student, started August 2023
+  info: First-year PhD Student
   homepage: https://gkml.netlify.app/
 
 - name: Shruti Singh
   photo: shruti_singh.png
-  info: Visiting PhD Student, started August 2023
+  info: Visiting PhD Student
   homepage: https://shruti-singh.github.io/

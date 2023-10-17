@@ -6,86 +6,166 @@ sitemap: false
 permalink: /team/
 ---
 <style>
+  .card {
+      position: relative;
+      width: 100%;
+      height: 210pt;
+      padding: 5px;
+      border-radius: 8px;
+      text-align: center;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+  }
+
+  .details-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 140, 0, 0.95);
+      z-index: 10;
+      color: white;
+      padding: 10px;
+      opacity: 0;
+      transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+      display: flex;
+      flex-direction: column;
+
+      transform: translateY(-100%); 
+      max-height: 0;
+      overflow: hidden;
+  }
+
+  .details-container.active {
+      opacity: 1;
+      transform: translateY(0);
+      max-height: 210pt;
+  }
+
+  .details-container h2, .card-body h2 {
+      text-align: center;
+      font-size: large;
+      font-weight: 600;
+  }
+
+  .details-container p, .card-body p {
+      text-align: center;
+      font-size: small;
+  }
+
+  .avatar {
+      width: 150px;
+      height: 150px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;   /* Vertically centers the content */
+      justify-content: center;   /* Horizontally centers the content */
+      overflow: hidden;
+  }
+  
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* This ensures the image will cover its parent without being stretched */
+    border-radius: 50%;
+    object-fit: cover;   /* Ensures the image covers its parent without being stretched */
+    object-position: center;
+  }
+
+  .card-body {
+      color: black;
+  }
+
+  .icons {
+      display: flex;
+      justify-content: center;
+  }
+
+  .icon {
+      width: 24px;
+      height: 24px;
+      fill: white;
+  }
+
   ul.no-indent {
     margin-left: 0;
     padding-left: 1em;
+    text-align: left;
   }
   ul.no-indent li {
     margin: 0;
+    style="text-align:left"
   }
 </style>
 
-<!-- # Group Members -->
-<!-- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
-<!-- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const cards = document.querySelectorAll(".card");
+    
+    cards.forEach(card => {
+      card.addEventListener("mouseenter", function() {
+        const details = this.querySelector(".details-container");
+        if (details) {
+          details.classList.add("active");
+        }
+      });
 
-### Faculty
-{% assign number_printed = 0 %}
-{% for member in site.data.members.faculty %}
+      card.addEventListener("mouseleave", function() {
+        const details = this.querySelector(".details-container");
+        if (details) {
+          details.classList.remove("active");
+        }
+      });
+    });
+  });
+</script>
 
-{% assign even_odd = number_printed | modulo: 2 %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
 
-<div class="clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="12.5%" style="float: left" />
+
+{% assign member_types = "Faculty,PhD,Master,Undergraduate" | split: ',' %}
+
+{% for type_name in member_types %}
+
+{% assign student_data = "" %}
+{% case type_name %}
+  {% when 'Faculty' %}
+    {% assign student_data = site.data.members.faculty %}
+  {% when 'PhD' %}
+    {% assign student_data = site.data.members.phd_students %}
+  {% when 'Master' %}
+    {% assign student_data = site.data.members.ms_students %}
+  {% when 'Undergraduate' %}
+    {% assign student_data = site.data.members.bs_students %}
+{% endcase %}
+
+{% for member in student_data %}
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4">
+<div class="card">
+<div class="details-container">
+  <h2>{{ member.name }}</h2>
+  <div class="icons">
   {% if member.homepage %}
-  <h4><a href="{{ member.homepage }}" target="_blank" style="color: inherit; text-decoration: none;">{{ member.name }}</a></h4>
-  {% else %}
-  <h4>{{ member.name }}</h4>
+  <a href="{{ member.homepage }}"><i class="fas fa-home pr-1 icon" style="color: white;"></i></a>
   {% endif %}
-  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden" class="no-indent">
-    {% for i in (1..member.number_interests) %}
-      {% case i %}
-        {% when 1 %}
-          <li> {{ member.interest1 }} </li>
-        {% when 2 %}
-          <li> {{ member.interest2 }} </li>
-        {% when 3 %}
-          <li> {{ member.interest3 }} </li>
-        {% when 4 %}
-          <li> {{ member.interest4 }} </li>
-        {% when 5 %}
-          <li> {{ member.interest5 }} </li>
-      {% endcase %}
-    {% endfor %}
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-### PhD Students
-{% assign number_printed = 0 %}
-{% for member in site.data.members.phd_students %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  {% if member.homepage %}
-  <h4><a href="{{ member.homepage }}" target="_blank" style="color: inherit; text-decoration: none;">{{ member.name }}</a></h4>
-  {% else %}
-  <h4>{{ member.name }}</h4>
+  {% if member.github %}
+  <a href="{{ member.github }}"><i class="fab fa-github icon" style="color: white;"></i></a>
   {% endif %}
-  <i>{{ member.info }}
+  {% if member.google_scholar %}
+  <a href="{{ member.google_scholar }}"><i class="ai ai-google-scholar ai-lg icon" style="color: white;"></i></a>
+  {% endif %}
+  {% if member.twitter %}
+  <a href="{{ member.twitter }}"><i class="fab fa-twitter icon" style="color: white;"></i></a>
+  {% endif %}
+  </div>
 
   <ul style="overflow: hidden" class="no-indent">
   {% if member.interests %}  
@@ -96,132 +176,49 @@ permalink: /team/
   </ul>
 </div>
 
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
+  <figure class="flex-col bg-base-100">
+  <div class="avatar inline-flex place-content-center place-items-start rounded-full bg-gradient-to-r from-cyan-500 to-blue-500">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }} profile image" class="w-full h-auto rounded-full" />
+  </div>
+  </figure>
+  <div class="card-body">
+  <h2>{{ member.name }}</h2>
+  <p>{{ member.info }}</p>
+  </div>
 </div>
-{% endif %}
-
+</div>
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-
-
-
-{% assign student_types = "Master,Undergraduate" | split: ',' %}
-
-{% for student_name in student_types %}
-  
-### {{ student_name }} Students
-{% assign number_printed = 0 %}
-
-{% assign student_data = "" %}
-{% case student_name %}
-  {% when 'Master' %}
-    {% assign student_data = site.data.members.ms_students %}
-  {% when 'Undergraduate' %}
-    {% assign student_data = site.data.members.bs_students %}
-{% endcase %}
-
-{% for member in student_data %}
-
-{% assign even_odd = number_printed | modulo: 6 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-2 clearfix" style="text-align: center;">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="70%" style="margin: 0 auto; display: block;" />
-  {% if member.homepage %}
-  <h4><a href="{{ member.homepage }}" target="_blank" style="color: inherit; text-decoration: none;">{{ member.name }}</a></h4>
-  {% else %}
-  <h4>{{ member.name }}</h4>
-  {% endif %}
-  <i>{{ member.info }}</i>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 5 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 6 %}
-{% if even_odd > 0 %}
-</div>
-{% endif %}
-
 {% endfor %}
 
 
-
-
-<!-- ### Alumni
-
-{% assign number_printed = 0 %}
-{% for member in site.data.alumni_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
-  <ul style="overflow: hidden">
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %} -->
-
-### Former visitors, BSc/ MSc students
-<div class="row">
+<div class="row" style="margin-bottom: 50px; margin-left: 10px; margin-right: 10px">
+<h3 style="text-align: center;"> Alumni </h3>
 
 <div class="col-sm-4 clearfix">
-<h4>Visiting Students</h4>
+<h4 style="text-align: center;">Visiting Students</h4>
 {% for member in site.data.alumni.visiting_students %}
+<p style="text-align: center;">
 {{ member.name }}
+</p>
 {% endfor %}
 </div>
 
 <div class="col-sm-4 clearfix">
-<h4>Master students</h4>
+<h4 style="text-align: center;">Master students</h4>
 {% for member in site.data.alumni.ms_students %}
+<p style="text-align: center;">
 {{ member.name }}
+</p>
 {% endfor %}
 </div>
 
 <div class="col-sm-4 clearfix">
-<h4>Bachelor Students</h4>
+<h4 style="text-align: center;">Bachelor Students</h4>
 {% for member in site.data.alumni.bs_students %}
+<p style="text-align: center;">
 {{ member.name }}
+</p>
 {% endfor %}
 </div>
 
 </div>
-
-
-<!-- ### Administrative Support
-<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration. -->
