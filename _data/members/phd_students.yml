@@ -44,9 +44,13 @@
     - Multi-modal information processing
 
 - name: Kaili Liu
-  photo: kaili_liu.jpeg
+  photo: kaili_liu.png
   info: First-year PhD Student
   homepage: https://gkml.netlify.app/
+  interests:
+    - Modeling cognition-inspired capabilities in AI agents
+    - Understanding mechanics of LLMs
+    - AI ethics
 
 - name: Shruti Singh
   photo: shruti_singh.png

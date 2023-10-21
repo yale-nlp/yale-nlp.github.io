@@ -18,7 +18,7 @@ Due to overwhelming number of emails, I probably won't have time to get back to 
 
 **How to apply**
 
-Please officially apply to <a href="http://yale.edu/graduateschool/admissions/">Yale Computer Science PhD Program</a>, and list me as a faculty of interest and I will take a look at your application.  
+Please officially apply to <a href="http://yale.edu/graduateschool/admissions/" target="_blank">Yale Computer Science PhD Program</a>, and list me as a faculty of interest and I will take a look at your application.  
 If you have specific questions feel free to reach out.
 
 
@@ -30,7 +30,7 @@ Generally, we welcome motivated masters students who plan to apply to Ph.D. prog
 We currently do not have specific funding to support masters students. But feel free to to ask.
 
 **Prospective masters students**  
-Please directly apply to Yale masters graduate program.  <a href="https://cpsc.yale.edu/academics/graduate-program/master-science"> [link] </a>
+Please directly apply to  <a href="https://cpsc.yale.edu/academics/graduate-program/master-science" target="_blank"> Yale Masters Graduate Program</a>.
 
 
 <h3> Undergraduate students </h3>

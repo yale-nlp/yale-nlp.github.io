@@ -11,7 +11,7 @@ permalink: /
   <h2>Yale NLP Lab</h2>
   <!-- justify the text-->
   <p style="text-align:justify">
-    The Yale NLP Lab is a research group in the <a href="https://cs.yale.edu/">Department of Computer Science</a> at <a href="https://www.yale.edu/">Yale University</a>. Our research focus is at AI, including language modeling, representation learning, retrieval, and applications in specialized domains.
+    The Yale NLP Lab is a research group in the <a href="https://cs.yale.edu/" target="_blank">Department of Computer Science</a> at <a href="https://www.yale.edu/" target="_blank">Yale University</a>. Our research focus is at AI, including language modeling, representation learning, retrieval, and applications in specialized domains.
     Active areas of research include (no particular order):
   </p>
   <ul>
@@ -23,7 +23,7 @@ permalink: /
   </ul>
 
   <p style="text-align:justify">
-  If you are interested in joining our lab, click <a href="{{ site.url }}{{ site.baseurl }}/opportunities.html">here</a> for more information.
+  If you are interested in joining our lab, click <a href="{{ site.url }}{{ site.baseurl }}/opportunities.html" target="_blank">here</a> for more information.
   </p>
 </div>
 
