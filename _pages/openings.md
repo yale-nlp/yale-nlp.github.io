@@ -65,7 +65,7 @@ If you feel like your research interests align well with our lab, feel free to r
 
 **Are you hiring postdocs?**
 
-I am not actively hiring postdocs.  
+We currently do not have open positions for postdocs. But this could change in future.
 In case of exceptional candidatees or very close research fit, please feel free to reach out.
 <figure>
 <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/DSC_0696.jpg" width="95%"> -->
