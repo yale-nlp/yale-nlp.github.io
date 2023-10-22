@@ -19,14 +19,6 @@
     - Table-to-text Generation
     - Semantic Parsing
 
-- name: Yixin Liu
-  photo: yixin_liu.jpeg
-  info: Third-year PhD Student
-  homepage: https://yixinl7.github.io/
-  interests:
-    - Summarization and Generation
-    - Evaluation of NLG systems
-
 - name: Simeng Han
   photo: simeng_han.png
   info: Third-year PhD Student
@@ -34,6 +26,14 @@
   interests:
     - Reasoning
     - Knowledge Graphs
+
+- name: Yixin Liu
+  photo: yixin_liu.jpeg
+  info: Third-year PhD Student
+  homepage: https://yixinl7.github.io/
+  interests:
+    - Summarization and Generation
+    - Evaluation of NLG systems
 
 - name: Yilun Zhao
   photo: yilun_zhao.jpeg

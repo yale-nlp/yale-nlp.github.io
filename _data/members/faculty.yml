@@ -2,9 +2,12 @@
   photo: arman_cohan.jpeg
   info: Assistant Professor
   homepage: https://armancohan.com/
-  number_interests: 5
-  interest1: Extending LLM capabilities to new domains and tasks
-  interest2: Language modeling and representation learning for document-level tasks and long sequences
-  interest3: Multi-document and extreme multi-document language processing
-  interest4: Robust methods for generation and summarization
-  interest5: Scientific and scholarly document processing
+  google_scholar: https://scholar.google.com/citations?user=baI7IY0AAAAJ&hl=en
+  twitter: https://twitter.com/armancohan
+  github: https://github.com/armancohan
+  # interests:
+  #   - Science of LLMs
+  #   - Learning algorithms for LMs
+  #   - LLMs for new domains and tasks
+  #   - Multi-document and extreme multi-document language processing
+  #   - Robust generation methods

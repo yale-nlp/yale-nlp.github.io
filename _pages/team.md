@@ -25,18 +25,18 @@ permalink: /team/
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(255, 140, 0, 0.95);
+      background-color: rgba(114, 114, 114, 0.89);
       z-index: 10;
       color: white;
       padding: 10px;
       opacity: 0;
-      transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+      transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
       display: flex;
       flex-direction: column;
-
       transform: translateY(-100%); 
       max-height: 0;
       overflow: hidden;
+      font-size: xlarge;
   }
 
   .details-container.active {
@@ -139,12 +139,13 @@ permalink: /team/
 {% case type_name %}
   {% when 'Faculty' %}
     {% assign student_data = site.data.members.faculty %}
+    {% assign student_data.type = type_name %}
   {% when 'PhD' %}
     {% assign student_data = site.data.members.phd_students %}
   {% when 'Master' %}
     {% assign student_data = site.data.members.ms_students %}
   {% when 'Undergraduate' %}
-    {% assign student_data = site.data.members.bs_students %}
+    {% assign student_data = site.data.members.ug_students %}
 {% endcase %}
 
 {% for member in student_data %}
@@ -174,6 +175,9 @@ permalink: /team/
       {% endfor %}
   {% endif %}  
   </ul>
+  {% if member.type %} 
+  {{member.type }}
+  {% endif %}
 </div>
 
   <figure class="flex-col bg-base-100">
@@ -205,7 +209,7 @@ permalink: /team/
 </div>
 
 <div class="col-sm-4 clearfix">
-<h4 style="text-align: center;">Master students</h4>
+<h4 style="text-align: center;">Master's and undergraduate students</h4>
 {% for member in site.data.alumni.ms_students %}
 <p style="text-align: center;">
 {{ member.name }}
@@ -215,7 +219,7 @@ permalink: /team/
 
 <div class="col-sm-4 clearfix">
 <h4 style="text-align: center;">Bachelor Students</h4>
-{% for member in site.data.alumni.bs_students %}
+{% for member in site.data.alumni.ug_students %}
 <p style="text-align: center;">
 {{ member.name }}
 </p>

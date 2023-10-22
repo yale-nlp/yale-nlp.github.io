@@ -45,26 +45,4 @@ permalink: /
     </div>
   </div>
 
-  <div>
-  <h2>Yale NLP Lab</h2>
-  <!-- justify the text-->
-  <p style="text-align:justify">
-    The Yale NLP Lab is a research group in the <a href="https://cs.yale.edu/">Department of Computer Science</a> at <a href="https://www.yale.edu/">Yale University</a>.  
-    Our research focus is at AI, including language modeling, representation learning, retrieval, and applications in specialized domains.
-    Active areas of research include (no particular order):
-  </p>
-  <ul>
-    <li>Understanding and extending generalization capabilities of LLMs in expert domains</li>
-    <li>Language modeling and representation learning for document-level tasks and long sequences</li>
-    <li>Robust methods for generation and summarization</li>
-    <li>Multi-document and extreme multi-document language processing</li>
-    <li>Scientific and scholarly document processing</li>
-  </ul>
-
-  <p style="text-align:justify">
-  If you are interested in joining our lab, click <a href="/opportunities">here</a> for more information.
-  </p>
-  
-</div>
-
 
