@@ -196,13 +196,13 @@ permalink: /team/
 </div>
 
 
-<div class="row" style="margin-bottom: 50px; margin-left: 10px; margin-right: 10px">
-<h3 style="text-align: center;"> Alumni </h3>
+<!-- <div class="row" style="margin-bottom: 50px; margin-left: 40px; margin-right: 10px">
+<h3 style="text-align: left;"> Alumni </h3>
 
 <div class="col-sm-4 clearfix">
-<h4 style="text-align: center;">Visiting Students</h4>
+<h4 style="text-align: left;">Visiting Students</h4>
 {% for member in site.data.alumni.visiting_students %}
-<p style="text-align: center;">
+<p style="text-align: left;">
 {{ member.name }}
 </p>
 {% endfor %}
@@ -224,6 +224,6 @@ permalink: /team/
 {{ member.name }}
 </p>
 {% endfor %}
-</div>
+</div> -->
 
-</div>
+<!-- </div> -->
