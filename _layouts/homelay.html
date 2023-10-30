@@ -66,25 +66,45 @@ layout: default
 </div>
 
 <div class="row" style="margin-bottom: 50px; margin-left: 10px; margin-right: 10px">
-  <div class="col-sm-6 clearfix">
+  <div class="col-sm-11 clearfix">
     <div class="news-section">
       <div class="line-through-title">
         <span>News</span>
       </div>
-      {% for article in site.data.news %}
+      <!-- {% for article in site.data.news %}
       <p>
         <strong class="date">{{ article.date }}:</strong> {{ article.headline }}
       </p>
-      {% endfor %}
+      {% endfor %} -->
+
+      <div class="row" {% if site.news_scrollable and news_size> 10 %}style="max-height: 20vw"{% endif %}>
+        <table class="table table-sm table-borderless">
+          {% for article in site.data.news %}
+          <tr>
+            <th scope="row">{{ article.date | date: "%b %-d, %Y" }}</th>
+            <td>
+              {% if article.inline -%}
+              {{ article.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {%- else -%}
+              {{ article.headline }}
+              {%- endif %}
+            </td>
+          </tr>
+          {%- endfor %}
+        </table>
+      </div>
+
     </div>
   </div>
 
-  <div class="col-sm-6 clearfix">
+
+
+  <!-- <div class="col-sm-6 clearfix">
     <div id="twitter-container">
       <a class="twitter-timeline" href="https://twitter.com/yalenlp?ref_src=twsrc%5Etfw" data-height="400">Tweets by
         yalenlp</a>
     </div>
-  </div>
+  </div> -->
 </div>
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
