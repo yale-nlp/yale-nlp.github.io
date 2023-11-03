@@ -64,7 +64,7 @@
       <ul>
       {% for publi in publication_data %}
           {% if publi.display != 0 %}
-          {% if project.publication_keyword contains publi.publication_keyword %}
+          {% if project.publication_keyword contains publi.project %}
               <li>{{ publi.authors }} <a href="{{ publi.url }}" target="_blank">{{ publi.title }}.</a> <i>{{ publi.venue }}</i></li>
           {% endif %}
           {% endif %}

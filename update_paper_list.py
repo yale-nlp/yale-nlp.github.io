@@ -54,7 +54,7 @@ def paper_order_index(venue):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--author_id', default='2527954')
-    parser.add_argument('--start_year', default='2022')
+    parser.add_argument('--start_year', default='2023')
     args = parser.parse_args()
 
     # paper might change the title, so we need to remove the previous record
@@ -71,7 +71,6 @@ def main():
     for paper in authored_papers:
         if int(paper["year"]) < int(args.start_year):
             continue
-        
         year = paper["year"]
         paper["authors"] = ", ".join([author["name"] for author in paper["authors"]]) + "."
         del paper["paperId"]
@@ -79,7 +78,6 @@ def main():
         paper["project"] = "other"
         
         paper["title"] = paper["title"].strip(".")
-
         if not paper["venue"]:
             paper["venue"] = "Preprint"
         else:
