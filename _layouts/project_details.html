@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    {% assign project = page %}
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+      .centered-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+      }
+
+      .title {
+          font-size: 36px;
+          text-align: center;
+      }
+      
+      .subtitle {
+          font-size: 24px;
+          text-align: center;
+      }
+
+      .justified-content {
+          text-align: justify;
+      }
+      .justified-content ul {
+          padding-left: 20px;
+      }
+    </style> 
+  </head>
+
+  {% include head.html %}
+
+<body>
+  {% include header.html %}
+  <div class="container-fluid">
+  <div class="row">
+  <div class="col-sm-12">
+    <h1 class="title">{{ project.project_name}}</h1>
+
+    {% if project.photo %}
+      <img class="centered-image" src="/images/projectpic/{{ project.photo }}" alt="{{ project.project_name }}">
+    {% endif %}
+
+    <h1 class="subtitle"> Research Vision </h1>
+    <p style="text-align: justify;">{{ project.vision }}</p>
+
+    <h1 class="subtitle"> Publications </h1>
+
+    {% assign years = "2023,2022" | split: ',' %}
+
+    {% for year in years %}
+    {% assign publication_data = "" %}
+    {% case year %}
+      {% when '2023' %}
+        {% assign publication_data = site.data.publications.2023_publist %}
+      {% when '2022' %}
+        {% assign publication_data = site.data.publications.2022_publist %}
+    {% endcase %}
+    <div class="justified-content">
+      <ul>
+      {% for publi in publication_data %}
+          {% if publi.display != 0 %}
+          {% if project.publication_keyword contains publi.publication_keyword %}
+              <li>{{ publi.authors }} <a href="{{ publi.url }}" target="_blank">{{ publi.title }}.</a> <i>{{ publi.venue }}</i></li>
+          {% endif %}
+          {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+
+  </div>
+  </div>
+  </div>
+
+  {% include footer.html %}
+</body>
+
+</html>
