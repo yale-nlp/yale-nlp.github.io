@@ -7,7 +7,7 @@ permalink: /
 ---
 
 <div class="row" style="margin-bottom: 50px; margin-left: 10px; margin-right: 10px">
-<div class="col-sm-7 clearfix">
+<div class="col-sm-10 col-sm-offset-1 clearfix">
   <h2>Yale NLP Lab</h2>
   <!-- justify the text-->
   <p style="text-align:justify">
@@ -27,7 +27,7 @@ permalink: /
   </p>
 </div>
 
-<div class="col-sm-8 clearfix">
+<div class="col-sm-8 col-sm-offset-2 clearfix">
   <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
     <!-- <ol class="carousel-indicators">
