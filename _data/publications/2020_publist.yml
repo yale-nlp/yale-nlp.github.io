@@ -6,6 +6,7 @@
     David Wadden, Kyle Lo, Lucy Lu Wang, Shanchuan Lin, Madeleine van Zuylen,
     Arman Cohan, Hannaneh Hajishirzi.
   project: other
+  paper_link: https://aclanthology.org/2020.emnlp-main.609.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/05598331268614305ff844cea001f5b22f3519c9
@@ -16,6 +17,7 @@
   year: 2020
   authors: Sean MacAvaney, Arman Cohan, Nazli Goharian.
   project: other
+  paper_link: https://aclanthology.org/2020.emnlp-main.341.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/a3e4ceb42cbcd2c807d53aff90a8cb1f5ee3f031
@@ -26,6 +28,7 @@
   year: 2020
   authors: Arman Cohan, Sergey Feldman, Iz Beltagy, Doug Downey, Daniel S. Weld.
   project: other
+  paper_link: https://aclanthology.org/2020.acl-main.207.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/007d5767d0f6f73d7c6e3b14dd72eb7d10b17b61
@@ -34,6 +37,7 @@
   year: 2020
   authors: Sean MacAvaney, Arman Cohan, Nazli Goharian, Ross W. Filice.
   project: other
+  paper_link: https://arxiv.org/pdf/2001.06674.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/3502a542b2e98d9094e1880a30f652d4170b9534
@@ -42,6 +46,7 @@
   year: 2020
   authors: Isabel Cachola, Kyle Lo, Arman Cohan, Daniel S. Weld.
   project: other
+  paper_link: https://aclanthology.org/2020.findings-emnlp.428.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/b24e06593e1fa202e459052cf658388c9b0198d7
@@ -52,6 +57,7 @@
   year: 2020
   authors: Sajad Sotudeh Gharebagh, Arman Cohan, Nazli Goharian.
   project: other
+  paper_link: https://aclanthology.org/2020.sdp-1.41.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/63bf9450d7b0faa6fc542b51b940c55369ba23d8
@@ -60,14 +66,7 @@
   year: 2020
   authors: Sajad Sotudeh, Arman Cohan, Nazli Goharian.
   project: other
-  display: 1
-
-- url: https://www.semanticscholar.org/paper/402954647b4a4855ccbe953c762518b90c7557c0
-  title: "ABNIRML: Analyzing the Behavior of Neural IR Models"
-  venue: Transactions of the Association for Computational Linguistics 2020
-  year: 2020
-  authors: Sean MacAvaney, Sergey Feldman, Nazli Goharian, Doug Downey, Arman Cohan.
-  project: other
+  paper_link: https://arxiv.org/pdf/2012.14136.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/21d347db8adc949b0ad08e9c42b66a63739c866f
@@ -82,6 +81,7 @@
     Erfan Sadeqi Azer, Niloofar Safi Samghabadi, Mahsa Shafaei, Saber Sheybani, Ali
     Tazarv, Yadollah Yaghoobzadeh.
   project: other
+  paper_link: https://arxiv.org/pdf/2012.06154.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/71b6394ad5654f5cd0fba763768ba4e523f7bbca
@@ -90,6 +90,7 @@
   year: 2020
   authors: Iz Beltagy, Matthew E. Peters, Arman Cohan.
   project: other
+  paper_link: https://arxiv.org/pdf/2004.05150.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/4699fb5445e6718f9c540c196f1eee2979526a27
@@ -100,4 +101,6 @@
   year: 2020
   authors: Sean MacAvaney, Arman Cohan, Nazli Goharian.
   project: other
+  paper_link: https://arxiv.org/pdf/2005.02365.pdf
   display: 1
+

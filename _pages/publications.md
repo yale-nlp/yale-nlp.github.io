@@ -109,7 +109,11 @@ permalink: /publications/
             <span>{{ publi.title }}</span>
             <span class="publication-authors">{{ publi.authors }}</span>
             <i class="publication-venue">{{ publi.venue }}</i>
-            <a class="publication-button" href="{{ publi.url }}" target="_blank">pdf</a>
+            {% if publi.paper_link %}
+              <a class="publication-button" href="{{ publi.paper_link }}" target="_blank">pdf</a>
+            {% else %}
+              <a class="publication-button" href="{{ publi.url }}" target="_blank">pdf</a>
+            {% endif %}
         </li>
     {% endif %}
 {% endfor %}

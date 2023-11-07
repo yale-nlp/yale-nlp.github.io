@@ -3,6 +3,10 @@ import yaml
 import os
 
 import requests
+import urllib.parse
+import feedparser
+from difflib import SequenceMatcher
+from tqdm import tqdm
 
 def save_to_yaml(data, file_path):
     with open(file_path, 'w') as file:
@@ -20,7 +24,7 @@ def load_yaml_file(file_path):
 
 def get_author_papers(author_id):
     rsp = requests.get(f'https://api.semanticscholar.org/graph/v1/author/{author_id}/papers',
-                       params={'fields': 'title,url,year,authors,venue,abstract', 'limit': 1000})
+                       params={'fields': 'title,url,year,authors,venue,externalIds', 'limit': 1000})
     rsp.raise_for_status()
     return rsp.json()['data']
 
@@ -54,7 +58,7 @@ def paper_order_index(venue):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--author_id', default='2527954')
-    parser.add_argument('--start_year', default='2022')
+    parser.add_argument('--year', default='2022')
     args = parser.parse_args()
 
     # paper might change the title, so we need to remove the previous record
@@ -69,17 +73,24 @@ def main():
 
     authored_papers = find_authored_papers(args.author_id)
     for paper in authored_papers:
-        if int(paper["year"]) < int(args.start_year):
-            continue
-        
         year = paper["year"]
+        if int(year) != int(args.year):
+            continue
         paper["authors"] = ", ".join([author["name"] for author in paper["authors"]]) + "."
         del paper["paperId"]
-        del paper["abstract"]
         paper["project"] = "other"
         
-        paper["title"] = paper["title"].strip(".")
+        # get the paper link, ordered by ACL, ArXiv
+        if "externalIds" in paper:
+            if "ACL" in paper["externalIds"]:
+                acl_id = paper["externalIds"]["ACL"]
+                paper["paper_link"] = f"https://aclanthology.org/{acl_id}.pdf" 
+            elif "ArXiv" in paper["externalIds"]:
+                arxiv_id = paper["externalIds"]["ArXiv"]
+                paper["paper_link"] = f"https://arxiv.org/pdf/{arxiv_id}.pdf"
+            del paper["externalIds"]
 
+        paper["title"] = paper["title"].strip(".")
         if not paper["venue"]:
             paper["venue"] = "Preprint"
         else:
@@ -98,15 +109,21 @@ def main():
         if paper["url"] not in existing_papers_dict:
             paper_list.append(paper)
         
-        # update the paper record if the venue is changed from Preprint to others
-        if paper["url"] in existing_papers_dict \
-            and existing_papers_dict[paper["url"]]["venue"].startswith("Preprint") \
-            and paper["venue"] != "Preprint":
-            paper_list = [p for p in paper_list if p["url"] != paper["url"]]
-            paper_list.append(paper)
+        if paper["url"] in existing_papers_dict:
+            # update the paper record if the venue is changed from Preprint to others
+            if existing_papers_dict[paper["url"]]["venue"].startswith("Preprint") and paper["venue"] != "Preprint":
+                paper_list = [p for p in paper_list if p["url"] != paper["url"]]
+                paper_list.append(paper)
+            
+            # update the paper record if the paper link is changed
+            if "paper_link" in paper:
+                if ("paper_link" not in existing_papers_dict[paper["url"]]) or (paper["paper_link"] != existing_papers_dict[paper["url"]]["paper_link"]):
+                    paper_list = [p for p in paper_list if p["url"] != paper["url"]]
+                    paper_list.append(paper)
         
         # sorted paper list by venue and make the venue order (starts with) as above
         paper_list = sorted(paper_list, key=lambda p: (paper_order_index(p["venue"]), p["venue"]))
+
         save_to_yaml(paper_list, filepath)
             
 
