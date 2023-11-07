@@ -1,0 +1,103 @@
+- url: https://www.semanticscholar.org/paper/9e8ac8df8b46c36cad3f307f85975012479b5a32
+  title: "Fact or Fiction: Verifying Scientific Claims"
+  venue: EMNLP 2020
+  year: 2020
+  authors:
+    David Wadden, Kyle Lo, Lucy Lu Wang, Shanchuan Lin, Madeleine van Zuylen,
+    Arman Cohan, Hannaneh Hajishirzi.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/05598331268614305ff844cea001f5b22f3519c9
+  title:
+    "SLEDGE: A Simple Yet Effective Zero-Shot Baseline for Coronavirus Scientific
+    Knowledge Search"
+  venue: EMNLP 2020
+  year: 2020
+  authors: Sean MacAvaney, Arman Cohan, Nazli Goharian.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/a3e4ceb42cbcd2c807d53aff90a8cb1f5ee3f031
+  title:
+    "SPECTER: Document-level Representation Learning using Citation-informed
+    Transformers"
+  venue: ACL 2020
+  year: 2020
+  authors: Arman Cohan, Sergey Feldman, Iz Beltagy, Doug Downey, Daniel S. Weld.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/007d5767d0f6f73d7c6e3b14dd72eb7d10b17b61
+  title: Ranking Significant Discrepancies in Clinical Reports
+  venue: European Conference on Information Retrieval 2020
+  year: 2020
+  authors: Sean MacAvaney, Arman Cohan, Nazli Goharian, Ross W. Filice.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/3502a542b2e98d9094e1880a30f652d4170b9534
+  title: "TLDR: Extreme Summarization of Scientific Documents"
+  venue: Findings 2020
+  year: 2020
+  authors: Isabel Cachola, Kyle Lo, Arman Cohan, Daniel S. Weld.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/b24e06593e1fa202e459052cf658388c9b0198d7
+  title:
+    "GUIR @ LongSumm 2020: Learning to Generate Long Summaries from Scientific
+    Documents"
+  venue: SDP 2020
+  year: 2020
+  authors: Sajad Sotudeh Gharebagh, Arman Cohan, Nazli Goharian.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/63bf9450d7b0faa6fc542b51b940c55369ba23d8
+  title: On Generating Extended Summaries of Long Documents
+  venue: SDU@AAAI 2020
+  year: 2020
+  authors: Sajad Sotudeh, Arman Cohan, Nazli Goharian.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/402954647b4a4855ccbe953c762518b90c7557c0
+  title: "ABNIRML: Analyzing the Behavior of Neural IR Models"
+  venue: Transactions of the Association for Computational Linguistics 2020
+  year: 2020
+  authors: Sean MacAvaney, Sergey Feldman, Nazli Goharian, Doug Downey, Arman Cohan.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/21d347db8adc949b0ad08e9c42b66a63739c866f
+  title: "ParsiNLU: A Suite of Language Understanding Challenges for Persian"
+  venue: Transactions of the Association for Computational Linguistics 2020
+  year: 2020
+  authors:
+    Daniel Khashabi, Arman Cohan, Siamak Shakeri, Pedram Hosseini, Pouya Pezeshkpour,
+    Malihe Alikhani, Moin Aminnaseri, Marzieh Bitaab, Faeze Brahman, Sarik Ghazarian,
+    Mozhdeh Gheini, Arman Kabiri, Rabeeh Karimi Mahabadi, Omid Memarrast, Ahmadreza
+    Mosallanezhad, Erfan Noury, Shahab Raji, Mohammad Sadegh Rasooli, Sepideh Sadeghi,
+    Erfan Sadeqi Azer, Niloofar Safi Samghabadi, Mahsa Shafaei, Saber Sheybani, Ali
+    Tazarv, Yadollah Yaghoobzadeh.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/71b6394ad5654f5cd0fba763768ba4e523f7bbca
+  title: "Longformer: The Long-Document Transformer"
+  venue: Preprint
+  year: 2020
+  authors: Iz Beltagy, Matthew E. Peters, Arman Cohan.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/4699fb5445e6718f9c540c196f1eee2979526a27
+  title:
+    "SLEDGE: A Simple Yet Effective Baseline for Coronavirus Scientific Knowledge
+    Search"
+  venue: Preprint
+  year: 2020
+  authors: Sean MacAvaney, Arman Cohan, Nazli Goharian.
+  project: other
+  display: 1

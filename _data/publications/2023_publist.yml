@@ -162,3 +162,13 @@
   project: other
   display: 1
 
+- url: https://www.semanticscholar.org/paper/8d9a91c4372ec4bc274d27cac52548bf35285358
+  title: Investigating Table-to-Text Generation Capabilities of LLMs in Real-World
+    Information Seeking Scenarios
+  venue: Preprint
+  year: 2023
+  authors: Yilun Zhao, Haowei Zhang, Shengyun Si, Linyong Nan, Xiangru Tang, Arman
+    Cohan.
+  project: other
+  display: 1
+
