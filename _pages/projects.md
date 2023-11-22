@@ -54,6 +54,10 @@ permalink: /projects/
       height: 14rem; /* Assuming base is 4, so 56/4 */
   }
 
+  .h-84 {
+      height: 21rem; /* Assuming base is 4, so 56/4 */
+  }
+
   .p-4 {
       padding: 1rem; /* Assuming base is 4, so 4/4 */
   }
@@ -79,15 +83,15 @@ permalink: /projects/
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <div class="row">
-{% assign project_data = site.data.projects.projects %}
+{% assign project_data = site.data.projects %}
 
 {% for project in project_data %}
 <!-- Begin card -->
-<div class="project-card col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4">
+<div class="project-card col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-4">
 <!-- Add an 'onclick' event to the outer div that redirects to the project URL -->
-<div class="hover-effect" onclick="location.href='{{ project.url }}';" style="cursor: pointer;">
+<div class="hover-effect" onclick="location.href='{{ site.url }}{{ site.baseurl }}/projects/{{ project.slug}}';" style="cursor: pointer;">
 <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-<div class="bg-cover bg-center h-56 p-4" style="background-image: url('{{ site.url }}{{ site.baseurl }}/images/teampic/{{ project.photo }}')">
+<div class="bg-cover bg-center h-84 p-4" style="background-image: url('{{ site.url }}{{ site.baseurl }}/images/projectpic/{{ project.photo }}')">
 </div>
 <div class="p-5 h-20 text-left">
 <span class="tracking-wide text-xl font-bold text-gray-700 title">{{ project.project_name }}</span>

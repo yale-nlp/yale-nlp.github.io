@@ -1,0 +1,13 @@
+- slug: project_1
+  project_name: NLP4Code
+  tldr: Learning real-world conversation from web videos.
+  photo: nlp4code_pipeline.jpg
+  vision: Symbolic knowledge distillation is a machine–to–corpus–to–machine pipeline for commonsense that does not require human-authored knowledge. Knowledge is transferred from a large, general model to a compact commonsense model, through a commonsense corpus – yielding a commonsense knowledge graph and model.
+  publication_keyword: NLP4Code
+
+- slug: project_2
+  project_name: Reasoning Over Structured Data
+  tldr: Learning real-world conversation from web videos.
+  photo: nlp4code_pipeline.jpg
+  vision: Symbolic knowledge distillation is a machine–to–corpus–to–machine pipeline for commonsense that does not require human-authored knowledge. Knowledge is transferred from a large, general model to a compact commonsense model, through a commonsense corpus – yielding a commonsense knowledge graph and model.
+  publication_keyword: Table
