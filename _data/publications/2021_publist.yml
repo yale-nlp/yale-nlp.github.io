@@ -1,0 +1,136 @@
+- url: https://www.semanticscholar.org/paper/6aaec722a90eee0185d4bbfebbcd4f228ed1577f
+  title: Cross-Document Language Modeling
+  venue: EMNLP 2021
+  year: 2021
+  authors: Avi Caciularu, Arman Cohan, Iz Beltagy, Matthew E. Peters, Arie Cattan,
+    Ido Dagan.
+  project: other
+  paper_link: https://arxiv.org/pdf/2101.00406.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/2ee03e28208a9310a9be4032c2b04ebdddb83cc7
+  title: 'FLEX: Unifying Evaluation for Few-Shot NLP'
+  venue: NeurIPS 2021
+  year: 2021
+  authors: Jonathan Bragg, Arman Cohan, Kyle Lo, Iz Beltagy.
+  project: other
+  paper_link: https://arxiv.org/pdf/2107.07170.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/4e3935ef7da6bcbb202ec7f8b285c313cadcd044
+  title: A Dataset of Information-Seeking Questions and Answers Anchored in Research
+    Papers
+  venue: NAACL 2021
+  year: 2021
+  authors: Pradeep Dasigi, Kyle Lo, Iz Beltagy, Arman Cohan, Noah A. Smith, Matt Gardner.
+  project: other
+  paper_link: https://aclanthology.org/2021.naacl-tutorials.5.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/69285c9040c1356272752499b7e1e53ef25ac008
+  title: 'Beyond Paragraphs: NLP for Long Sequences'
+  venue: NAACL 2021
+  year: 2021
+  authors: Iz Beltagy, Arman Cohan, Hannaneh Hajishirzi, Sewon Min, Matthew E. Peters.
+  project: other
+  paper_link: https://aclanthology.org/2021.naacl-main.365.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/79cb9bca730a4c5bbe73d97c1f40da1d0debe568
+  title: Long Context Question Answering via Supervised Contrastive Learning
+  venue: NAACL 2021
+  year: 2021
+  authors: Avi Caciularu, Ido Dagan, J. Goldberger, Arman Cohan.
+  project: other
+  paper_link: https://aclanthology.org/2022.naacl-main.207.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/ee2289b89a651157139da24674cbb201f479b9bb
+  title: Multi-Vector Models with Textual Guidance for Fine-Grained Scientific Document
+    Similarity
+  venue: NAACL 2021
+  year: 2021
+  authors: Sheshera Mysore, Arman Cohan, Tom Hope.
+  project: other
+  paper_link: https://aclanthology.org/2022.naacl-main.331.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/e853ef5d79b5584f4476e82c7a6b736c53a18bfc
+  title: 'MultiCite: Modeling realistic citations requires moving beyond the single-sentence
+    single-label setting'
+  venue: NAACL 2021
+  year: 2021
+  authors: Anne Lauscher, B. Ko, Bailey Kuehl, Sophie Johnson, David Jurgens, Arman
+    Cohan, Kyle Lo.
+  project: other
+  paper_link: https://aclanthology.org/2022.naacl-main.137.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/0271d1dbc01eda68c2f0291c62a956fca3092864
+  title: 'PRIMERA: Pyramid-based Masked Sentence Pre-training for Multi-document Summarization'
+  venue: ACL 2021
+  year: 2021
+  authors: Wen Xiao, Iz Beltagy, G. Carenini, Arman Cohan.
+  project: other
+  paper_link: https://aclanthology.org/2022.acl-long.360.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/387d17e3bc44ed4f81de25fc27fa1b8ab7d6bc8d
+  title: Simplified Data Wrangling with ir_datasets
+  venue: Annual International ACM SIGIR Conference on Research and Development in
+    Information Retrieval 2021
+  year: 2021
+  authors: Sean MacAvaney, Andrew Yates, Sergey Feldman, Doug Downey, Arman Cohan,
+    Nazli Goharian.
+  project: other
+  paper_link: https://arxiv.org/pdf/2103.02280.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/2743e66939b30c43affb3c9e31f20cfac2109045
+  title: 'MultiVerS: Improving scientific claim verification with weak supervision
+    and full-document context'
+  venue: NAACL-HLT 2021
+  year: 2021
+  authors: David Wadden, Kyle Lo, Lucy Lu Wang, Arman Cohan, Iz Beltagy, Hannaneh
+    Hajishirzi.
+  project: other
+  paper_link: https://arxiv.org/pdf/2112.01640.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/30824ba1ee1f6ce6bc7e9da84bc1b5bb683e7083
+  title: 'LongChecker: Improving scientific claim verification by modeling full-abstract
+    context'
+  venue: Preprint
+  year: 2021
+  authors: David Wadden, Kyle Lo, Lucy Lu Wang, Arman Cohan, Iz Beltagy, Hannaneh
+    Hajishirzi.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/f25a978da0f34c98db85c8c6f1613570b9c8a841
+  title: Overview of the Second Workshop on Scholarly Document Processing
+  venue: Preprint
+  year: 2021
+  authors: Iz Beltagy, Arman Cohan, Guy Feigenblat, Dayne Freitag, Tirthankar Ghosal,
+    Keith B. Hall, Drahomira Herrmannova, Petr Knoth, Kyle Lo, Philipp Mayr, Robert
+    M. Patton, Michal Shmueli-Scheuer, A. Waard, Kuansan Wang, Lucy Lu Wang.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/2a7023e7d1dbd6ea0d98efd09a1f18d8599fe78f
+  title: 'PRIMER: Pyramid-based Masked Sentence Pre-training for Multi-document Summarization'
+  venue: Preprint
+  year: 2021
+  authors: Wen Xiao, Iz Beltagy, G. Carenini, Arman Cohan.
+  project: other
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/55379566a203498f06fae9b251e9a747e39d42bc
+  title: Utilizing Evidence Spans via Sequence-Level Contrastive Learning for Long-Context
+    Question Answering
+  venue: Preprint
+  year: 2021
+  authors: Avi Caciularu, Ido Dagan, J. Goldberger, Arman Cohan.
+  project: other
+  display: 1
+

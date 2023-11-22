@@ -20,6 +20,37 @@ figcaption {
 }
 
 
+table a {
+	text-decoration: none;
+  }
+  
+  /* This is more specific, targeting only table rows and data cells */
+  table tr td a {
+	text-decoration: none;
+  }
+
+  .table-borderless.table-sm a {
+	text-decoration: none !important;
+  }
+
+  th {
+	width: 130px; /* or any value that suits your layout */
+  }
+  
+
+// a,
+// table.table a {
+// 	&:hover {
+// 		color: var(--global-theme-color);
+// 		// text-decoration: underline;
+// 	}
+
+// 	&:hover:after :not(.nav-item.dropdown) {
+// 		width: 100%;
+// 	}
+// }
+
+
 
 /* Top navigation bar */
 
@@ -29,7 +60,7 @@ p.byline {
 	font-size: 18px;
 	line-height: 36px;
 	margin-top: -24px;
-	margin-bottom: 48px;
+	margin-bottom: 28px;
 }
 
 
@@ -54,7 +85,7 @@ pubtit {
 
 #newsid img {
 	margin-top: 6px;
-	margin-bottom: 6px;
+	margin-bottom: 0px;
 }
 
 /* Team & Publications */
@@ -87,8 +118,8 @@ pubtit {
 
 .carousel {
     border-radius: 3px 3px 3px 3px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-top: 10px;
     margin-left: 30px;
     margin-right: 30px;
 }
