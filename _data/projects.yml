@@ -1,13 +1,42 @@
 - slug: project_1
-  project_name: NLP4Code
-  tldr: Learning real-world conversation from web videos.
+  project_name: LLM Instruction Controllable Summarization
+  tldr: This project benchmarks LLMs on instruction controllable text summarization, revealing it as a challenging task, and introduces the InstruSum dataset to aid future research.
   photo: nlp4code_pipeline.jpg
-  vision: Symbolic knowledge distillation is a machine–to–corpus–to–machine pipeline for commonsense that does not require human-authored knowledge. Knowledge is transferred from a large, general model to a compact commonsense model, through a commonsense corpus – yielding a commonsense knowledge graph and model.
-  publication_keyword: NLP4Code
+  vision: While LLMs already achieve strong performance on standard generic summarization benchmarks, their performance on more complex summarization task settings is less studied. Therefore, we benchmark LLMs on controllable text summarization, where the model input consists of both a source article and a natural language requirement for the desired summary characteristics.  To this end, we curate an evaluation-only dataset for this task setting and conduct human evaluation on 5 LLM-based summarization systems. We then benchmark LLM-based automatic evaluation for this task with 4 different evaluation protocols and 11 LLMs, resulting in 40 evaluation methods in total. Our study reveals that instruction controllable text summarization remains a challenging task for LLMs. We make our collected benchmark, InstruSum, publicly available to facilitate future research in this direction.
+  publication_keyword: summarization
 
 - slug: project_2
-  project_name: Reasoning Over Structured Data
-  tldr: Learning real-world conversation from web videos.
-  photo: nlp4code_pipeline.jpg
-  vision: Symbolic knowledge distillation is a machine–to–corpus–to–machine pipeline for commonsense that does not require human-authored knowledge. Knowledge is transferred from a large, general model to a compact commonsense model, through a commonsense corpus – yielding a commonsense knowledge graph and model.
-  publication_keyword: Table
+  project_name: NLP4Code
+  tldr: This project applys NLP methods, especially LLMs for source code, including tasks such as code generation, programmatic reasoning, automatic program repair, etc.
+  photo: instruction_summarization.png
+  vision: "In contrast to natural language, the main purpose of which is to communicate with other human beings, programs are written in formal languages which are designed to communicate with the computers. NLP4Code project aims apply natural language processing methods on source code, by exploring the similarities and differences between natural and programming languages. More specifically, we focus on: (1) Language-to-code generation. Translating users’ intent directly into code is the most efficient way for non-programmers to instruct computers using natural language; (2) Large language models on code. Here we aim to study how LLMs trained on code perform on various coding tasks, and what are the factors that affects their performance; (3) Reasoning with programs, for programs. Programs can be seamlessly integrated into the reasoning process as program execution represents a symbolic reasoning process. In the meantime, using natural language to reason about program execution may also boost the general reasoning ability of models."
+  publication_keyword: nlp4code
+
+- slug: project_3
+  project_name: LLM Agents for Database Question Answering
+  tldr: This project presents a new dataset to test how well LLMs work with SQL interpreters, and introduces a peer-review-inspired evaluation method to improve assessment accuracy.
+  photo: agents_dbqa.png
+  vision: This study introduces a new long-form database question answering dataset designed to evaluate how Large Language Models (LLMs) interact with a SQL interpreter. The task necessitates LLMs to strategically generate multiple SQL queries to retrieve sufficient data from a database, to reason with the acquired context, and to synthesize them into a comprehensive analytical narrative. Our findings highlight that this task poses great challenges even for the state-of-the-art GPT-4 model. We propose and evaluate two interaction strategies, and provide a fine-grained analysis of the individual stages within the interaction. A key discovery is the identification of two primary bottlenecks hindering effective interaction, i.e., the capacity for planning and the ability to generate multiple SQL queries. To address the challenge of accurately assessing answer quality, we introduce a multi-agent evaluation framework that simulates the academic peer-review process, enhancing the precision and reliability of our evaluations.
+  publication_keyword: tableqa
+
+- slug: project_4
+  project_name: Proof Generation for First-Order Logic Stories
+  tldr: This project constructs P-FOLIO, proofs for a set of realistic first-order logic stories written by humans and evaluate the reasoning capabilities of LLMs at different levels of granularity. 
+  photo: folio.png
+  vision: A first-order logic story consists of a series of premises and several conclusions. The goal of first-order logic reasoning is to determine the truth values of the conclusions based on the premises. However, it cannot be determined whether a machine is indeed equipped with capabilities of logical reasoning even if it is able to output the correct truth value. Generating a proof that supports its decision is essential for explainability. However, it is difficult to study this problem because of the lack of such datasets. We collect P-FOLIO, a new dataset consisting of first-order logic proofs for FOLIO, a set of realistic first-order logic stories written by humans. 30% of a total of 486 proofs in P-FOLIO consist of more than five reasoning steps and 15% of proofs consist of more than 10 reasoning steps. We evaluate the reasoning capabilities of large language models at different levels of granularity. In generating entire proofs for realistic first-order logic reasoning problems, GPT-4 falls short in the more logically complex subset of FOLIO although it achieves 65% accuracy of entire proof correctness on the entire test set. 
+  publication_keyword: folio
+
+- slug: project_5
+  project_name: NLP in Expert Domains
+  tldr: This project evaluates and advances LLMs in expert domains, such as science, finance, and engineering.
+  photo: expert_domain.png
+  vision: In this project, we aim to explore strategies to enhance the adaptability and trustworthiness of large language models when adopted to expert domains, such as science, finance, and engineering. Our methods involve integrating expert-domain knowledge and utilizing existing professional tools and resources. We are also investigating  how to integrate multiple LLMs with human experts to optimize complex workflows, aiding in addressing intricate problem-solving tasks in specialized fields.
+  publication_keyword: expert_domain
+
+# - slug: project_6
+#   project_name: LLMs for Multi-document Settings
+#   tldr: 
+#   photo: 
+#   vision: 
+#   publication_keyword: 
+# havn't included it as this paper has not been publicaly avaliable yet

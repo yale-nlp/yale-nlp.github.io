@@ -6,12 +6,27 @@ sitemap: false
 permalink: /projects/
 ---
 <style>
-  .project-card {
-    display: flex;
-    flex-direction: column;
-    margin: 0 0 30px;
-    flex: 1; /* This ensures that the flex item can grow */
-  }
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the minmax values based on your design */
+        gap: 15px; /* Space between cards */
+    }
+
+    .project-card {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .project-card .card-content {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-card .card-content > div {
+        flex-grow: 1;
+    }
 
   .hover-effect a {
       text-decoration: none;
@@ -83,26 +98,26 @@ permalink: /projects/
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <div class="row">
+<div class="project-grid">
 {% assign project_data = site.data.projects %}
 
 {% for project in project_data %}
-<!-- Begin card -->
-<div class="project-card col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-4">
-<!-- Add an 'onclick' event to the outer div that redirects to the project URL -->
+<div class="project-card mb-4">
 <div class="hover-effect" onclick="location.href='{{ site.url }}{{ site.baseurl }}/projects/{{ project.slug}}';" style="cursor: pointer;">
-<div class="bg-white shadow-lg rounded-lg overflow-hidden">
-<div class="bg-cover bg-center h-84 p-4" style="background-image: url('{{ site.url }}{{ site.baseurl }}/images/projectpic/{{ project.photo }}')">
+<div class="bg-white shadow-lg rounded-lg overflow-hidden card-content">
+<div class="bg-cover bg-center h-84 p-4" style="background-image: url('{{ site.url }}{{ site.baseurl }}/images/projectpic/{{ project.photo }}'); background-size: contain; background-repeat: no-repeat;">
 </div>
-<div class="p-5 h-20 text-left">
+<div class="p-5 text-left">
 <span class="tracking-wide text-xl font-bold text-gray-700 title">{{ project.project_name }}</span>
 </div>
-<div class="p-4 h-36 text-left">
+<div class="p-4 text-left">
 <p class="text-gray-500 text-sm">{{ project.tldr }}</p>
 </div>
 </div>
 </div>
 </div>
-<!-- End card -->
 {% endfor %}
 </div>
+</div>
+
 
