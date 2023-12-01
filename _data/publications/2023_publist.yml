@@ -1,5 +1,6 @@
-- url: https://www.semanticscholar.org/paper/366c9bf93e9f5cc64bffdb4dc1e98943f597e941
-  title: A Controllable QA-based Framework for Decontextualization
+- url: https://www.semanticscholar.org/paper/8232fbb89fea58391111bad0dc30f299778dcb80
+  title: A Question Answering Framework for Decontextualizing User-facing Snippets
+    from Scientific Documents
   venue: EMNLP 2023
   year: 2023
   authors: Benjamin Newman, Luca Soldaini, Raymond Fok, Arman Cohan, Kyle Lo.
@@ -13,7 +14,7 @@
   year: 2023
   authors: Yilun Zhao, Zhenting Qi, Linyong Nan, Boyu Mi, Yixin Liu, Weijin Zou, Simeng
     Han, Xiangru Tang, Yumo Xu, Arman Cohan, Dragomir R. Radev.
-  project: other
+  project: tableqa
   paper_link: https://arxiv.org/pdf/2305.14303.pdf
   display: 1
 
@@ -46,7 +47,7 @@
   year: 2023
   authors: Yilun Zhao, Haowei Zhang, Shengyun Si, Linyong Nan, Xiangru Tang, Arman
     Cohan.
-  project: other
+  project: tableqa
   paper_link: https://arxiv.org/pdf/2305.14987.pdf
   display: 1
 
@@ -117,7 +118,7 @@
   authors: Ansong Ni, Pengcheng Yin, Yilun Zhao, Martin Riddell, Troy Feng, Rui Shen,
     Stephen Yin, Ye Liu, Semih Yavuz, Caiming Xiong, Shafiq R. Joty, Yingbo Zhou,
     Dragomir R. Radev, Arman Cohan.
-  project: other
+  project: nlp4code
   paper_link: https://arxiv.org/pdf/2309.17446.pdf
   display: 1
 
@@ -128,26 +129,6 @@
   authors: Yijie Zhou, Kejian Shi, Wencai Zhang, Yixin Liu, Yilun Zhao, Arman Cohan.
   project: other
   paper_link: https://arxiv.org/pdf/2309.08960.pdf
-  display: 1
-
-- url: https://www.semanticscholar.org/paper/c8b5a244be3b6623feb7a623d9f97c183bcbdef0
-  title: On Learning to Summarize with Large Language Models as References
-  venue: Preprint
-  year: 2023
-  authors: Yixin Liu, Alexander R. Fabbri, Pengfei Liu, Dragomir R. Radev, Arman Cohan.
-  project: other
-  paper_link: https://arxiv.org/pdf/2305.14239.pdf
-  display: 1
-
-- url: https://www.semanticscholar.org/paper/534ec5f61384373edf619e628aee2fdac8aabccc
-  title: 'Struc-Bench: Are Large Language Models Really Good at Generating Complex
-    Structured Data?'
-  venue: Preprint
-  year: 2023
-  authors: Xiangru Tang, Yiming Zong, Jason Phang, Yilun Zhao, Wangchunshu Zhou, Arman
-    Cohan, Mark B. Gerstein.
-  project: other
-  paper_link: https://arxiv.org/pdf/2309.08963.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/67cdecbcfed07b9a29d9e2a92da684604383afd7
@@ -187,5 +168,102 @@
     Arman Cohan, Luca Soldaini.
   project: other
   paper_link: https://arxiv.org/pdf/2309.08541.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/f495d2741f804cb37a6afc3c039f1d3964b964a8
+  title: Benchmarking Generation and Evaluation Capabilities of Large Language Models
+    for Instruction Controllable Summarization
+  venue: Preprint
+  year: 2023
+  authors: Yixin Liu, A. R. Fabbri, Jiawen Chen, Yilun Zhao, Simeng Han, Shafiq R.
+    Joty, Pengfei Liu, Dragomir R. Radev, Chien-Sheng Wu, Arman Cohan.
+  project: summarization
+  paper_link: https://arxiv.org/pdf/2311.09184.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/d96d6d7f492adb3005aa9371d85bbb882abb6fa4
+  title: On Learning to Summarize with Large Language Models as References
+  venue: Preprint
+  year: 2023
+  authors: Yixin Liu, Alexander R. Fabbri, Pengfei Liu, Dragomir R. Radev, Arman Cohan.
+  project: other
+  paper_link: https://arxiv.org/pdf/2305.14239.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/5d0b03d545c6468c943858ce46a865380811d05b
+  title: 'Struc-Bench: Are Large Language Models Really Good at Generating Complex
+    Structured Data?'
+  venue: Preprint
+  year: 2023
+  authors: Xiangru Tang, Yiming Zong, Jason Phang, Yilun Zhao, Wangchunshu Zhou, Arman
+    Cohan, Mark B. Gerstein.
+  project: other
+  paper_link: https://arxiv.org/pdf/2309.08963.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/eee5a8e06c32112d268e88a8d4c45592d7214244
+  title: 'DocMath-Eval: Evaluating Numerical Reasoning Capabilities of LLMs in Understanding
+    Long Documents with Tabular Data'
+  venue: Preprint
+  year: 2023
+  authors: Yilun Zhao, Yitao Long, Hongjun Liu, Linyong Nan, Lyuhao Chen, Ryo Kamoi,
+    Yixin Liu, Xiangru Tang, Rui Zhang, Arman Cohan.
+  project: expert
+  paper_link: https://arxiv.org/pdf/2311.09805.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/c8fd54981dd633d24338058d122df14a4f2df264
+  title: On Evaluating the Integration of Reasoning and Action in LLM Agents with
+    Database Question Answering
+  venue: Preprint
+  year: 2023
+  authors: Linyong Nan, Ellen Zhang, Weijin Zou, Yilun Zhao, Wenfei Zhou, Arman Cohan.
+  project: tableqa
+  paper_link: https://arxiv.org/pdf/2311.09721.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/af565483dfbe3b0fa4fe9f715170666a06bce5ac
+  title: Investigating Data Contamination in Modern Benchmarks for Large Language
+    Models
+  venue: Preprint
+  year: 2023
+  authors: Chunyuan Deng, Yilun Zhao, Xiangru Tang, Mark B. Gerstein, Arman Cohan.
+  project: other
+  paper_link: https://arxiv.org/pdf/2311.09783.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/d57ebdb4b5ed89ab4135c72f0c91dc1c4b347c4b
+  title: 'KnowledgeMath: Knowledge-Intensive Math Word Problem Solving in Finance
+    Domains'
+  venue: Preprint
+  year: 2023
+  authors: Yilun Zhao, Hongjun Liu, Yitao Long, Rui Zhang, Chen Zhao, Arman Cohan.
+  project: expert
+  paper_link: https://arxiv.org/pdf/2311.09797.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/9d4808cc045c86813be56e29c1b85a484cfd597d
+  title: 'ML-Bench: Large Language Models Leverage Open-source Libraries for Machine
+    Learning Tasks'
+  venue: Preprint
+  year: 2023
+  authors: Yuliang Liu, Xiangru Tang, Zefan Cai, Junjie Lu, Yichi Zhang, Yan Shao,
+    Zexuan Deng, Helan Hu, Zengxian Yang, Kaikai An, Ruijun Huang, Shuzheng Si, Sheng
+    Chen, Haozhe Zhao, Zheng Li, Liang Chen, Yiming Zong, Yan Wang, Tianyu Liu, Zhiwei
+    Jiang, Baobao Chang, Yujia Qin, Wangchunshu Zhou, Yilun Zhao, Arman Cohan, Mark
+    B. Gerstein.
+  project: other
+  paper_link: https://arxiv.org/pdf/2311.09835.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/44d16a076c00ecada3d425203377e4ec951c4ed0
+  title: 'MedAgents: Large Language Models as Collaborators for Zero-shot Medical
+    Reasoning'
+  venue: Preprint
+  year: 2023
+  authors: Xiangru Tang, Anni Zou, Zhuosheng Zhang, Yilun Zhao, Xingyao Zhang, Arman
+    Cohan, Mark B. Gerstein.
+  project: other
+  paper_link: https://arxiv.org/pdf/2311.10537.pdf
   display: 1
 

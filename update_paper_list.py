@@ -57,8 +57,8 @@ def paper_order_index(venue):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--author_id', default='2527954')
-    parser.add_argument('--year', default='2022')
+    parser.add_argument('--author_ids', default=['2527954', '51990260', '46316984', '2108176413', '33981736', '3226782'])
+    parser.add_argument('--year', default='2023')
     args = parser.parse_args()
 
     # paper might change the title, so we need to remove the previous record
@@ -71,7 +71,13 @@ def main():
         for paper in paper_list:
             existing_papers_dict[paper["url"]] = paper
 
-    authored_papers = find_authored_papers(args.author_id)
+    authored_papers = []
+    for author_id in args.author_ids:
+        tmp = find_authored_papers(author_id)
+        for paper in tmp:
+            if paper not in authored_papers:
+                authored_papers.append(paper)
+
     for paper in authored_papers:
         year = paper["year"]
         if int(year) != int(args.year):
@@ -107,6 +113,10 @@ def main():
             paper_list = []
 
         if paper["url"] not in existing_papers_dict:
+            for tmp_url, tmp_paper in existing_papers_dict.items():
+                if SequenceMatcher(None, tmp_paper["title"], paper["title"]).ratio() > 0.9:
+                    paper_list = [p for p in paper_list if p["url"] != tmp_url]
+                    break
             paper_list.append(paper)
         
         if paper["url"] in existing_papers_dict:
@@ -123,8 +133,12 @@ def main():
         
         # sorted paper list by venue and make the venue order (starts with) as above
         paper_list = sorted(paper_list, key=lambda p: (paper_order_index(p["venue"]), p["venue"]))
-
-        save_to_yaml(paper_list, filepath)
+        final_paper_list = []
+        for paper in paper_list:
+            if "arman" not in paper["authors"].lower():
+                continue
+            final_paper_list.append(paper)
+        save_to_yaml(final_paper_list, filepath)
             
 
 if __name__ == '__main__':
