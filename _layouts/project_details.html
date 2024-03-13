@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    {% assign project = page %}
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+      .centered-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+      }
+
+      .title {
+          font-size: 36px;
+          text-align: center;
+      }
+      
+      .subtitle {
+          font-size: 24px;
+          text-align: center;
+      }
+
+      .justified-content {
+          text-align: justify;
+      }
+      .justified-content ul {
+          padding-left: 20px;
+      }
+
+      .publication-button {
+        padding: 0px 16px;
+        margin-left: 0px;
+        margin-right: 10px;
+        background-color: #209bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      /* Style the list to look better */
+      .publication-item {
+        list-style-type: none;
+        padding-bottom: 15px;
+      }
+
+      .publication-authors,
+      .publication-venue {
+        display: block; /* makes it a block to form its own line */
+        margin-top: 5px;
+        color: #135
+      }
+
+      /* Change the color of the venue to distinguish it */
+      .publication-venue {
+        color: #555;
+      }
+
+    </style> 
+  </head>
+
+  {% include head.html %}
+
+<body>
+  {% include header.html %}
+  <div class="container-fluid">
+  <div class="row">
+  <div class="col-sm-12">
+    <h1 class="title">{{ project.project_name}}</h1>
+
+    {% if project.photo %}
+      <img class="centered-image" src="/images/projectpic/{{ project.photo }}" alt="{{ project.project_name }}">
+    {% endif %}
+
+    <h1 class="subtitle"> Research Vision </h1>
+    <p style="text-align: justify;">{{ project.vision }}</p>
+
+    <h1 class="subtitle"> Publications </h1>
+
+    {% assign years = "2023,2022,2021,2020" | split: ',' %}
+
+    {% for year in years %}
+    {% assign publication_data = "" %}
+    {% case year %}
+      {% when '2023' %}
+        {% assign publication_data = site.data.publications.2023_publist %}
+      {% when '2022' %}
+        {% assign publication_data = site.data.publications.2022_publist %}
+      {% when '2021' %}
+        {% assign publication_data = site.data.publications.2021_publist %}
+      {% when '2020' %}
+        {% assign publication_data = site.data.publications.2020_publist %}
+    {% endcase %}
+    <div class="justified-content">
+      <ul>
+      {% for publi in publication_data %}
+          {% if publi.display != 0 %}
+          {% if project.publication_keyword contains publi.project %}
+          <li class="publication-item">
+            <span>{{ publi.title }}</span>
+            <span class="publication-authors">{{ publi.authors }}</span>
+            <i class="publication-venue">{{ publi.venue }}</i>
+            {% if publi.paper_link %}
+              <a class="publication-button" href="{{ publi.paper_link }}" target="_blank">pdf</a>
+            {% else %}
+              <a class="publication-button" href="{{ publi.url }}" target="_blank">pdf</a>
+            {% endif %}
+          </li>
+          {% endif %}
+          {% endif %}
+      {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+
+  </div>
+  </div>
+  </div>
+
+  {% include footer.html %}
+</body>
+
+</html>
