@@ -2,11 +2,25 @@
   photo: kejian_shi.jpg
   info: Master's Student
 
+- name: Chuhan Li
+  photo: chuhan_li.jpg
+  info: Master's Student
+  interests:
+    - Multi-modal information processing
+    - AI for Science
+    - Reasoning
+
 - name: Khanh Nguyen
   photo: khanh.jpg
   info: Visiting Master's Student
-# - name: To Add
-#   photo: rock.jpg
+
+- name: Chunyuan Deng
+  photo: chunyuan_deng.jpg
+  info: Visiting Master's Student
+  homepage: https://charlesdddd.github.io/
+  interests:
+    - Knowledge Probing
+    - Mechanism and Interpretability
 
 # - name: To Add
 #   photo: rock.jpg

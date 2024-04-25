@@ -13,3 +13,11 @@
   photo: jake_tae.jpg
   info: Undergraduate Student
   homepage: https://jaketae.github.io/
+
+- name: Nathan Shan
+  photo: nathan_shan.jpg
+  info: Undergraduate Student
+  interests:
+    - LLM Emergence
+    - LLM Alignment
+    - NLP in expert domains
