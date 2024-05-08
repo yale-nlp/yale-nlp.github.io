@@ -14,6 +14,9 @@
   photo: linyong_nan.png
   info: Final-year PhD Student
   homepage: https://linyongnan.github.io/
+  github: https://github.com/linyongnan
+  google_scholar: https://scholar.google.com/citations?user=b-HaNvYAAAAJ
+  twitter: https://twitter.com/nan_linyong
   interests:
     - Multi-modal information processing
     - Table-to-text Generation
@@ -23,6 +26,9 @@
   photo: simeng_han.png
   info: Third-year PhD Student
   homepage: https://shirleyhan6.github.io/
+  github: https://github.com/ShirleyHan6
+  google_scholar: https://scholar.google.com/citations?user=D0dpploAAAAJ
+  twitter: https://twitter.com/HanSineng
   interests:
     - Reasoning
     - Knowledge Graphs
@@ -31,6 +37,9 @@
   photo: yixin_liu.jpeg
   info: Third-year PhD Student
   homepage: https://yixinl7.github.io/
+  github: https://github.com/yixinL7
+  google_scholar: https://scholar.google.com/citations?user=sFtxaMkAAAAJ
+  twitter: https://twitter.com/YixinLiu17
   interests:
     - Summarization and Generation
     - Evaluation of NLG systems
@@ -39,6 +48,9 @@
   photo: yilun_zhao.jpeg
   info: First-year PhD Student
   homepage: https://yilunzhao.github.io/
+  github: https://github.com/yilunzhao
+  google_scholar: https://scholar.google.com/citations?&user=8YKT31kAAAAJ
+  twitter: https://twitter.com/YilunZhao_NLP
   interests:
     - NLP in expert domains
     - Multi-modal information processing
@@ -47,12 +59,9 @@
   photo: kaili_liu.png
   info: First-year PhD Student
   homepage: https://gkml.netlify.app/
+  github: https://github.com/pybeebee
+  google_scholar: https://scholar.google.com/citations?user=KKgyAdgAAAAJ
   interests:
     - Modeling cognition-inspired capabilities in AI agents
     - Understanding mechanics of LLMs
     - AI ethics
-
-- name: Shruti Singh
-  photo: shruti_singh.png
-  info: Visiting PhD Student
-  homepage: https://shruti-singh.github.io/
