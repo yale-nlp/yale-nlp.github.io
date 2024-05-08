@@ -57,7 +57,33 @@ layout: default
 
   .news-section {
     padding-left: 20px;
+    padding-right: 20px;
     /* Adjust this value according to your needs */
+    max-height: 300px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+
+  .news-section p {
+    text-align: justify; /* This will justify the text within each paragraph */
+  }
+
+  .news-section ul {
+    list-style-type: disc; /* This will add bullet points */
+    padding-left: 20px; /* Ensure some indentation for list items */
+  }
+
+  .news-entry {
+    display: flex;
+    margin-bottom: 10px; /* Space between entries */
+  }
+
+  .news-entry .date-column {
+    flex: 1; /* Take up 1 portion of the flex container */
+    font-weight: bold; /* Make date bold */
+  }
+
+  .news-entry .event-column {
+    flex: 6; /* Take up 6 portions of the flex container, giving more space to events */
   }
 </style>
 
@@ -67,10 +93,10 @@ layout: default
 
 <div class="row" style="margin-bottom: 50px; margin-left: 10px; margin-right: 10px">
   <div class="col-sm-11 clearfix">
+    <div class="line-through-title">
+      <span>News</span>
+    </div>
     <div class="news-section">
-      <div class="line-through-title">
-        <span>News</span>
-      </div>
       <!-- {% for article in site.data.news %}
       <p>
         <strong class="date">{{ article.date }}:</strong> {{ article.headline }}
@@ -80,17 +106,19 @@ layout: default
       <div class="row" {% if site.news_scrollable and news_size> 10 %}style="max-height: 20vw"{% endif %}>
         <table class="table table-sm table-borderless">
           {% for article in site.data.news %}
-          <tr>
-            <th scope="row">{{ article.date | date: "%b %-d, %Y" }}</th>
-            <td>
-              {% if article.inline -%}
-              {{ article.content | remove: '<p>' | remove: '</p>' | emojify }}
-              {%- else -%}
-              {{ article.headline }}
-              {%- endif %}
-            </td>
-          </tr>
-          {%- endfor %}
+          <div class="news-entry">
+            <div class="date-column">
+              <p>{{ article.date | date: "%b %Y" }}</p>
+            </div>
+            <div class="event-column">
+              <ul>
+                {% for headline in article.headlines %}
+                  <li>{{ headline }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+          {% endfor %}
         </table>
       </div>
 
