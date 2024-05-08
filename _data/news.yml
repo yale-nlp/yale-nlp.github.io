@@ -1,20 +1,43 @@
-- date: Dec 15, 2023
-  headline: Yale NLP had a great time attending the <a href="https://2023.emnlp.org/" target="_blank">EMNLP 2023</a> Conference in Singapore!"
+- date: May 2024
+  headlines:
+    - Congratulations, Yixin, for passing the prospectus defense!
 
-- date: Oct 29, 2023
-  headline: We were delighted to host <a href="https://www.cs.utexas.edu/~xiye/" target="_blank">Xi Ye</a> from UT Austin for a talk on "Logical Reasoning in Language Models."
+- date: April 2024
+  headlines: 
+    - We were delighted to host <a href="https://www.thespermwhale.com/jaseweston/" target="_blank">Jason Weston</a> from Meta AI and NYU for a talk on "Self-Alignment of Large Language Models."
+    - We were delighted to host <a href="https://soldaini.net/" target="_blank">Luca Soldaini</a> from Allen Institute for AI for a talk on "OLMo - The Quest to build an (O)pen (L)anguage (Mo)del."
 
-- date: Oct 6, 2023
-  headline: Thrilled to announce that 6 of our papers have been accepted at EMNLP 2023, including 3 in the main track and 3 as findings!
+- date: March 2024
+  headlines:
+    - Thrilled to announce that ? of our papers have been accepted at NAACL 2024, including ? in the main track and ? as findings!
+    - We were delighted to host <a href="https://akariasai.github.io/" target="_blank">Akari Asai</a> from UW for a talk on "Retreival-Augmented Language Models."
 
-- date: Sep 20, 2023
-  headline: It was a pleasure hosting <a href="https://dennyzhou.github.io/" target="_blank">Denny Zhou</a> from DeepMind for a discussion on reasoning in large language models.
+- date: January 2024
+  headlines:
+    - Congratulations, Lj, for acceptance of his paper in the main EACL 2024 conference!
 
-- date: Aug 26, 2023
-  headline: A warm welcome to our new Ph.D. students, Yilun Zhao and Kaili Liu, who have joined our lab!
+- date: December 2023
+  headlines:
+    - Yale NLP had a great time attending the <a href="https://2023.emnlp.org/" target="_blank">EMNLP 2023</a> Conference in Singapore!
+    - We were delighted to host <a href="https://www.cs.utexas.edu/~xiye/" target="_blank">Xi Ye</a> from UT Austin for a talk on "Logical Reasoning in Language Models."
+    
+- date: October 2023
+  headlines:
+    - We were delighted to host <a href="https://www.cs.utexas.edu/~xiye/" target="_blank">Xi Ye</a> from UT Austin for a talk on "Logical Reasoning in Language Models."
+    - Thrilled to announce that 6 of our papers have been accepted at EMNLP 2023, including 3 in the main track and 3 as findings!
 
-- date: Jul 9, 2023
-  headline: Yale NLP had a great time attending <a href="https://2023.aclweb.org/" target="_blank">ACL 2023</a> in Toronto, Canada.
+- date: September 2023
+  headlines:
+    - We were delighted to host <a href="https://dennyzhou.github.io/" target="_blank">Denny Zhou</a> from DeepMind for a discussion on reasoning in large language models.
 
-- date: May 20, 2023
-  headline: We're honored that our paper, <a href="https://aclanthology.org/2023.eacl-main.121/" target="_blank">"LongEval- Guidelines for Human Evaluation of Faithfulness in Long-form Summarization"</a>, received an Outstanding Paper Award at EACL 2023!
+- date: August 2023
+  headlines:
+    - A warm welcome to our new Ph.D. students, Yilun Zhao and Kaili Liu, who have joined our lab!
+
+- date: July 2023
+  headlines:
+    - Yale NLP had a great time attending <a href="https://2023.aclweb.org/" target="_blank">ACL 2023</a> in Toronto, Canada.
+
+- date: May 2023
+  headlines:
+    - We're honored that our paper, <a href="https://aclanthology.org/2023.eacl-main.121/" target="_blank">"LongEval- Guidelines for Human Evaluation of Faithfulness in Long-form Summarization"</a>, received an Outstanding Paper Award at EACL 2023!
