@@ -196,10 +196,25 @@ permalink: /team/
 </div>
 
 
-<!-- <div class="row" style="margin-bottom: 50px; margin-left: 40px; margin-right: 10px">
+<div class="row" style="margin-bottom: 50px; margin-left: 40px; margin-right: 10px">
 <h3 style="text-align: left;"> Alumni </h3>
 
-<div class="col-sm-4 clearfix">
+<div class="col-sm-6 clearfix">
+<h4 style="text-align: center;">Yale Students</h4>
+{% for member in site.data.alumni.ms_students %}
+<p style="text-align: left;">
+{{ member.name }}
+</p>
+{% endfor %}
+
+{% for member in site.data.alumni.bs_students %}
+<p style="text-align: left;">
+{{ member.name }}
+</p>
+{% endfor %}
+</div>
+
+<div class="col-sm-6 clearfix">
 <h4 style="text-align: left;">Visiting Students</h4>
 {% for member in site.data.alumni.visiting_students %}
 <p style="text-align: left;">
@@ -207,23 +222,5 @@ permalink: /team/
 </p>
 {% endfor %}
 </div>
-
-<div class="col-sm-4 clearfix">
-<h4 style="text-align: center;">Master's and undergraduate students</h4>
-{% for member in site.data.alumni.ms_students %}
-<p style="text-align: center;">
-{{ member.name }}
-</p>
-{% endfor %}
-</div>
-
-<div class="col-sm-4 clearfix">
-<h4 style="text-align: center;">Bachelor Students</h4>
-{% for member in site.data.alumni.ug_students %}
-<p style="text-align: center;">
-{{ member.name }}
-</p>
-{% endfor %}
-</div> -->
 
 <!-- </div> -->
