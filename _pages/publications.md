@@ -71,12 +71,14 @@ permalink: /publications/
 
 </style>
 
-{% assign years = "2023,2022,2021,2020" | split: ',' %}
+{% assign years = "2024,2023,2022,2021,2020" | split: ',' %}
 
 {% for year in years %}
 
 {% assign publication_data = "" %}
 {% case year %}
+  {% when '2024' %}
+    {% assign publication_data = site.data.publications.2024_publist %}
   {% when '2023' %}
     {% assign publication_data = site.data.publications.2023_publist %}
   {% when '2022' %}

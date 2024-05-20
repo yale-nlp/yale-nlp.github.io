@@ -10,7 +10,7 @@ Thank you for your interest in joining our lab!
 Here is general information on current opportunities.
 
 <h3> Prospective PhD students </h3>
-We typically recruit 1 PhD student each year.  
+We are actively hiring Ph.D. students for Fall 2024.
 Please send me an email with your CV and a brief description of your research interests.  
 Pleae make sure that your interests and experience aligns with the problems that we are working on in the lab.  
 Research experience in relevant areas is strongly encouraged.  

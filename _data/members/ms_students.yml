@@ -1,9 +1,10 @@
 - name: Kejian Shi
   photo: kejian_shi.jpg
+  google_scholar: https://scholar.google.com/citations?user=KZbOHrUAAAAJ
   info: Master's Student
 
 - name: Chuhan Li
-  photo: kejian_shi.jpg
+  photo: chuhan_li.jpg
   info: Master's Student
   interests:
     - Multi-modal information processing
@@ -18,6 +19,9 @@
   photo: chunyuan_deng.jpg
   info: Visiting Master's Student
   homepage: https://charlesdddd.github.io/
+  github: https://github.com/CharlesDDDD
+  google_scholar: https://scholar.google.com/citations?user=g7Y0RHcAAAAJ
+  twitter: https://twitter.com/ChunyuanDeng
   interests:
     - Knowledge Probing
     - Mechanism and Interpretability

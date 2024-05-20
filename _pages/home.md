@@ -16,10 +16,11 @@ permalink: /
   </p>
   <ul>
     <li>Understanding and extending generalization capabilities of Large Language Models</li>
+    <li>Evaluation and science of language models</li>
     <li>Language modeling and representation learning for complex document-level tasks and long sequences</li>
     <li>Multi-document and extreme multi-document language processing</li>
-    <li>Robust and truthworthy methods for generation and summarization</li>
-    <li>Scientific and scholarly document processing</li>
+    <li>Robust and trustworthy methods for generation and summarization</li>
+    <li>Applications to scientific text</li>
   </ul>
 
   <p style="text-align:justify">

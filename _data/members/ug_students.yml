@@ -2,10 +2,20 @@
   photo: martin_riddell.jpg
   info: Undergraduate Student
 
+- name: Katherine He
+  photo: katherine_he.jpg
+  info: Undergraduate Student
+  interests:
+    - AI for Law
+    - NLP for Expert Domains
+
 - name: Jake Tae
   photo: jake_tae.jpg
   info: Undergraduate Student
   homepage: https://jaketae.github.io/
+  github: https://github.com/jaketae/
+  twitter: https://twitter.com/jaesungtae
+  google_scholar: https://scholar.google.com/citations?user=6qnAUTMAAAAJ
 
 - name: Nathan Shan
   photo: nathan_shan.jpg
