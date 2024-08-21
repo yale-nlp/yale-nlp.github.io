@@ -51,6 +51,20 @@ permalink: /publications/
   cursor: pointer;
 }
 
+.publication-category {
+  padding: 0px 16px;
+  margin-left: 0px;
+  margin-right: 10px;
+  background-color: #902bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+
 /* Style the list to look better */
 .publication-item {
   list-style-type: none;
@@ -109,13 +123,17 @@ permalink: /publications/
     {% if publi.display != 0 %}
         <li class="publication-item">
             <span>{{ publi.title }}</span>
-            <span class="publication-authors">{{ publi.authors }}</span>
+            <span class="publication-authors">
+            {{ publi.authors | join: ', ' }}</span>
             <i class="publication-venue">{{ publi.venue }}</i>
             {% if publi.paper_link %}
               <a class="publication-button" href="{{ publi.paper_link }}" target="_blank">pdf</a>
             {% else %}
               <a class="publication-button" href="{{ publi.url }}" target="_blank">pdf</a>
             {% endif %}
+            <!-- {% if publi.category %}
+              <span class="publication-category" target="_blank">{{ publi.category }}</span>
+            {% endif %} -->
         </li>
     {% endif %}
 {% endfor %}
