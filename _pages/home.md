@@ -31,18 +31,18 @@ permalink: /
 <div class="col-sm-8 col-sm-offset-2 clearfix">
   <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
-    <!-- <ol class="carousel-indicators">
+    <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-    </ol> -->
+        <li data-target="#carousel" data-slide-to="1"></li>
+    </ol>
 
     <div class="carousel-inner" markdown="0">
         <div class="item active">
             <img src="{{ site.url }}{{ site.baseurl }}/images/yale-img2.jpeg" alt="Slide 1"/>
         </div>  
-        <!-- <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/SmartTipSide.jpg" alt="Slide 2" />
-        </div> -->
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/yale-img1.jpg" alt="Slide 2" />
+        </div>   
     </div>
   </div>
 
