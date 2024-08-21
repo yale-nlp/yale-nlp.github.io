@@ -1,20 +1,26 @@
+- date: August 2024
+  headlines:
+    - Olmo (Open Language Models) won a best paper award at ACL 2024!
+    - We presented 5 papers at ACL main conference!
+
 - date: July 2024
   headlines:
-    - Congratulations to Dr. Linyong Nan on his outstanding defense of his PhD thesis titled "Generative Question Answering from Heterogeneous Knowledge Sources"! We are thrilled to announce that he will be joining Zoom as a Research Scientist. Wishing him every success in his new role!
+    - Congratulations to Jacob Dunefsky for his first paper presentation at ICML in Vienna.
+    - Congratulations to Dr. Linyong Nan on his successful PhD thesis defense titled "Generative Question Answering from Heterogeneous Knowledge Sources"! We are thrilled to announce that he will be joining Zoom as a Research Scientist. Wishing him every success in his new role!
     - We're honored that our paper, <a href="https://arxiv.org/abs/2406.14275" target="_blank">"Step-Back Profiling - Distilling User History for Personalized Scientific Writing"</a>, received the Best Paper Award at AI4Research Workshop at IJCAI 2024!
     - Thrilled to announce that the <a href="https://arxiv.org/abs/2309.17446" target="_blank">LC2Eval</a> paper has been accepted at TACL!
-    
+
 - date: June 2024
   headlines:
     - Congratulations to Dr. Ansong Ni on his outstanding defense of his PhD thesis titled "Program Synthesis from Natural Language Using Language Models"! We are thrilled to announce that he will be joining FAIR at Meta as a Research Scientist. Wishing him every success in his new role!
-    
+
 - date: May 2024
   headlines:
     - Thrilled to announce that 8 of our papers have been accepted at ACL 2024, including 5 in the main track and 3 as findings! This also includes 2 papers by undergrads as the first authors!
     - Congratulations, Yixin and Simeng, for passing the prospectus defense!
 
 - date: April 2024
-  headlines: 
+  headlines:
     - We were delighted to host <a href="https://www.thespermwhale.com/jaseweston/" target="_blank">Jason Weston</a> from Meta AI and NYU for a talk on "Self-Alignment of Large Language Models."
     - We were delighted to host <a href="https://soldaini.net/" target="_blank">Luca Soldaini</a> from Allen Institute for AI for a talk on "OLMo - The Quest to build an (O)pen (L)anguage (Mo)del."
 

@@ -8,6 +8,26 @@
   paper_link: https://arxiv.org/pdf/2210.13777.pdf
   display: 1
 
+- url: https://www.semanticscholar.org/paper/a51fbb55abd0337d2a8d642c410ce07f8b495c51
+  title: 'Open Domain Multi-document Summarization: A Comprehensive Study of Model
+    Brittleness under Retrieval'
+  venue: EMNLP 2022
+  year: 2022
+  authors: John Giorgi, Luca Soldaini, Bo Wang, Gary Bader, Kyle Lo, Lucy Lu Wang,
+    Arman Cohan.
+  project: other
+  paper_link: https://arxiv.org/pdf/2212.10526.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/0d68e244faa9a5944228b571d91bc7bed88083cd
+  title: 'SciRepEval: A Multi-Format Benchmark for Scientific Document Representations'
+  venue: EMNLP 2022
+  year: 2022
+  authors: Amanpreet Singh, Mike D'Arcy, Arman Cohan, Doug Downey, Sergey Feldman.
+  project: other
+  paper_link: https://arxiv.org/pdf/2211.13308.pdf
+  display: 1
+
 - url: https://www.semanticscholar.org/paper/7ff271856b6719cbeb5c5f1c7c46dc185b945d51
   title: Generating Scientific Claims for Zero-Shot Scientific Fact Checking
   venue: ACL 2022
@@ -95,12 +115,32 @@
   paper_link: https://arxiv.org/pdf/2212.10526.pdf
   display: 1
 
-- url: https://www.semanticscholar.org/paper/0d68e244faa9a5944228b571d91bc7bed88083cd
-  title: 'SciRepEval: A Multi-Format Benchmark for Scientific Document Representations'
+- url: https://www.semanticscholar.org/paper/96a7920df4abb2102698ebbff8e44b58a6665131
+  title: Multi-task Citation Content Analysis for Clinical Research Publications
   venue: Preprint
   year: 2022
-  authors: Amanpreet Singh, Mike D'Arcy, Arman Cohan, Doug Downey, Sergey Feldman.
+  authors: "J. Devlin, Ming-Wei Chang, Kenton Lee, Eugene Gar\uFB01eld. 1972, Yu Gu,\
+    \ Robert Tinn, Hao Cheng, Michael Lucas, George Hripscak, A. Rothschild, Kokil\
+    \ Jaidka, Michihiro Yasunaga, Muthu Kumar, Dragomir Chandrasekaran, Radev Min-Yen,\
+    \ David Jurgens, Srijan Kumar, Raine Hoover, Dan Mc-637, Graciela Tran, Rosemblat\
+    \ Jodi, Schneider, Anne Lauscher, Brandon Ko, Bailey Kuehl, Arman Cohan, Aleksander\
+    \ M\u0105dry, Aleksandar Makelov, Ludwig, Dimitris Schmidt, Tsipras Adrian, Vladu,\
+    \ Ramon Maldonado, Meliha Yetisgen, Sanda M 670, Takeru Miyato, Andrew M. Dai,\
+    \ Ian Goodfel-675, Saif Mohammad, Bonnie Dorr, Melissa Egan, P. Muthukrishan,\
+    \ Vahed Qazvinian."
   project: other
-  paper_link: https://arxiv.org/pdf/2211.13308.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/aeac62cd4bb7f20f566e44b1964e0c548f7da7c8
+  title: 'PrefScore: Pairwise Preference Learning for Reference-free Single-document
+    Summarization Quality Assessment'
+  venue: Preprint
+  year: 2022
+  authors: "Ralph Allan Bradley, Milton E. Terry. 1952, Rank, Arman Cohan, Franck\
+    \ Dernoncourt, Doo Soon Kim, Trung Bui, Seokhwan Kim, Walter Chang, J. Devlin,\
+    \ Ming-Wei Chang, Kenton Lee, Alexander R. Fabbri, Wojciech Kry \xB4 sci \xB4\
+    \ nski, Yang Gao, Christian M. Meyer, Iryna Gurevych, Wei Zhao, SU-329, Anastassia\
+    \ Kornilova, Vlad Eidelman. 2019, Bill-343."
+  project: other
   display: 1
 
