@@ -10,7 +10,7 @@ permalink: /publications/
   .line-through-title {
     position: relative;
     text-align: center;
-    margin: 40px 0 30px;
+    margin: 15px 0 20px;
   }
 
   .line-through-title span {
@@ -278,7 +278,6 @@ permalink: /publications/
 }
 
 #search-input {
-  margin-top: 20px;
   padding: 6px 10px;  /* Reduced vertical padding to make height smaller */
   width: 250px;
   border: 1px solid #ccc;
