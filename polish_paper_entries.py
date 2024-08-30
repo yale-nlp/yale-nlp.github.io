@@ -1,3 +1,4 @@
+import argparse
 import difflib
 import os
 
@@ -173,10 +174,18 @@ def process_file(file_path):
 
 def main():
     directory = "_data/publications"
-    files = [f for f in os.listdir(directory) if f.endswith("_publist.yml")]
-    sorted_files = sorted(files, reverse=True)
-    print(sorted_files)
-    for filename in sorted_files:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--year", type=str, help="Specify the year to process")
+    args = parser.parse_args()
+
+    if args.year:
+        files = [f"{args.year}_publist.yml"]
+    else:
+        files = [f for f in os.listdir(directory) if f.endswith("_publist.yml")]
+        files = sorted(files, reverse=True)
+
+    print(f"Processing the following files: {files}")
+    for filename in files:
         file_path = os.path.join(directory, filename)
         process_file(file_path)
 
