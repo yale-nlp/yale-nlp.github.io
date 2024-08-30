@@ -8,35 +8,38 @@ permalink: /publications/
 
 <style>
   .line-through-title {
-      position: relative;
-      text-align: center;
-      margin-bottom: 15px;
+    position: relative;
+    text-align: center;
+    margin: 40px 0 30px;
   }
 
   .line-through-title span {
-      background-color: #fff; /* Assuming your background is white. If not, change this. */
-      padding: 0 10px; /* Adjust as needed to give space around the text. */
-      z-index: 1;
-      position: relative;
-      font-size: xx-large;
+    background-color: #fff;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
   }
 
   .line-through-title::before {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 0;
-      right: 0;
-      height: 1px;
-      background: black; /* Adjust the color as needed. */
-      z-index: 0;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #4e5d99, transparent);
+    z-index: 0;
   }
 
   .justified-content {
       text-align: justify;
   }
   .justified-content ul {
-      padding-left: 20px;
+      padding-left: 0;
+      list-style-type: none;
   }
 
 /* Add some basic styling to the button */
@@ -182,6 +185,8 @@ permalink: /publications/
 #category-filter h5 {
   margin-right: 15px;
   margin-bottom: 10px;
+  display: block;
+  width: 100%;    
 }
 
 .category-label {
@@ -261,6 +266,43 @@ permalink: /publications/
   background-color: #f5ead5;
   color: #ad8539;
 }
+
+#text-filter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+#text-filter h5 {
+  margin-right: 15px;
+}
+
+#search-input {
+  margin-top: 20px;
+  padding: 6px 10px;  /* Reduced vertical padding to make height smaller */
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+#search-input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+#search-input::placeholder {
+  color: #999;
+}
+
+mark {
+  background-color: rgba(74, 144, 226, 0.3);
+  padding: 0 2px;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
 </style>
 
 <div id="category-filter">
@@ -274,6 +316,9 @@ permalink: /publications/
   <input type="checkbox" id="filter-foundation-models" class="category-checkbox" value="foundation models" checked>
   <label for="filter-foundation-models" class="category-label">Foundation models</label>
 
+  <input type="checkbox" id="filter-interpretability" class="category-checkbox" value="interpretability" checked>
+  <label for="filter-interpretability" class="category-label">Interpretability</label>  
+
   <input type="checkbox" id="filter-reasoning" class="category-checkbox" value="reasoning" checked>
   <label for="filter-reasoning" class="category-label">Reasoning</label>
 
@@ -283,6 +328,7 @@ permalink: /publications/
   <input type="checkbox" id="filter-specialized-domains" class="category-checkbox" value="specialized-domains" checked>
   <label for="filter-specialized-domains" class="category-label">Specialized Domains</label>
 </div>
+
 <div id="publication-type-filter">
   <h5>Filter by publication type:</h5>
   <input type="checkbox" id="filter-preprint" class="publication-type-checkbox" checked>
@@ -298,6 +344,11 @@ permalink: /publications/
   <label for="filter-workshop" class="publication-type-label publication-type-label-workshop">Workshop</label>
 </div>
 
+<div id="text-filter">
+  <h5>Search:</h5>
+  <input type="text" id="search-input" placeholder="Filter by title or author">
+</div>
+
 <div id="publication-list" class="justified-content">
 
 {% assign years = "2024,2023,2022,2021,2020" | split: ',' %}
@@ -307,15 +358,15 @@ permalink: /publications/
 {% assign publication_data = "" %}
 {% case year %}
   {% when '2024' %}
-    {% assign publication_data = site.data.publications.2024_publist %}
+    {% assign publication_data = site.data.publications.2024_publist_updated %}
   {% when '2023' %}
-    {% assign publication_data = site.data.publications.2023_publist %}
+    {% assign publication_data = site.data.publications.2023_publist_updated %}
   {% when '2022' %}
-    {% assign publication_data = site.data.publications.2022_publist %}
+    {% assign publication_data = site.data.publications.2022_publist_updated %}
   {% when '2021' %}
-    {% assign publication_data = site.data.publications.2021_publist %}    
+    {% assign publication_data = site.data.publications.2021_publist_updated %}    
   {% when '2020' %}
-    {% assign publication_data = site.data.publications.2020_publist %}    
+    {% assign publication_data = site.data.publications.2020_publist_updated %}    
 {% endcase %}
 
 <div class="line-through-title">
@@ -368,8 +419,15 @@ document.addEventListener('DOMContentLoaded', function() {
   const categoryCheckboxes = document.querySelectorAll('.category-checkbox');
   const typeCheckboxes = document.querySelectorAll('.publication-type-checkbox');
   const publications = document.querySelectorAll('.publication-item');
+  const searchInput = document.getElementById('search-input');
 
-  function filterPublications() { // Combined filtering function
+  function highlightText(element, searchText) {
+    if (!searchText) return;
+    const regex = new RegExp(`(${searchText})`, 'gi');
+    element.innerHTML = element.textContent.replace(regex, '<mark>$1</mark>');
+  }
+
+  function filterPublications() {
     const selectedCategories = Array.from(categoryCheckboxes)
       .filter(cb => cb.checked)
       .map(cb => cb.value);
@@ -377,6 +435,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const selectedTypes = Array.from(typeCheckboxes)
       .filter(cb => cb.checked)
       .map(cb => cb.id.replace('filter-', ''));
+
+    const searchText = searchInput.value.toLowerCase();
 
     publications.forEach(pub => {
       const pubCategories = Array.from(pub.querySelectorAll('.publication-category'))
@@ -388,8 +448,18 @@ document.addEventListener('DOMContentLoaded', function() {
                               (pubCategories.length === 0 && selectedCategories.includes('default'));
       const matchesType = selectedTypes.length === 0 || selectedTypes.includes(pubType);
 
-      if (matchesCategory && matchesType) {
+      const title = pub.querySelector('.publication-title').textContent.toLowerCase();
+      const authors = pub.querySelector('.publication-authors').textContent.toLowerCase();
+      const matchesSearch = title.includes(searchText) || authors.includes(searchText);
+
+      if (matchesCategory && matchesType && matchesSearch) {
         pub.style.display = '';
+        const titleElement = pub.querySelector('.publication-title');
+        const authorsElement = pub.querySelector('.publication-authors');
+        titleElement.innerHTML = titleElement.textContent; // Reset
+        authorsElement.innerHTML = authorsElement.textContent; // Reset
+        highlightText(titleElement, searchText);
+        highlightText(authorsElement, searchText);
       } else {
         pub.style.display = 'none';
       }
@@ -403,6 +473,8 @@ document.addEventListener('DOMContentLoaded', function() {
   typeCheckboxes.forEach(checkbox => {
     checkbox.addEventListener('change', filterPublications); 
   });
+
+  searchInput.addEventListener('input', filterPublications);
 
   // Initial filter application
   filterPublications(); 

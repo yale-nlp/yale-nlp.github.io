@@ -1,5 +1,5 @@
 - url: https://www.semanticscholar.org/paper/366c9bf93e9f5cc64bffdb4dc1e98943f597e941
-  title: A Controllable QA-based Framework for Decontextualization
+  title: A Question Answering Framework for Decontextualizing User-facing Snippets from Scientific Documents
   venue: EMNLP 2023
   year: 2023
   authors: Benjamin Newman, Luca Soldaini, Raymond Fok, Arman Cohan, Kyle Lo.
@@ -8,81 +8,94 @@
   display: 1
 
 - url: https://www.semanticscholar.org/paper/beeaa3b353f0afeb2387f8336c052042a9b78cc0
-  title: 'QTSumm: A New Benchmark for Query-Focused Table Summarization'
+  title: "QTSumm: A New Benchmark for Query-Focused Table Summarization"
   venue: EMNLP 2023
   year: 2023
-  authors: Yilun Zhao, Zhenting Qi, Linyong Nan, Boyu Mi, Yixin Liu, Weijin Zou, Simeng
+  authors:
+    Yilun Zhao, Zhenting Qi, Linyong Nan, Boyu Mi, Yixin Liu, Weijin Zou, Simeng
     Han, Xiangru Tang, Yumo Xu, Arman Cohan, Dragomir R. Radev.
   project: other
   paper_link: https://arxiv.org/pdf/2305.14303.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/08dd8304a74f6c98e3d592a565458549ddbb3cd6
-  title: 'Enhancing Text-to-SQL Capabilities of Large Language Models: A Study on
-    Prompt Design Strategies'
+  title:
+    "Enhancing Text-to-SQL Capabilities of Large Language Models: A Study on
+    Prompt Design Strategies"
   venue: EMNLP 2023 Findings
   year: 2023
-  authors: Linyong Nan, Yilun Zhao, Weijin Zou, Narutatsu Ri, Jaesung Tae, Ellen Zhang,
+  authors:
+    Linyong Nan, Yilun Zhao, Weijin Zou, Narutatsu Ri, Jaesung Tae, Ellen Zhang,
     Arman Cohan, Dragomir R. Radev.
   project: other
   display: 1
 
 - url: https://www.semanticscholar.org/paper/27ce67db279f25a6349dfd2cbd2379364a173438
-  title: 'Medical Text Simplification: Optimizing for Readability with Unlikelihood
-    Training and Reranked Beam Search Decoding'
+  title:
+    "Medical Text Simplification: Optimizing for Readability with Unlikelihood
+    Training and Reranked Beam Search Decoding"
   venue: EMNLP 2023 Findings
   year: 2023
-  authors: Lorenzo Jaime Yu Flores, Heyuan Huang, Kejian Shi, Sophie Chheang, Arman
+  authors:
+    Lorenzo Jaime Yu Flores, Heyuan Huang, Kejian Shi, Sophie Chheang, Arman
     Cohan.
   project: other
   paper_link: https://arxiv.org/pdf/2310.11191.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/327e0290fd71609bfc1a30478a95f690668fe622
-  title: 'Enhancing Few-shot Text-to-SQL Capabilities of Large Language Models: A
-    Study on Prompt Design Strategies'
+  title:
+    "Enhancing Few-shot Text-to-SQL Capabilities of Large Language Models: A
+    Study on Prompt Design Strategies"
   venue: EMNLP 2023 Findings
   year: 2023
-  authors: Linyong Nan, Yilun Zhao, Weijin Zou, Narutatsu Ri, Jaesung Tae, E. Zhang,
+  authors:
+    Linyong Nan, Yilun Zhao, Weijin Zou, Narutatsu Ri, Jaesung Tae, E. Zhang,
     Arman Cohan, Dragomir R. Radev.
   project: other
   paper_link: https://arxiv.org/pdf/2305.12586.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/5f323abd909a2b364bfd33c5ba0b9b6b4e4d2fcc
-  title: 'Open Domain Multi-document Summarization: A Comprehensive Study of Model
-    Brittleness under Retrieval'
+  title:
+    "Open Domain Multi-document Summarization: A Comprehensive Study of Model
+    Brittleness under Retrieval"
   venue: EMNLP 2023 Findings
   year: 2023
-  authors: John Giorgi, Luca Soldaini, Bo Wang, Gary Bader, Kyle Lo, Lucy Lu Wang,
+  authors:
+    John Giorgi, Luca Soldaini, Bo Wang, Gary Bader, Kyle Lo, Lucy Lu Wang,
     Arman Cohan.
   project: other
   paper_link: https://arxiv.org/pdf/2212.10526.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/8d9a91c4372ec4bc274d27cac52548bf35285358
-  title: Investigating Table-to-Text Generation Capabilities of LLMs in Real-World
+  title:
+    Investigating Table-to-Text Generation Capabilities of LLMs in Real-World
     Information Seeking Scenarios
   venue: EMNLP 2023 Industry Track
   year: 2023
-  authors: Yilun Zhao, Haowei Zhang, Shengyun Si, Linyong Nan, Xiangru Tang, Arman
+  authors:
+    Yilun Zhao, Haowei Zhang, Shengyun Si, Linyong Nan, Xiangru Tang, Arman
     Cohan.
   project: other
   paper_link: https://arxiv.org/pdf/2305.14987.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/99b880398677a04c5442d5afb38d8b68d65151b9
-  title: Investigating Table-to-Text Generation Capabilities of Large Language Models
+  title:
+    Investigating Table-to-Text Generation Capabilities of Large Language Models
     in Real-World Information Seeking Scenarios
   venue: EMNLP 2023 industry track
   year: 2023
-  authors: Yilun Zhao, Haowei Zhang, Shengyun Si, Linyong Nan, Xiangru Tang, Arman
+  authors:
+    Yilun Zhao, Haowei Zhang, Shengyun Si, Linyong Nan, Xiangru Tang, Arman
     Cohan.
   project: other
   display: 1
 
 - url: https://www.semanticscholar.org/paper/f3ca1504ab4cc14f491f07e5a8b38d93890551e1
-  title: 'Peek Across: Improving Multi-Document Modeling via Cross-Document Question-Answering'
+  title: "Peek Across: Improving Multi-Document Modeling via Cross-Document Question-Answering"
   venue: ACL 2023
   year: 2023
   authors: Avi Caciularu, Matthew E. Peters, J. Goldberger, Ido Dagan, Arman Cohan.
@@ -91,37 +104,42 @@
   display: 1
 
 - url: https://www.semanticscholar.org/paper/a0ee62ff9a6a00d29634a5146f9ffb91ec730e32
-  title: 'OpenRT: An Open-source Framework for Reasoning Over Tabular Data'
+  title: "OpenRT: An Open-source Framework for Reasoning Over Tabular Data"
   venue: ACL 2023 Demo
   year: 2023
-  authors: Yilun Zhao, Boyu Mi, Zhenting Qi, Linyong Nan, Minghao Guo, Arman Cohan,
+  authors:
+    Yilun Zhao, Boyu Mi, Zhenting Qi, Linyong Nan, Minghao Guo, Arman Cohan,
     Dragomir R. Radev.
   project: other
   paper_link: https://aclanthology.org/2023.acl-demo.32.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/67cdecbcfed07b9a29d9e2a92da684604383afd7
-  title: 'TESS: Text-to-Text Self-Conditioned Simplex Diffusion'
+  title: "TESS: Text-to-Text Self-Conditioned Simplex Diffusion"
   venue: EACL 2023
   year: 2023
-  authors: Rabeeh Karimi Mahabadi, Jaesung Tae, Hamish Ivison, J. Henderson, Iz Beltagy,
+  authors:
+    Rabeeh Karimi Mahabadi, Jaesung Tae, Hamish Ivison, J. Henderson, Iz Beltagy,
     Matthew E. Peters, Arman Cohan.
   project: other
   paper_link: https://aclanthology.org/2024.eacl-long.144.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/f1f6c61ed0b80a785e4e5d0d97a454dbe6126c63
-  title: 'LongEval: Guidelines for Human Evaluation of Faithfulness in Long-form Summarization'
-  venue: EACL 2023 (outstanding paper award)
+  title: "LongEval: Guidelines for Human Evaluation of Faithfulness in Long-form Summarization"
+  venue: EACL 2023
   year: 2023
-  authors: Kalpesh Krishna, Erin Bransom, Bailey Kuehl, Mohit Iyyer, Pradeep Dasigi,
+  award: Outstanding Paper Award
+  authors:
+    Kalpesh Krishna, Erin Bransom, Bailey Kuehl, Mohit Iyyer, Pradeep Dasigi,
     Arman Cohan, Kyle Lo.
   project: other
   paper_link: https://aclanthology.org/2023.eacl-main.121.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/2cad608200ee31884f6392e6290878c236f06248
-  title: Aligning Factual Consistency for Clinical Studies Summarization through Reinforcement
+  title:
+    Aligning Factual Consistency for Clinical Studies Summarization through Reinforcement
     Learning
   venue: Clinical Natural Language Processing Workshop 2023
   year: 2023
@@ -131,21 +149,25 @@
   display: 1
 
 - url: https://www.semanticscholar.org/paper/5e2d996239189ff92a6f61c4973a9b05e3468f46
-  title: 'Natural language processing in radiology: Clinical applications and future
-    directions'
+  title:
+    "Natural language processing in radiology: Clinical applications and future
+    directions"
   venue: Clinical imaging 2023
   year: 2023
-  authors: Pratheek S Bobba, A. Sailer, J. Pruneski, Spencer Beck, Ali Mozayan, Sara
+  authors:
+    Pratheek S Bobba, A. Sailer, J. Pruneski, Spencer Beck, Ali Mozayan, Sara
     Mozayan, Jennifer Arango, Arman Cohan, S. Chheang.
   project: other
   display: 1
 
 - url: https://www.semanticscholar.org/paper/dcba37400ad86aaf0d47e5cdfa2fcfa98f089401
-  title: When do Generative Query and Document Expansions Fail? A Comprehensive Study
+  title:
+    When do Generative Query and Document Expansions Fail? A Comprehensive Study
     Across Methods, Retrievers, and Datasets
   venue: Findings 2023
   year: 2023
-  authors: Orion Weller, Kyle Lo, David Wadden, Dawn J Lawrie, Benjamin Van Durme,
+  authors:
+    Orion Weller, Kyle Lo, David Wadden, Dawn J Lawrie, Benjamin Van Durme,
     Arman Cohan, Luca Soldaini.
   project: other
   paper_link: https://aclanthology.org/2024.findings-eacl.134.pdf
@@ -155,18 +177,21 @@
   title: Inference-time Re-ranker Relevance Feedback for Neural Information Retrieval
   venue: Preprint
   year: 2023
-  authors: R. Reddy, Pradeep Dasigi, Md Arafat Sultan, Arman Cohan, Avirup Sil, Heng
+  authors:
+    R. Reddy, Pradeep Dasigi, Md Arafat Sultan, Arman Cohan, Avirup Sil, Heng
     Ji, Hannaneh Hajishirzi.
   project: other
   paper_link: https://arxiv.org/pdf/2305.11744.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/12db3efff4cc9e16822dd64bb1cad66f3f034f3b
-  title: 'L2CEval: Evaluating Language-to-Code Generation Capabilities of Large Language
-    Models'
+  title:
+    "L2CEval: Evaluating Language-to-Code Generation Capabilities of Large Language
+    Models"
   venue: Preprint
   year: 2023
-  authors: Ansong Ni, Pengcheng Yin, Yilun Zhao, Martin Riddell, Troy Feng, Rui Shen,
+  authors:
+    Ansong Ni, Pengcheng Yin, Yilun Zhao, Martin Riddell, Troy Feng, Rui Shen,
     Stephen Yin, Ye Liu, Semih Yavuz, Caiming Xiong, Shafiq R. Joty, Yingbo Zhou,
     Dragomir R. Radev, Arman Cohan.
   project: other
@@ -174,7 +199,7 @@
   display: 1
 
 - url: https://www.semanticscholar.org/paper/273248916474b80f643b38c8135ab795e59b73e6
-  title: 'ODSum: New Benchmarks for Open Domain Multi-Document Summarization'
+  title: "ODSum: New Benchmarks for Open Domain Multi-Document Summarization"
   venue: Preprint
   year: 2023
   authors: Yijie Zhou, Kejian Shi, Wencai Zhang, Yixin Liu, Yilun Zhao, Arman Cohan.
@@ -186,7 +211,8 @@
   title: The Semantic Scholar Open Data Platform
   venue: Preprint
   year: 2023
-  authors: Rodney Michael Kinney, Chloe Anastasiades, Russell Authur, Iz Beltagy,
+  authors:
+    Rodney Michael Kinney, Chloe Anastasiades, Russell Authur, Iz Beltagy,
     Jonathan Bragg, Alexandra Buraczynski, Isabel Cachola, Stefan Candra, Yoganand
     Chandrasekhar, Arman Cohan, Miles Crawford, Doug Downey, Jason Dunkelberger, Oren
     Etzioni, Rob Evans, Sergey Feldman, Joseph Gorney, D. Graham, F.Q. Hu, Regan Huff,
@@ -201,19 +227,22 @@
   display: 1
 
 - url: https://www.semanticscholar.org/paper/eee5a8e06c32112d268e88a8d4c45592d7214244
-  title: 'DocMath-Eval: Evaluating Numerical Reasoning Capabilities of LLMs in Understanding
-    Long Documents with Tabular Data'
+  title:
+    "DocMath-Eval: Evaluating Numerical Reasoning Capabilities of LLMs in Understanding
+    Long Documents with Tabular Data"
   venue: Preprint
   year: 2023
-  authors: Yilun Zhao, Yitao Long, Hongjun Liu, Linyong Nan, Lyuhao Chen, Ryo Kamoi,
+  authors:
+    Yilun Zhao, Yitao Long, Hongjun Liu, Linyong Nan, Lyuhao Chen, Ryo Kamoi,
     Yixin Liu, Xiangru Tang, Rui Zhang, Arman Cohan.
   project: other
   paper_link: https://arxiv.org/pdf/2311.09805.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/d57ebdb4b5ed89ab4135c72f0c91dc1c4b347c4b
-  title: 'KnowledgeMath: Knowledge-Intensive Math Word Problem Solving in Finance
-    Domains'
+  title:
+    "KnowledgeMath: Knowledge-Intensive Math Word Problem Solving in Finance
+    Domains"
   venue: Preprint
   year: 2023
   authors: Yilun Zhao, Hongjun Liu, Yitao Long, Rui Zhang, Chen Zhao, Arman Cohan.
@@ -222,11 +251,13 @@
   display: 1
 
 - url: https://www.semanticscholar.org/paper/4ca23f7cec223ef713199845d203c4c4300da7f5
-  title: 'ML-Bench: Evaluating Large Language Models for Code Generation in Repository-Level
-    Machine Learning Tasks'
+  title:
+    "ML-Bench: Evaluating Large Language Models for Code Generation in Repository-Level
+    Machine Learning Tasks"
   venue: Preprint
   year: 2023
-  authors: Yuliang Liu, Xiangru Tang, Zefan Cai, Junjie Lu, Yichi Zhang, Yan Shao,
+  authors:
+    Yuliang Liu, Xiangru Tang, Zefan Cai, Junjie Lu, Yichi Zhang, Yan Shao,
     Zexuan Deng, Helan Hu, Zengxian Yang, Kaikai An, Ruijun Huang, Shuzheng Si, Sheng
     Chen, Haozhe Zhao, Zheng Li, Liang Chen, Yiming Zong, Yan Wang, Tianyu Liu, Zhiwei
     Jiang, Baobao Chang, Yujia Qin, Wangchunshu Zhou, Yilun Zhao, Arman Cohan, Mark
@@ -236,19 +267,22 @@
   display: 1
 
 - url: https://www.semanticscholar.org/paper/44d16a076c00ecada3d425203377e4ec951c4ed0
-  title: 'MedAgents: Large Language Models as Collaborators for Zero-shot Medical
-    Reasoning'
+  title:
+    "MedAgents: Large Language Models as Collaborators for Zero-shot Medical
+    Reasoning"
   venue: Preprint
   year: 2023
-  authors: Xiangru Tang, Anni Zou, Zhuosheng Zhang, Yilun Zhao, Xingyao Zhang, Arman
+  authors:
+    Xiangru Tang, Anni Zou, Zhuosheng Zhang, Yilun Zhao, Xingyao Zhang, Arman
     Cohan, Mark B. Gerstein.
   project: other
   paper_link: https://arxiv.org/pdf/2311.10537.pdf
   display: 1
 
 - url: https://www.semanticscholar.org/paper/55bd6e3074ca580f10cb0345ebb27d05f43e691a
-  title: 'Observable Propagation: A Data-Efficient Approach to Uncover Feature Vectors
-    in Transformers'
+  title:
+    "Observable Propagation: A Data-Efficient Approach to Uncover Feature Vectors
+    in Transformers"
   venue: Preprint
   year: 2023
   authors: Jacob Dunefsky, Arman Cohan.

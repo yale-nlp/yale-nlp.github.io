@@ -39,7 +39,9 @@
   authors: Martin Riddell, Ansong Ni, Arman Cohan.
   project: other
   paper_link: https://arxiv.org/pdf/2403.04811.pdf
-  category: evaluation
+  category:
+    - evaluation
+    - code generation
   display: 1
 
 - url: https://www.semanticscholar.org/paper/ac45bbf9940512d9d686cf8cd3a95969bc313570
@@ -186,7 +188,7 @@
     - specialized domains
     - reasoning
 
-- url:
+- url: https://arxiv.org/pdf/2402.07459.pdf
   title: Observable Propagation, Uncovering Feature Vectors in Transformers
   venue: ICML 2024
   year: 2024
@@ -196,6 +198,8 @@
   project: other
   paper_link:
   display: 1
+  category:
+    - interpretability
 
 - url:
   title: NExT, Teaching Large Language Models to Reason about Code Execution
