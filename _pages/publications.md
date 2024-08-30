@@ -305,7 +305,7 @@ mark {
 }
 </style>
 
-<div id="category-filter">
+<div id="category-filter" style="display: none;">
   <h5>Filter by category:</h5>
   <input type="checkbox" id="filter-default" class="category-checkbox" value="default" checked>
   <label for="filter-default" class="category-label">Default</label>
@@ -351,7 +351,7 @@ mark {
 
 <div id="publication-list" class="justified-content">
 
-{% assign years = "2024,2023,2022,2021,2020" | split: ',' %}
+{% assign years = "2024,2023,2022,2021,2020,2019" | split: ',' %}
 
 {% for year in years %}
 
@@ -366,7 +366,9 @@ mark {
   {% when '2021' %}
     {% assign publication_data = site.data.publications.2021_publist_updated %}    
   {% when '2020' %}
-    {% assign publication_data = site.data.publications.2020_publist_updated %}    
+    {% assign publication_data = site.data.publications.2020_publist_updated %}  
+  {% when '2019' %}
+    {% assign publication_data = site.data.publications.2019_publist_updated %}        
 {% endcase %}
 
 <div class="line-through-title">
@@ -445,7 +447,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const matchesCategory = selectedCategories.length === 0 || 
                               selectedCategories.some(cat => pubCategories.includes(cat)) ||
-                              (pubCategories.length === 0 && selectedCategories.includes('default'));
+                              // (pubCategories.length === 0 && selectedCategories.includes('default'));
+                              selectedCategories.includes('default'));
       const matchesType = selectedTypes.length === 0 || selectedTypes.includes(pubType);
 
       const title = pub.querySelector('.publication-title').textContent.toLowerCase();
