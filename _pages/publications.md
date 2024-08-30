@@ -122,8 +122,9 @@ permalink: /publications/
 
 .publication-venue {
   font-style: italic;
-  padding: 2px 6px;
+  padding: 2px 15px;
   border-radius: 4px;
+  font-size: 14px;
   margin-right: 5px;
 }
 

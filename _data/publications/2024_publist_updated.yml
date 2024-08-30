@@ -1,30 +1,3 @@
-- url: https://www.semanticscholar.org/paper/d5e9532d12a26124f019de5f1a1d6a9a6eab3d03
-  title: '"Evaluating LLMs at Detecting Errors in LLM Responses"'
-  venue: COLM 2024
-  year: 2024
-  authors:
-    - Ryo Kamoi
-    - Sarkar Snigdha Sarathi Das
-    - Renze Lou
-    - Jihyun Janice Ahn
-    - Yilun Zhao
-    - Xiaoxin Lu
-    - Nan Zhang
-    - Yusen Zhang
-    - Ranran Haoran Zhang
-    - Sujeeth Reddy Vummanthala
-    - Salika Dave
-    - Shaobo Qin
-    - Arman Cohan
-    - Wenpeng Yin
-    - Rui Zhang.
-  project: other
-  display: 1
-  category:
-    - evaluation
-    - foundation models
-    - document understanding
-  paper_link: https://arxiv.org/pdf/2404.03602.pdf
 - url: https://arxiv.org/pdf/2407.13709"
   title: '"Understanding Reference Policies in Direct Preference Optimization"'
   venue: Preprint
@@ -37,9 +10,28 @@
   display: 1
   category:
     - training methods
-    - post-training
+    - alignment
     - interpretability
   paper_link: https://arxiv.org/pdf/2407.13709.pdf
+- url: https://www.semanticscholar.org/paper/71303f1c03a56694d983b1c0230b432714243ba2
+  title: '"SciRIFF: A Resource to Enhance Language Model Instruction-Following over Scientific Literature"'
+  venue: Preprint
+  year: 2024
+  authors:
+    - Ansong Ni
+    - Miltiadis Allamanis
+    - Arman Cohan
+    - Yinlin Deng
+    - Kensen Shi
+    - Charles Sutton
+    - Pengcheng Yin
+  project: other
+  display: 1
+  category:
+    - foundation models
+    - specialized domains
+  paper_link: null
+  arxiv_url: SciRIFF
 - url: https://www.semanticscholar.org/paper/12db3efff4cc9e16822dd64bb1cad66f3f034f3b
   title: '"L2CEval: Evaluating Language-to-Code Generation Capabilities of Large Language Models"'
   venue: TACL
@@ -66,25 +58,32 @@
     - code generation
   paper_link: https://arxiv.org/pdf/2309.17446.pdf
   publication-type: journal
-- url: https://www.semanticscholar.org/paper/71303f1c03a56694d983b1c0230b432714243ba2
-  title: '"SciRIFF: A Resource to Enhance Language Model Instruction-Following over Scientific Literature"'
-  venue: Preprint
+- url: https://www.semanticscholar.org/paper/d5e9532d12a26124f019de5f1a1d6a9a6eab3d03
+  title: '"Evaluating LLMs at Detecting Errors in LLM Responses"'
+  venue: COLM 2024
   year: 2024
   authors:
-    - Ansong Ni
-    - Miltiadis Allamanis
+    - Ryo Kamoi
+    - Sarkar Snigdha Sarathi Das
+    - Renze Lou
+    - Jihyun Janice Ahn
+    - Yilun Zhao
+    - Xiaoxin Lu
+    - Nan Zhang
+    - Yusen Zhang
+    - Ranran Haoran Zhang
+    - Sujeeth Reddy Vummanthala
+    - Salika Dave
+    - Shaobo Qin
     - Arman Cohan
-    - Yinlin Deng
-    - Kensen Shi
-    - Charles Sutton
-    - Pengcheng Yin
+    - Wenpeng Yin
+    - Rui Zhang.
   project: other
   display: 1
   category:
-    - foundation models
-    - specialized domains
-  paper_link: null
-  arxiv_url: SciRIFF
+    - evaluation
+    - science of LLMs
+  paper_link: https://arxiv.org/pdf/2404.03602.pdf
 - url: https://www.semanticscholar.org/paper/6bf28ebbb8df92582bc53a7fe49016e0caa4c074
   title: '"Quantifying Contamination in Evaluating Code Generation Capabilities of Language Models"'
   venue: ACL 2024
@@ -154,6 +153,7 @@
   display: 1
   category:
     - foundation models
+    - science of LLMs
   paper_link: https://arxiv.org/pdf/2402.00838.pdf
   arxiv_url: Language Cognition and Language Computation -- Human and Machine Language Understanding
 - url: https://www.semanticscholar.org/paper/98061d19d69ed3089d1ee5558e0d650cb1e253a8
