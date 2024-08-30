@@ -11,9 +11,14 @@
     - AI for Science
     - Reasoning
 
-- name: Khanh Nguyen
-  photo: khanh.jpg
-  info: Visiting Master's Student
+- name: Ziyao Shangguan
+  photo: ziyao_shangguan.jpeg
+  info: Master's Student
+  homepage: www.linkedin.com/in/zshangguan
+  github: https://github.com/ziyaosg
+  interests:
+    - Multi-modal Information Processing
+    - Planning
 
 - name: Chunyuan Deng
   photo: chunyuan_deng.jpg
@@ -25,9 +30,6 @@
   interests:
     - Knowledge Probing
     - Mechanism and Interpretability
-
-# - name: To Add
-#   photo: rock.jpg
 
 # - name: To Add
 #   photo: rock.jpg

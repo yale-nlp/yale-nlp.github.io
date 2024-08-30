@@ -197,17 +197,57 @@ permalink: /team/
 
 
 <div class="row" style="margin-bottom: 50px; margin-left: 40px; margin-right: 10px">
-<h3 style="text-align: left;"> Alumni </h3>
+<h2 style="text-align: left;"> Alumni </h2>
+
+<h4 style="text-align: center;">PhD Students</h4>
+<div class="row">
+{% assign student_data = site.data.alumni.phd_students %}
+{% for member in student_data %}
+<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4">
+<div class="card">
+<div class="details-container">
+  <h2>{{ member.name }}</h2>
+  <div class="icons">
+  {% if member.homepage %}
+  <a href="{{ member.homepage }}" target="_blank"><i class="fas fa-home pr-1 icon" style="color: white;"></i></a>
+  {% endif %}
+  {% if member.github %}
+  <a href="{{ member.github }}" target="_blank"><i class="fab fa-github icon" style="color: white;"></i></a>
+  {% endif %}
+  {% if member.google_scholar %}
+  <a href="{{ member.google_scholar }}" target="_blank"><i class="ai ai-google-scholar ai-lg icon" style="color: white;"></i></a>
+  {% endif %}
+  {% if member.twitter %}
+  <a href="{{ member.twitter }}" target="_blank"><i class="fab fa-twitter icon" style="color: white;"></i></a>
+  {% endif %}
+  </div>
+
+  <ul style="overflow: hidden" class="no-indent">
+  {% if member.interests %}  
+      {% for interest in (member.interests) %}
+            <li> {{ interest }} </li>
+      {% endfor %}
+  {% endif %}  
+  </ul>
+</div>
+<figure class="flex-col bg-base-100">
+  <div class="avatar inline-flex place-content-center place-items-start rounded-full bg-gradient-to-r from-cyan-500 to-blue-500">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }} profile image" class="w-full h-auto rounded-full" />
+  </div>
+  </figure>
+  <div class="card-body">
+  <h2>{{ member.name }}</h2>
+  <p>{{ member.year }}</p>
+  <p>{{ member.info }}</p>
+  </div>
+</div>
+</div>
+{% endfor %}
+</div>
 
 <div class="col-sm-6 clearfix">
-<h4 style="text-align: center;">Yale Students</h4>
-{% for member in site.data.alumni.ms_students %}
-<p style="text-align: left;">
-{{ member.name }}
-</p>
-{% endfor %}
-
-{% for member in site.data.alumni.bs_students %}
+<h4 style="text-align: center;">Undergraduate and Master Students</h4>
+{% for member in site.data.alumni.yale_students %}
 <p style="text-align: left;">
 {{ member.name }}
 </p>
