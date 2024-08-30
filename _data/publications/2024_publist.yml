@@ -48,6 +48,8 @@
   title: "OLMo: Accelerating the Science of Language Models"
   venue: ACL 2024
   year: 2024
+  award:
+    - Best paper award
   authors:
     Dirk Groeneveld, Iz Beltagy, Pete Walsh, Akshita Bhagia, Rodney Kinney,
     Oyvind Tafjord, A. Jha, Hamish Ivison, Ian Magnusson, Yizhong Wang, Shane Arora,
@@ -145,6 +147,8 @@
 - url: https://arxiv.org/pdf/2406.14275
   title: "STEP-BACK PROFILING: Distilling User History for Personalized Scientific Writing"
   venue: AI4Science workshop @IJCAI 2024
+  award:
+    - best paper award
   year: 2024
   month: 6
   authors:

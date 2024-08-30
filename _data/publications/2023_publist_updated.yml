@@ -236,7 +236,7 @@
   arxiv_url: Faithfulness-Aware Decoding Strategies for Abstractive Summarization
 - url: https://www.semanticscholar.org/paper/2cad608200ee31884f6392e6290878c236f06248
   title: '"Aligning Factual Consistency for Clinical Studies Summarization through Reinforcement Learning"'
-  venue: Clinical Natural Language Processing Workshop 2023
+  venue: Clinical NLP workshop
   year: 2023
   authors:
     - Xiangru Tang

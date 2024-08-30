@@ -103,6 +103,8 @@
 - url: https://www.semanticscholar.org/paper/ac45bbf9940512d9d686cf8cd3a95969bc313570
   title: '"OLMo: Accelerating the Science of Language Models"'
   venue: ACL 2024
+  award:
+    - best paper award
   year: 2024
   authors:
     - Dirk Groeneveld
@@ -228,6 +230,8 @@
 - url: https://arxiv.org/pdf/2406.14275
   title: '"Step-Back Profiling: Distilling User History for Personalized Scientific Writing"'
   venue: AI4Science workshop @IJCAI 2024
+  award:
+    - best paper award
   year: 2024
   authors:
     - Xiangru Tang
@@ -242,9 +246,9 @@
   project: other
   display: 1
   category:
-    - personalization
-    - writing
+    - foundation models
     - generation
+    - evaluation
   paper_link: https://arxiv.org/pdf/2406.14275.pdf
 - url: https://aclanthology.org/2024.findings-acl.33.pdf
   title: '"MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning"'
