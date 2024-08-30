@@ -11,7 +11,7 @@
   category:
     - training methods
     - alignment
-    - interpretability
+    - language modeling
   paper_link: https://arxiv.org/pdf/2407.13709.pdf
 - url: https://www.semanticscholar.org/paper/71303f1c03a56694d983b1c0230b432714243ba2
   title: '"SciRIFF: A Resource to Enhance Language Model Instruction-Following over Scientific Literature"'
@@ -30,6 +30,7 @@
   category:
     - foundation models
     - specialized domains
+    - language modeling
   paper_link: null
   arxiv_url: SciRIFF
 - url: https://www.semanticscholar.org/paper/12db3efff4cc9e16822dd64bb1cad66f3f034f3b
@@ -153,6 +154,7 @@
   display: 1
   category:
     - foundation models
+    - language modeling
     - science of LLMs
   paper_link: https://arxiv.org/pdf/2402.00838.pdf
   arxiv_url: Language Cognition and Language Computation -- Human and Machine Language Understanding
@@ -247,6 +249,7 @@
   display: 1
   category:
     - foundation models
+    - language modeling
     - generation
     - evaluation
   paper_link: https://arxiv.org/pdf/2406.14275.pdf
@@ -315,7 +318,9 @@
     - Arman Cohan.
   project: other
   display: 1
-  category: foundation models
+  category:
+    - foundation models
+    - language modeling
   paper_link: https://arxiv.org/pdf/2305.14239.pdf
   arxiv_url: Surveying the Landscape of Text Summarization with Deep Learning
 - url: https://www.semanticscholar.org/paper/af565483dfbe3b0fa4fe9f715170666a06bce5ac
@@ -333,6 +338,7 @@
   category:
     - evaluation
     - foundation models
+    - language modeling
     - training methods
   paper_link: https://arxiv.org/pdf/2311.09783.pdf
   arxiv_url: An Open Source Data Contamination Report for Large Language Models

@@ -13,7 +13,6 @@
   category:
     - document understanding
     - evaluation
-    - foundation models
   paper_link: https://arxiv.org/pdf/2305.14772.pdf
   arxiv_url: A Question Answering Framework for Decontextualizing User-facing Snippets from Scientific Documents
 - url: https://www.semanticscholar.org/paper/beeaa3b353f0afeb2387f8336c052042a9b78cc0
@@ -133,9 +132,9 @@
   project: other
   display: 1
   category:
-    - "- document understanding"
-    - "- evaluation"
-    - "- foundation models"
+    - document understanding
+    - evaluation
+    - foundation models
   paper_link: https://arxiv.org/pdf/2305.14987.pdf
   arxiv_url: Investigating Table-to-Text Generation Capabilities of LLMs in Real-World Information Seeking Scenarios
 - url: https://www.semanticscholar.org/paper/99b880398677a04c5442d5afb38d8b68d65151b9
@@ -169,9 +168,9 @@
   project: other
   display: 1
   category:
-    - "- foundation models"
-    - "- evaluation"
-    - "- document understanding"
+    - foundation models
+    - language modeling
+    - document understanding
   paper_link: https://aclanthology.org/2023.acl-long.110.pdf
   arxiv_url: Long-Span Question-Answering
 - url: https://www.semanticscholar.org/paper/a0ee62ff9a6a00d29634a5146f9ffb91ec730e32
@@ -209,9 +208,10 @@
   project: other
   display: 1
   category:
-    - "- foundation models"
-    - "- evaluation"
-    - "- document understanding"
+    - foundation models
+    - language modeling
+    - training methods
+    - generation
   paper_link: https://aclanthology.org/2024.eacl-long.144.pdf
   arxiv_url: Dirichlet forms of diffusion processes on Thoma simplex
 - url: https://www.semanticscholar.org/paper/f1f6c61ed0b80a785e4e5d0d97a454dbe6126c63
@@ -266,9 +266,10 @@
   project: other
   display: 1
   category:
-    - "- document understanding"
-    - "- specialized domains"
-    - "- foundation models"
+    - document understanding
+    - specialized domains
+    - foundation models
+    - language modeling
   arxiv_url: Adversarial Attacks and Defenses for Social Network Text Processing Applications
 - url: https://www.semanticscholar.org/paper/dcba37400ad86aaf0d47e5cdfa2fcfa98f089401
   title: '"When do Generative Query and Document Expansions Fail? A Comprehensive Study Across Methods, Retrievers, and Datasets"'
