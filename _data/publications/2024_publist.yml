@@ -1,7 +1,21 @@
+- url: https://arxiv.org/pdf/2407.13709"
+  title: "Understanding Reference Policies in Direct Preference Optimization"
+  venue: Preprint
+  year: 2024
+  authors:
+    - Yixin Liu
+    - Pengfei Liu
+    - Arman Cohan
+  project: other
+  paper_link: https://arxiv.org/pdf/2407.13709.pdf
+  display: 1
+  category:
+    - training methods
+    - post-training
+    - interpretability
+
 - url: https://www.semanticscholar.org/paper/12db3efff4cc9e16822dd64bb1cad66f3f034f3b
-  title:
-    "L2CEval: Evaluating Language-to-Code Generation Capabilities of Large Language
-    Models"
+  title: "L2CEval: Evaluating Language-to-Code Generation Capabilities of Large Language Models"
   venue: TACL
   year: 2024
   authors:
@@ -11,6 +25,10 @@
   project: other
   paper_link: https://arxiv.org/pdf/2309.17446.pdf
   display: 1
+  category:
+    - evaluation
+    - code generation
+  publication-type: journal
 
 - url: https://www.semanticscholar.org/paper/6bf28ebbb8df92582bc53a7fe49016e0caa4c074
   title:
@@ -21,12 +39,14 @@
   authors: Martin Riddell, Ansong Ni, Arman Cohan.
   project: other
   paper_link: https://arxiv.org/pdf/2403.04811.pdf
-  category: evaluation
+  category:
+    - evaluation
+    - code generation
   display: 1
 
 - url: https://www.semanticscholar.org/paper/ac45bbf9940512d9d686cf8cd3a95969bc313570
   title: "OLMo: Accelerating the Science of Language Models"
-  venue: ACL 2024  (Best paper award!)
+  venue: ACL 2024
   year: 2024
   authors:
     Dirk Groeneveld, Iz Beltagy, Pete Walsh, Akshita Bhagia, Rodney Kinney,
@@ -41,36 +61,13 @@
   project: other
   paper_link: https://arxiv.org/pdf/2402.00838.pdf
   display: 1
+  award:
+    - Best paper award
+  category:
+    - foundation models
 
 - url:
-  title: KnowledgeFMath, A Knowledge-Intensive Math Reasoning Dataset in Finance Domains
-  venue: ACL 2024
-  year: 2024
-  authors:
-    - Yilun Zhao
-    - Hongjun Liu
-    - Yitao Long
-    - Rui Zhang
-    - Chen Zhao
-    - Arman Cohan
-  project: other
-  paper_link:
-  display: 1
-
-- url:
-  title: Quantifying Contamination in Evaluating Code Generation Capabilities of Language Models
-  venue: ACL 2024
-  year: 2024
-  authors:
-    - Martin Riddell
-    - Ansong Ni
-    - Arman Cohan
-  project: other
-  paper_link:
-  display: 1
-
-- url:
-  title: TaPERA, Enhancing Faithfulness and Interpretability in Long-Form Table QA by Content Planning and Execution-based Reasoning
+  title: "TaPERA: Enhancing Faithfulness and Interpretability in Long-Form Table QA by Content Planning and Execution-based Reasoning"
   venue: ACL 2024
   year: 2024
   authors:
@@ -79,11 +76,15 @@
     - Arman Cohan
     - Chen Zhao
   project: other
+  category:
+    - reasoning
+    - evaluation
+    - document understanding
   paper_link:
   display: 1
 
-- url:
-  title: FinanceMath, A Knowledge-Intensive Math Reasoning Dataset in Finance Domains
+- url: https://arxiv.org/abs/2311.09797
+  title: "FinanceMath: A Knowledge-Intensive Math Reasoning Dataset in Finance Domains"
   venue: ACL 2024
   year: 2024
   authors:
@@ -94,8 +95,14 @@
     - Chen Zhao
     - Arman Cohan
   project: other
-  paper_link:
+  paper_link: https://arxiv.org/abs/2311.09797.pdf
   display: 1
+  category:
+    - dataset
+    - reasoning
+    - evaluation
+    - document understanding
+    - specialized domains
 
 - url:
   title: Rethinking Efficient Multilingual Text Summarization Meta-Evaluation
@@ -109,11 +116,16 @@
   project: other
   paper_link:
   display: 1
+  category:
+    - evaluation
+    - summarization
+    - generation
 
-- url:
+- url: https://arxiv.org/pdf/2406.14644.pdf
   title: Unveiling the Spectrum of Data Contamination in Language Model, A Survey from Detection to Remediation
   venue: ACL 2024 findings
   year: 2024
+  month: 6
   authors:
     - Chunyuan Deng
     - Yilun Zhao
@@ -123,11 +135,40 @@
     - Xiangru Tang
     - Arman Cohan
   project: other
-  paper_link:
+  paper_link: https://arxiv.org/pdf/2406.14644.pdf
   display: 1
+  category:
+    - evaluation
+    - contamination
+    - survey
+
+- url: https://arxiv.org/pdf/2406.14275
+  title: "STEP-BACK PROFILING: Distilling User History for Personalized Scientific Writing"
+  venue: AI4Science workshop @IJCAI 2024
+  year: 2024
+  month: 6
+  authors:
+    - Xiangru Tang
+    - Xingyao Zhang
+    - Yanjun Shao
+    - Jie Wu
+    - Yilun Zhao
+    - Arman Cohan
+    - Ming Gong
+    - Dongmei Zhang
+    - Mark Gerstein
+  project: other
+  paper_link: https://arxiv.org/pdf/2406.14275.pdf
+  display: 1
+  category:
+    - personalization
+    - writing
+    - generation
+  award:
+    - best paper award
 
 - url: https://aclanthology.org/2024.findings-acl.33.pdf
-  title: MedAgents- Large Language Models as Collaborators for Zero-shot Medical Reasoning
+  title: "MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning"
   venue: ACL 2024 findings
   year: 2024
   authors:
@@ -142,8 +183,12 @@
   project: other
   paper_link: https://aclanthology.org/2024.findings-acl.33.pdf
   display: 1
+  category:
+    - LM agents
+    - specialized domains
+    - reasoning
 
-- url:
+- url: https://arxiv.org/pdf/2402.07459.pdf
   title: Observable Propagation, Uncovering Feature Vectors in Transformers
   venue: ICML 2024
   year: 2024
@@ -153,10 +198,183 @@
   project: other
   paper_link:
   display: 1
+  category:
+    - interpretability
 
 - url:
   title: NExT, Teaching Large Language Models to Reason about Code Execution
   venue: ICML 2024
+  year: 2024
+  authors:
+    - Ansong Ni
+    - Miltiadis Allamanis
+    - Arman Cohan
+    - Yinlin Deng
+    - Kensen Shi
+    - Charles Sutton
+    - Pengcheng Yin
+  project: other
+  paper_link:
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/c8b5a244be3b6623feb7a623d9f97c183bcbdef0
+  title: On Learning to Summarize with Large Language Models as References
+  venue: NAACL 2024
+  year: 2024
+  authors: Yixin Liu, Alexander R. Fabbri, Pengfei Liu, Dragomir R. Radev, Arman Cohan.
+  project: other
+  paper_link: https://arxiv.org/pdf/2305.14239.pdf
+  category: foundation models
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/af565483dfbe3b0fa4fe9f715170666a06bce5ac
+  title:
+    Investigating Data Contamination in Modern Benchmarks for Large Language
+    Models
+  venue: NAACL 2024
+  year: 2024
+  authors: Chunyuan Deng, Yilun Zhao, Xiangru Tang, Mark B. Gerstein, Arman Cohan.
+  project: other
+  paper_link: https://arxiv.org/pdf/2311.09783.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/568803a3cd4ecec1f5038621b0bad8462493418a
+  title:
+    "Struc-Bench: Are Large Language Models Really Good at Generating Complex
+    Structured Data?"
+  venue: NAACL 2024
+  year: 2024
+  authors:
+    Xiangru Tang, Yiming Zong, Jason Phang, Yilun Zhao, Wangchunshu Zhou, Arman
+    Cohan, Mark Gerstein.
+  project: other
+  paper_link: https://arxiv.org/pdf/2309.08963.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/c8fd54981dd633d24338058d122df14a4f2df264
+  title:
+    On Evaluating the Integration of Reasoning and Action in LLM Agents with
+    Database Question Answering
+  venue: NAACL 2024 Findings
+  year: 2024
+  authors: Linyong Nan, Ellen Zhang, Weijin Zou, Yilun Zhao, Wenfei Zhou, Arman Cohan.
+  project: other
+  paper_link: https://arxiv.org/pdf/2311.09721.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/f495d2741f804cb37a6afc3c039f1d3964b964a8
+  title:
+    Benchmarking Generation and Evaluation Capabilities of Large Language Models
+    for Instruction Controllable Summarization
+  venue: NAACL 2024 Findings
+  year: 2024
+  authors:
+    Yixin Liu, A. R. Fabbri, Jiawen Chen, Yilun Zhao, Simeng Han, Shafiq R.
+    Joty, Pengfei Liu, Dragomir R. Radev, Chien-Sheng Wu, Arman Cohan.
+  project: other
+  paper_link: https://arxiv.org/pdf/2311.09184.pdf
+  display: 1
+
+- url: https://aclanthology.org/2024.findings-eacl.134.pdf
+  title:
+    When do Generative Query and Document Expansions Fail? A Comprehensive Study
+    Across Methods, Retrievers, and Datasets
+  venue: EACL 2024
+  year: 2024
+  authors:
+    - Orion Weller
+    - Kyle Lo
+    - David Wadden
+    - Dawn Lawrie
+    - Benjamin Van Durme
+    - Arman Cohan
+    - Luca Soldaini
+  project: other
+  paper_link: https://aclanthology.org/2024.findings-eacl.134.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/0a9741ff519ca86e2e81f872282d8ac9753abde3
+  title:
+    "On the Benefits of Fine-Grained Loss Truncation: A Case Study on Factuality
+    in Summarization"
+  venue: EACL 2024
+  year: 2024
+  authors: Lorenzo Jaime Yu Flores, Arman Cohan.
+  project: other
+  paper_link: https://aclanthology.org/2024.eacl-short.13.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/77e07e5542b450a2ee3193993c552700ad9ba82d
+  title:
+    "FollowIR: Evaluating and Teaching Information Retrieval Models to Follow
+    Instructions"
+  venue: Preprint
+  year: 2024
+  authors:
+    Orion Weller, Benjamin Chang, Sean MacAvaney, Kyle Lo, Arman Cohan, Benjamin
+    Van Durme, Dawn Lawrie, Luca Soldaini.
+  project: other
+  paper_link: https://arxiv.org/pdf/2403.15246.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/14d0489047a1390434e7ea454e7e5165d9721ae3
+  title: Calibrating Long-form Generations from Large Language Models
+  venue: Preprint
+  year: 2024
+  authors: Yukun Huang, Yixin Liu, Raghuveer Thirukovalluru, Arman Cohan, Bhuwan Dhingra.
+  project: other
+  paper_link: https://arxiv.org/pdf/2402.06544.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/d5e9532d12a26124f019de5f1a1d6a9a6eab3d03
+  title: Evaluating LLMs at Detecting Errors in LLM Responses
+  venue: Preprint
+  year: 2024
+  authors:
+    Ryo Kamoi, Sarkar Snigdha Sarathi Das, Renze Lou, Jihyun Janice Ahn, Yilun
+    Zhao, Xiaoxin Lu, Nan Zhang, Yusen Zhang, Ranran Haoran Zhang, Sujeeth Reddy Vummanthala,
+    Salika Dave, Shaobo Qin, Arman Cohan, Wenpeng Yin, Rui Zhang.
+  project: other
+  paper_link: https://arxiv.org/pdf/2404.03602.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/a22afef5675c92bc270eefdd13fcf7f00c824571
+  title: "MIMIR: A Streamlined Platform for Personalized Agent Tuning in Domain Expertise"
+  venue: Preprint
+  year: 2024
+  authors:
+    Chunyuan Deng, Xiangru Tang, Yilun Zhao, Hanming Wang, Haoran Wang, Wangchunshu
+    Zhou, Arman Cohan, Mark Gerstein.
+  project: other
+  paper_link: https://arxiv.org/pdf/2404.04285.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/8ee0d8f6a35f66d8bb97e3388b85dba10d8d22d2
+  title: "Prioritizing Safeguarding Over Autonomy: Risks of LLM Agents for Science"
+  venue: Preprint
+  year: 2024
+  authors:
+    Xiangru Tang, Qiao Jin, Kunlun Zhu, Tongxin Yuan, Yichi Zhang, Wangchunshu
+    Zhou, Meng Qu, Yilun Zhao, Jian Tang, Zhuosheng Zhang, Arman Cohan, Zhiyong Lu,
+    Mark B. Gerstein.
+  project: other
+  paper_link: https://arxiv.org/pdf/2402.04247.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/71303f1c03a56694d983b1c0230b432714243ba2
+  title:
+    "SciRIFF: A Resource to Enhance Language Model Instruction-Following over
+    Scientific Literature"
+  venue: Preprint
+  year: 2024
+  authors:
+    David Wadden, Kejian Shi, Jacob Daniel Morrison, Aakanksha Naik, Shruti
+    Singh, Nitzan Barzilay, Kyle Lo, Tom Hope, Luca Soldaini, Shannon Zejiang Shen,
+    Doug Downey, Hanna Hajishirzi, Arman Cohan.
+  project: other
+  paper_link: https://arxiv.org/pdf/2406.07835.pdf
+  display: 1
+
   year: 2024
   authors:
     - Ansong Ni
