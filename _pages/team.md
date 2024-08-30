@@ -197,9 +197,10 @@ permalink: /team/
 
 
 <div class="row" style="margin-bottom: 50px; margin-left: 40px; margin-right: 10px">
-<h2 style="text-align: left;"> Alumni </h2>
 
-<h4 style="text-align: center;">PhD Students</h4>
+<h2 class="fancy-h2"> Alumni </h2>
+
+<h4 style="text-align: left;">PhD Students</h4>
 <div class="row">
 {% assign student_data = site.data.alumni.phd_students %}
 {% for member in student_data %}
@@ -246,7 +247,7 @@ permalink: /team/
 </div>
 
 <div class="col-sm-6 clearfix">
-<h4 style="text-align: center;">Undergraduate and Master Students</h4>
+<h4 style="text-align: left; margin-bottom: 25px;">Undergraduate and Master Students</h4>
 {% for member in site.data.alumni.yale_students %}
 <p style="text-align: left;">
 {{ member.name }}
@@ -255,7 +256,7 @@ permalink: /team/
 </div>
 
 <div class="col-sm-6 clearfix">
-<h4 style="text-align: left;">Visiting Students</h4>
+<h4 style="text-align: left; margin-bottom: 25px;">Visiting Students</h4>
 {% for member in site.data.alumni.visiting_students %}
 <p style="text-align: left;">
 {{ member.name }}
@@ -264,3 +265,15 @@ permalink: /team/
 </div>
 
 <!-- </div> -->
+
+<style>
+  .fancy-h2 {
+    text-align: left;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    color: #1A90E2;
+    border-bottom: 2px solid rgba(26, 144, 226, 0.5);
+    padding-bottom: 10px;
+  }
+</style>
