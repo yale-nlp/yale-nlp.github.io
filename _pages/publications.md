@@ -448,7 +448,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const matchesCategory = selectedCategories.length === 0 || 
                               selectedCategories.some(cat => pubCategories.includes(cat)) ||
                               // (pubCategories.length === 0 && selectedCategories.includes('default'));
-                              selectedCategories.includes('default'));
+                              selectedCategories.includes('default');
       const matchesType = selectedTypes.length === 0 || selectedTypes.includes(pubType);
 
       const title = pub.querySelector('.publication-title').textContent.toLowerCase();
