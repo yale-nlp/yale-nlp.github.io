@@ -131,7 +131,7 @@
   arxiv_url: Continued Pretraining for Better Zero- and Few-Shot Promptability
 - url: https://www.semanticscholar.org/paper/f75425ef1884a7bc8d367788aef111b242cd540b
   title: '"Embedding Recycling for Language Models"'
-  venue: Findings 2022
+  venue: EACL 2022 findings
   year: 2022
   authors:
     - Jon Saad-Falcon
