@@ -13,18 +13,24 @@
     - alignment
     - language modeling
   paper_link: https://arxiv.org/pdf/2407.13709.pdf
-- url: https://www.semanticscholar.org/paper/71303f1c03a56694d983b1c0230b432714243ba2
+- url: https://arxiv.org/pdf/2406.07835
   title: '"SciRIFF: A Resource to Enhance Language Model Instruction-Following over Scientific Literature"'
   venue: Preprint
   year: 2024
   authors:
-    - Ansong Ni
-    - Miltiadis Allamanis
+    - David Wadden
+    - Kejian Shi
+    - Jacob Morrison
+    - Aakanksha Naik
+    - Shruti Singh
+    - Nitzan Barzilay
+    - Kyle Lo
+    - Tom Hope
+    - Luca Soldaini
+    - Shannon Zejiang Shen
+    - Doug Downey
+    - Hannaneh Hajishirzi
     - Arman Cohan
-    - Yinlin Deng
-    - Kensen Shi
-    - Charles Sutton
-    - Pengcheng Yin
   project: other
   display: 1
   category:
@@ -158,7 +164,7 @@
     - science of LLMs
   paper_link: https://arxiv.org/pdf/2402.00838.pdf
   arxiv_url: Language Cognition and Language Computation -- Human and Machine Language Understanding
-- url: https://www.semanticscholar.org/paper/98061d19d69ed3089d1ee5558e0d650cb1e253a8
+- url: https://aclanthology.org/2024.acl-long.692.pdf
   title: '"TaPERA: Enhancing Faithfulness and Interpretability in Long-Form Table QA by Content Planning and Execution-based Reasoning"'
   venue: ACL 2024
   year: 2024
@@ -194,7 +200,7 @@
     - evaluation
     - document understanding
     - specialized domains
-- url: https://www.semanticscholar.org/paper/c264d6c70d608e8366c3fd5d66579b0aa0731c76
+- url: https://aclanthology.org/2024.findings-acl.930.pdf
   title: '"Rethinking Efficient Multilingual Text Summarization Meta-Evaluation"'
   venue: ACL 2024 Findings
   year: 2024
@@ -305,7 +311,7 @@
     - code generation
     - training methods
     - evaluation
-  paper_link: null
+  paper_link: https://arxiv.org/pdf/2404.14662
 - url: https://www.semanticscholar.org/paper/c8b5a244be3b6623feb7a623d9f97c183bcbdef0
   title: '"On Learning to Summarize with Large Language Models as References"'
   venue: NAACL 2024

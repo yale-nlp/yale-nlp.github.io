@@ -58,7 +58,7 @@
     - document understanding
     - evaluation
     - training methods
-  arxiv_url: Prompt Mining for Language-based Human Mobility Forecasting
+  arxiv_url: https://arxiv.org/pdf/2305.12586
 - url: https://www.semanticscholar.org/paper/27ce67db279f25a6349dfd2cbd2379364a173438
   title: '"Medical Text Simplification: Optimizing for Readability with Unlikelihood Training and Reranked Beam Search Decoding"'
   venue: EMNLP 2023 Findings

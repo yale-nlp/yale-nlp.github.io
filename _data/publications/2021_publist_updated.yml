@@ -34,7 +34,7 @@
     - foundation models
   paper_link: https://arxiv.org/pdf/2107.07170.pdf
   arxiv_url: A Survey on Recognizing Textual Entailment as an NLP Evaluation
-- url: https://www.semanticscholar.org/paper/4e3935ef7da6bcbb202ec7f8b285c313cadcd044
+- url: https://arxiv.org/pdf/2105.03011
   title: '"A Dataset of Information-Seeking Questions and Answers Anchored in Research Papers"'
   venue: NAACL 2021
   year: 2021
@@ -51,8 +51,8 @@
     - document understanding
     - evaluation
     - training methods
-  paper_link: https://aclanthology.org/2021.naacl-tutorials.5.pdf
-  arxiv_url: A Dataset of Information-Seeking Questions and Answers Anchored in Research Papers
+  paper_link: https://arxiv.org/pdf/2105.03011
+  arxiv_url: https://arxiv.org/pdf/2105.03011
 - url: https://www.semanticscholar.org/paper/69285c9040c1356272752499b7e1e53ef25ac008
   title: '"Beyond Paragraphs: NLP for Long Sequences"'
   venue: NAACL 2021
