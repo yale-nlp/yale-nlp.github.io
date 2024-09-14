@@ -12,7 +12,7 @@ markdown: false
     width: 100%;
     height: auto;
     min-height: 50pt;
-    max-height: none;
+    max-height: 100%;
     padding: 5px;
     border-radius: 15px;
     text-align: center;
@@ -22,10 +22,8 @@ markdown: false
     margin-bottom: 30px;
     align-items: center;
     justify-content: flex-start;
-    /* Keep this */
-    /* Remove or comment out the next line */
     /* justify-content: center; */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 1s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 1s cubic-bezier(0.25, 0.8, 0.25, 1);
   }
 
   .card:hover {
