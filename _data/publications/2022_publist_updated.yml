@@ -129,6 +129,78 @@
     - evaluation
   paper_link: https://aclanthology.org/2022.acl-tutorials.6.pdf
   arxiv_url: Continued Pretraining for Better Zero- and Few-Shot Promptability
+- url: https://www.semanticscholar.org/paper/2743e66939b30c43affb3c9e31f20cfac2109045
+  title: '"MULTIVERS: Improving scientific claim verification with weak supervision and full-document context"'
+  venue: NAACL 2022 findings
+  year: 2022
+  authors:
+    - David Wadden
+    - Kyle Lo
+    - Lucy Lu Wang
+    - Arman Cohan
+    - Iz Beltagy
+    - Hannaneh Hajishirzi.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - foundation models
+    - document understanding
+  paper_link: https://arxiv.org/pdf/2112.01640.pdf
+  arxiv_url: https://arxiv.org/pdf/2112.01640
+- url: https://www.semanticscholar.org/paper/ee2289b89a651157139da24674cbb201f479b9bb
+  title: '"Multi-Vector Models with Textual Guidance for Fine-Grained Scientific Document Similarity"'
+  venue: NAACL 2022
+  year: 2022
+  authors:
+    - Sheshera Mysore
+    - Arman Cohan
+    - Tom Hope.
+  project: other
+  display: 1
+  category:
+    - document understanding
+    - evaluation
+    - specialized domains
+  paper_link: https://aclanthology.org/2022.naacl-main.331.pdf
+  arxiv_url: Multi-Vector Models with Textual Guidance for Fine-Grained Scientific Document Similarity
+- url: https://www.semanticscholar.org/paper/e853ef5d79b5584f4476e82c7a6b736c53a18bfc
+  title: '"MultiCite: Modeling realistic citations requires moving beyond the single-sentence single-label setting"'
+  venue: NAACL 2022
+  year: 2022
+  authors:
+    - Anne Lauscher
+    - B. Ko
+    - Bailey Kuehl
+    - Sophie Johnson
+    - David Jurgens
+    - Arman Cohan
+    - Kyle Lo.
+  project: other
+  display: 1
+  category:
+    - document understanding
+    - evaluation
+    - foundation models
+  paper_link: https://aclanthology.org/2022.naacl-main.137.pdf
+  arxiv_url: MultiCite
+- url: https://www.semanticscholar.org/paper/0271d1dbc01eda68c2f0291c62a956fca3092864
+  title: '"PRIMERA: Pyramid-based Masked Sentence Pre-training for Multi-document Summarization"'
+  venue: ACL 2022
+  year: 2022
+  authors:
+    - Wen Xiao
+    - Iz Beltagy
+    - G. Carenini
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - foundation models
+    - evaluation
+    - document understanding
+  paper_link: https://aclanthology.org/2022.acl-long.360.pdf
+  arxiv_url: SASS
 - url: https://www.semanticscholar.org/paper/f75425ef1884a7bc8d367788aef111b242cd540b
   title: '"Embedding Recycling for Language Models"'
   venue: EACL 2022 findings
