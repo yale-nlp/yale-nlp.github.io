@@ -1,0 +1,25 @@
+- name: Ansong Ni
+  photo: ansong_ni.jpeg
+  year: Ph.D., 2024
+  info: → Research Scientist at Meta FAIR
+  homepage: https://niansong1996.github.io/
+  github: https://github.com/niansong1996
+  google_scholar: https://scholar.google.com/citations?user=4IA1clAAAAAJ
+  twitter: https://twitter.com/AnsongNi
+  interests:
+    - Program Synthesis
+    - Semantic Parsing
+    - Neuro-symbolic Reasoning
+
+- name: Linyong Nan
+  photo: linyong_nan.png
+  year: Ph.D., 2024
+  info: → Research Scientist at Zoom AI
+  homepage: https://linyongnan.github.io/
+  github: https://github.com/linyongnan
+  google_scholar: https://scholar.google.com/citations?user=b-HaNvYAAAAJ
+  twitter: https://twitter.com/nan_linyong
+  interests:
+    - Multi-modal information processing
+    - Table-to-text Generation
+    - Semantic Parsing
