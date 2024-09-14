@@ -296,6 +296,16 @@ permalink: /publications/
 #search-input::placeholder {
   color: #999;
 }
+/* 
+#author-filter {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+#author-filter input {
+  margin-right: 5px;
+} */
 
 mark {
   background-color: rgba(74, 144, 226, 0.3);
@@ -347,6 +357,8 @@ mark {
 <div id="text-filter">
   <h5>Search:</h5>
   <input type="text" id="search-input" placeholder="Filter by title or author">
+    <!-- <input type="checkbox" id="first-last-author">
+    <label for="first-last-author">First/Last Author Only</label> -->
 </div>
 
 <div id="publication-list" class="justified-content">
@@ -422,6 +434,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const typeCheckboxes = document.querySelectorAll('.publication-type-checkbox');
   const publications = document.querySelectorAll('.publication-item');
   const searchInput = document.getElementById('search-input');
+  const firstLastAuthorCheckbox = document.getElementById('first-last-author');
 
   function highlightText(element, searchText) {
     if (!searchText) return;
@@ -439,6 +452,7 @@ document.addEventListener('DOMContentLoaded', function() {
       .map(cb => cb.id.replace('filter-', ''));
 
     const searchText = searchInput.value.toLowerCase();
+    const firstLastAuthorOnly = firstLastAuthorCheckbox.checked;
 
     publications.forEach(pub => {
       const pubCategories = Array.from(pub.querySelectorAll('.publication-category'))
@@ -447,13 +461,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const matchesCategory = selectedCategories.length === 0 || 
                               selectedCategories.some(cat => pubCategories.includes(cat)) ||
-                              // (pubCategories.length === 0 && selectedCategories.includes('default'));
                               selectedCategories.includes('default');
       const matchesType = selectedTypes.length === 0 || selectedTypes.includes(pubType);
 
       const title = pub.querySelector('.publication-title').textContent.toLowerCase();
       const authors = pub.querySelector('.publication-authors').textContent.toLowerCase();
-      const matchesSearch = title.includes(searchText) || authors.includes(searchText);
+      const authorList = authors.split(',').map(author => author.trim());
+      const matchesSearch = title.includes(searchText) || 
+                            (!firstLastAuthorOnly && authors.includes(searchText)) ||
+                            (firstLastAuthorOnly && (authorList[0].includes(searchText) || authorList[authorList.length - 1].includes(searchText)));
 
       if (matchesCategory && matchesType && matchesSearch) {
         pub.style.display = '';
@@ -478,6 +494,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   searchInput.addEventListener('input', filterPublications);
+  firstLastAuthorCheckbox.addEventListener('change', filterPublications);
 
   // Initial filter application
   filterPublications(); 
