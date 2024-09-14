@@ -1,11 +1,11 @@
 - name: Kejian Shi
   photo: kejian_shi.jpg
   google_scholar: https://scholar.google.com/citations?user=KZbOHrUAAAAJ
-  info: Master's Student
+  info: M.S. Student
 
 - name: Chuhan Li
   photo: chuhan_li.jpg
-  info: Master's Student
+  info: M.S. Student
   interests:
     - Multi-modal information processing
     - AI for Science
@@ -13,7 +13,7 @@
 
 - name: Ziyao Shangguan
   photo: ziyao_shangguan.jpeg
-  info: Master's Student
+  info: M.S. Student
   homepage: www.linkedin.com/in/zshangguan
   github: https://github.com/ziyaosg
   interests:
@@ -22,7 +22,7 @@
 
 - name: Chunyuan Deng
   photo: chunyuan_deng.jpg
-  info: Visiting Master's Student
+  info: Visiting M.S. Student
   homepage: https://charlesdddd.github.io/
   github: https://github.com/CharlesDDDD
   google_scholar: https://scholar.google.com/citations?user=g7Y0RHcAAAAJ
@@ -30,7 +30,6 @@
   interests:
     - Knowledge Probing
     - Mechanism and Interpretability
-
 # - name: To Add
 #   photo: rock.jpg
 
