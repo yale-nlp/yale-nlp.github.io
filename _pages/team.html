@@ -278,7 +278,7 @@ markdown: false
       {% if member.interests %}
       <div class="interests-box">
         <ul class="interests-list">
-          {% for interest in member.interests %}
+          {% for interest in member.interests limit:3 %}
           <li class="interest-item" title="{{ interest }}">{{ interest }}</li>
           {% endfor %}
         </ul>
