@@ -1,0 +1,365 @@
+---
+title: "Yale NLP Lab - Team"
+layout: team
+excerpt: "Yale NLP Lab: Team members"
+sitemap: false
+permalink: /team/
+markdown: false
+---
+<style>
+  .card {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 50pt;
+    max-height: none;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    /* Keep this */
+    /* Remove or comment out the next line */
+    /* justify-content: center; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 2px 2px 16px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .details-container {
+    position: static;
+    opacity: 1;
+    transform: none;
+    max-height: none;
+    background-color: transparent;
+    color: black;
+    padding: 10px;
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transform: translateY(-100%);
+    max-height: 0;
+    overflow: hidden;
+    font-size: xlarge;
+  }
+
+  /* .details-container.active {
+      opacity: 1;
+      transform: translateY(0);
+      max-height: 210pt;
+  } */
+
+  .details-container h2,
+  .card-body h2 {
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+  }
+
+  .details-container p,
+  .card-body p {
+    text-align: center;
+    font-size: small;
+  }
+
+  .avatar {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .avatar img {
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icons {
+    margin-bottom: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    fill: white;
+  }
+
+  ul.interests {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+  }
+
+  ul.interests li {
+    margin-bottom: 5px;
+  }
+
+  .interests-box {
+    margin-top: 10px;
+  }
+
+  .interests-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .interest-item {
+    background-color: #e0e0e0;
+    color: #333;
+    font-size: 0.8em;
+    padding: 4px 8px;
+    border-radius: 15px;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+  }
+
+  .interest-item:hover {
+    overflow: none;
+    white-space: normal;
+    max-width: none;
+    z-index: 1;
+  }
+
+  .interest-item:hover::after {
+    content: attr(title);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 0.9em;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 45px;
+  }
+
+  .card {
+    height: 100%;
+    /* Ensure all cards have the same height */
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const cards = document.querySelectorAll(".card");
+
+    cards.forEach(card => {
+      card.addEventListener("mouseenter", function () {
+        const details = this.querySelector(".details-container");
+        if (details) {
+          details.classList.add("active");
+        }
+      });
+
+      card.addEventListener("mouseleave", function () {
+        const details = this.querySelector(".details-container");
+        if (details) {
+          details.classList.remove("active");
+        }
+      });
+
+      // Add this new code to check for broken images
+      const img = card.querySelector('img');
+      img.onerror = function () {
+        this.src = '{{ site.url }}{{ site.baseurl }}/images/teampic/dummy_profile.png';
+      }
+    });
+
+    // Add this new code to truncate interests
+    const interests = card.querySelectorAll('.interest-item');
+    interests.forEach(interest => {
+      if (interest.offsetWidth < interest.scrollWidth) {
+        interest.title = interest.textContent;
+      }
+    });
+  });
+</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<div class="team-grid">
+  {% assign member_types = "Faculty,PhD,Master,Undergraduate" | split: ',' %}
+
+  {% for type_name in member_types %}
+
+  {% assign student_data = "" %}
+  {% case type_name %}
+  {% when 'Faculty' %}
+  {% assign student_data = site.data.members.faculty %}
+  {% assign student_data.type = type_name %}
+  {% when 'PhD' %}
+  {% assign student_data = site.data.members.phd_students %}
+  {% when 'Master' %}
+  {% assign student_data = site.data.members.ms_students %}
+  {% when 'Undergraduate' %}
+  {% assign student_data = site.data.members.ug_students %}
+  {% endcase %}
+
+  {% for member in student_data %}
+  <div class="card">
+    <!-- <div class="details-container">
+  <h2>{{ member.name }}</h2>
+  {% if member.type %} 
+  {{member.type }}
+  {% endif %}
+</div> -->
+
+    <figure class="flex-col bg-base-100">
+      <div
+        class="avatar inline-flex place-content-center place-items-start rounded-full bg-gradient-to-r from-cyan-500 to-blue-500">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}"
+          alt="{{ member.name }} profile image" class="w-full h-auto rounded-full"
+          onerror="this.src='{{ site.url }}{{ site.baseurl }}/images/teampic/dummy_profile.png'" />
+      </div>
+    </figure>
+    <div class="card-body">
+      <h2>{{ member.name }}</h2>
+      <p>{{ member.info }}</p>
+      <div class="icons">
+        {% if member.homepage %}
+        <a href="{{ member.homepage }}" target="_blank"><i class="fas fa-home pr-1 icon" style="color: black;"></i></a>
+        {% endif %}
+        {% if member.github %}
+        <a href="{{ member.github }}" target="_blank"><i class="fab fa-github icon" style="color: black;"></i></a>
+        {% endif %}
+        {% if member.google_scholar %}
+        <a href="{{ member.google_scholar }}" target="_blank"><i class="ai ai-google-scholar ai-lg icon"
+            style="color: black;"></i></a>
+        {% endif %}
+        {% if member.twitter %}
+        <a href="{{ member.twitter }}" target="_blank"><i class="fab fa-twitter icon" style="color: black;"></i></a>
+        {% endif %}
+      </div>
+      {% if member.interests %}
+      <div class="interests-box">
+        <ul class="interests-list">
+          {% for interest in member.interests %}
+          <li class="interest-item" title="{{ interest }}">{{ interest }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+  {% endfor %}
+</div>
+
+
+<div class="row" style="margin-bottom: 50px; margin-left: 40px; margin-right: 10px">
+
+  <h2 class="fancy-h2"> Alumni </h2>
+
+  <h4 style="text-align: left;">PhD Students</h4>
+  <div class="row">
+    {% assign student_data = site.data.alumni.phd_students %}
+    {% for member in student_data %}
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4">
+      <div class="card">
+        <!-- <div class="details-container">
+  <h2>{{ member.name }}</h2>
+  <ul style="overflow: hidden" class="no-indent">
+  {% if member.interests %}  
+      {% for interest in (member.interests) %}
+            <li> {{ interest }} </li>
+      {% endfor %}
+  {% endif %}  
+  </ul>
+</div> -->
+
+        <figure class="flex-col bg-base-100">
+          <div
+            class="avatar inline-flex place-content-center place-items-start rounded-full bg-gradient-to-r from-cyan-500 to-blue-500">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}"
+              alt="{{ member.name }} profile image" class="w-full h-auto rounded-full"
+              onerror="this.src='{{ site.url }}{{ site.baseurl }}/images/dummy_profile.png'" />
+          </div>
+        </figure>
+        <div class="card-body">
+          <h2>{{ member.name }}</h2>
+          <p>{{ member.year }}</p>
+          <p>{{ member.info }}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <h4 style="text-align: left; margin-bottom: 25px;">Undergraduate and Master Students</h4>
+    {% for member in site.data.alumni.yale_students %}
+    <p style="text-align: left;">
+      {{ member.name }}
+    </p>
+    {% endfor %}
+  </div>
+
+  <div class="col-sm-6 clearfix">
+    <h4 style="text-align: left; margin-bottom: 25px;">Visiting Students</h4>
+    {% for member in site.data.alumni.visiting_students %}
+    <p style="text-align: left;">
+      {{ member.name }}
+    </p>
+    {% endfor %}
+  </div>
+
+  <!-- </div> -->
+
+  <style>
+    .fancy-h2 {
+      text-align: left;
+      margin-top: 20px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 2.5em;
+      color: #1A90E2;
+      border-bottom: 2px solid rgba(26, 144, 226, 0.5);
+      padding-bottom: 10px;
+    }
+  </style>
