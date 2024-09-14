@@ -1,6 +1,9 @@
 - name: Martin Riddell
   photo: martin_riddell.jpg
   info: Undergraduate Student
+  interests:
+    - Code Generation
+    - Evaluation of Code Generation Models
 
 - name: Katherine He
   photo: katherine_he.jpg
@@ -16,6 +19,9 @@
   github: https://github.com/jaketae/
   twitter: https://twitter.com/jaesungtae
   google_scholar: https://scholar.google.com/citations?user=6qnAUTMAAAAJ
+  interests:
+    - Generation
+    - Efficiency
 
 - name: Nathan Shan
   photo: nathan_shan.jpg
