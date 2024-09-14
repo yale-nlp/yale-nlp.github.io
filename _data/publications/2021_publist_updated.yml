@@ -1,0 +1,137 @@
+- url: https://www.semanticscholar.org/paper/6aaec722a90eee0185d4bbfebbcd4f228ed1577f
+  title: '"Cross-Document Language Modeling"'
+  venue: EMNLP 2021
+  year: 2021
+  authors:
+    - Avi Caciularu
+    - Arman Cohan
+    - Iz Beltagy
+    - Matthew E. Peters
+    - Arie Cattan
+    - Ido Dagan.
+  project: other
+  display: 1
+  category:
+    - foundation models
+    - training methods
+    - document understanding
+  paper_link: https://arxiv.org/pdf/2101.00406.pdf
+  arxiv_url: Goldfish
+- url: https://www.semanticscholar.org/paper/2ee03e28208a9310a9be4032c2b04ebdddb83cc7
+  title: '"FLEX: Unifying Evaluation for Few-Shot NLP"'
+  venue: NeurIPS 2021
+  year: 2021
+  authors:
+    - Jonathan Bragg
+    - Arman Cohan
+    - Kyle Lo
+    - Iz Beltagy.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - training methods
+    - foundation models
+  paper_link: https://arxiv.org/pdf/2107.07170.pdf
+  arxiv_url: A Survey on Recognizing Textual Entailment as an NLP Evaluation
+- url: https://arxiv.org/pdf/2105.03011
+  title: '"A Dataset of Information-Seeking Questions and Answers Anchored in Research Papers"'
+  venue: NAACL 2021
+  year: 2021
+  authors:
+    - Pradeep Dasigi
+    - Kyle Lo
+    - Iz Beltagy
+    - Arman Cohan
+    - Noah A. Smith
+    - Matt Gardner.
+  project: other
+  display: 1
+  category:
+    - document understanding
+    - evaluation
+    - training methods
+  paper_link: https://arxiv.org/pdf/2105.03011
+  arxiv_url: https://arxiv.org/pdf/2105.03011
+- url: https://www.semanticscholar.org/paper/69285c9040c1356272752499b7e1e53ef25ac008
+  title: '"Beyond Paragraphs: NLP for Long Sequences"'
+  venue: NAACL 2021
+  year: 2021
+  authors:
+    - Iz Beltagy
+    - Arman Cohan
+    - Hannaneh Hajishirzi
+    - Sewon Min
+    - Matthew E. Peters.
+  project: other
+  display: 1
+  category:
+    - document understanding
+    - foundation models
+    - evaluation
+  paper_link: https://aclanthology.org/2021.naacl-main.365.pdf
+  arxiv_url: Do Long-Range Language Models Actually Use Long-Range Context?
+- url: https://www.semanticscholar.org/paper/387d17e3bc44ed4f81de25fc27fa1b8ab7d6bc8d
+  title: '"Simplified Data Wrangling with ir_datasets"'
+  venue: SIGIR 2021
+  year: 2021
+  authors:
+    - Sean MacAvaney
+    - Andrew Yates
+    - Sergey Feldman
+    - Doug Downey
+    - Arman Cohan
+    - Nazli Goharian.
+  project: other
+  display: 1
+  category:
+    - document understanding
+    - specialized domains
+    - evaluation
+  paper_link: https://arxiv.org/pdf/2103.02280.pdf
+  arxiv_url: Simplified Data Wrangling with ir_datasets
+- url: https://www.semanticscholar.org/paper/30824ba1ee1f6ce6bc7e9da84bc1b5bb683e7083
+  title: '"LongChecker: Improving scientific claim verification by modeling full-abstract context"'
+  venue: Preprint
+  year: 2021
+  authors:
+    - David Wadden
+    - Kyle Lo
+    - Lucy Lu Wang
+    - Arman Cohan
+    - Iz Beltagy
+    - Hannaneh Hajishirzi.
+  project: other
+  display: 1
+  category:
+    - document understanding
+    - evaluation
+    - specialized domains
+  arxiv_url: MultiVerS
+- url: https://www.semanticscholar.org/paper/f25a978da0f34c98db85c8c6f1613570b9c8a841
+  title: '"Overview of the Second Workshop on Scholarly Document Processing"'
+  venue: Scholarly Document Processing workshop
+  year: 2021
+  authors:
+    - Iz Beltagy
+    - Arman Cohan
+    - Guy Feigenblat
+    - Dayne Freitag
+    - Tirthankar Ghosal
+    - Keith B. Hall
+    - Drahomira Herrmannova
+    - Petr Knoth
+    - Kyle Lo
+    - Philipp Mayr
+    - Robert M. Patton
+    - Michal Shmueli-Scheuer
+    - A. Waard
+    - Kuansan Wang
+    - Lucy Lu Wang.
+  project: other
+  display: 1
+  category:
+    - document understanding
+    - evaluation
+    - specialized domains
+  arxiv_url: Finding Pragmatic Differences Between Disciplines

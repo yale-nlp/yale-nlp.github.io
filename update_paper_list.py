@@ -122,6 +122,9 @@ def main():
 
         paper["display"] = 1
         filepath = f"_data/publications/{year}_publist.yml"
+        if not os.path.exists(filepath):
+            with open(filepath, "w") as f:
+                f.write("")
         paper_list = load_yaml_file(filepath)
         if not paper_list:
             paper_list = []
