@@ -1,28 +1,38 @@
+- name: Yanan Zheng
+  photo: yanan_zheng.png
+  info: Postdoctoral Associate
+  homepage: https://scholar.google.com/citations?user=0DqJ8eIAAAAJ
+  google_scholar: https://scholar.google.com/citations?user=0DqJ8eIAAAAJ
+  interests:
+    - Understanding LLMs
+    - Alignment
+    - Reasoning
+
 - name: Simeng Han
   photo: simeng_han.png
-  info: Fourth-year PhD Student
+  info: Ph.D. Student
   homepage: https://shirleyhan6.github.io/
   github: https://github.com/ShirleyHan6
   google_scholar: https://scholar.google.com/citations?user=D0dpploAAAAJ
   twitter: https://twitter.com/HanSineng
   interests:
     - Reasoning
-    - Knowledge Graphs
 
 - name: Yixin Liu
   photo: yixin_liu.jpeg
-  info: Fourth-year PhD Student
+  info: Ph.D. Student
   homepage: https://yixinl7.github.io/
   github: https://github.com/yixinL7
   google_scholar: https://scholar.google.com/citations?user=sFtxaMkAAAAJ
   twitter: https://twitter.com/YixinLiu17
   interests:
-    - Summarization and Generation
-    - Evaluation of NLG systems
+    - NLG
+    - Evaluation
+    - Alignment
 
 - name: Yilun Zhao
   photo: yilun_zhao.jpeg
-  info: Second-year PhD Student
+  info: Ph.D. Student
   homepage: https://yilunzhao.github.io/
   github: https://github.com/yilunzhao
   google_scholar: https://scholar.google.com/citations?&user=8YKT31kAAAAJ
@@ -33,7 +43,7 @@
 
 - name: Kaili Liu
   photo: kaili_liu.png
-  info: Second-year PhD Student
+  info: Ph.D. Student
   homepage: https://gkml.netlify.app/
   github: https://github.com/pybeebee
   google_scholar: https://scholar.google.com/citations?user=KKgyAdgAAAAJ
@@ -44,7 +54,7 @@
 
 - name: Alan Li
   photo: alan_li.jpg
-  info: First-year PhD Student
+  info: Ph.D. Student
   homepage: https://lihaoxin2020.github.io
   github: https://github.com/lihaoxin2020
   google_scholar: https://scholar.google.com/citations?hl=en&user=kj7i2uEAAAAJ
@@ -54,3 +64,15 @@
     - Multimodality
     - Information Retrieval
     - Long Context Reasoning
+
+- name: Jacob Dunefsky
+  photo: jacob_dunefsky.jpeg
+  info: Ph.D. Student
+  homepage: https://jacobdunefsky.github.io/
+  github: https://github.com/jacobdunefsky
+  google_scholar: https://scholar.google.com/citations?user=EIy0uooAAAAJ&hl=en
+  twitter: https://x.com/jacobdunefsky
+  interests:
+    - Mechanistic Explanation of LLMs
+    - Interpretability
+    - Steering LLMs
