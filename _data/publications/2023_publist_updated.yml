@@ -29,16 +29,34 @@
     - Simeng Han
     - Xiangru Tang
     - Yumo Xu
-    - Arman Cohan
     - Dragomir R. Radev.
+    - Arman Cohan
   project: other
   display: 1
   category:
     - document understanding
     - evaluation
     - foundation models
-  paper_link: https://arxiv.org/pdf/2305.14303.pdf
-  arxiv_url: Machamp
+  paper_link: https://aclanthology.org/2023.emnlp-main.74/
+  arxiv_url: https://arxiv.org/abs/2305.14303
+- url: https://www.semanticscholar.org/paper/0d68e244faa9a5944228b571d91bc7bed88083cd
+  title: '"SciRepEval: A Multi-Format Benchmark for Scientific Document Representations"'
+  venue: EMNLP 2023
+  year: 2023
+  authors:
+    - Amanpreet Singh
+    - Mike D'Arcy
+    - Arman Cohan
+    - Doug Downey
+    - Sergey Feldman.
+  project: other
+  display: 1
+  category:
+    - document understanding
+    - evaluation
+    - training methods
+  paper_link: https://arxiv.org/pdf/2211.13308.pdf
+  arxiv_url: SPECTER
 - url: https://www.semanticscholar.org/paper/08dd8304a74f6c98e3d592a565458549ddbb3cd6
   title: '"Enhancing Text-to-SQL Capabilities of Large Language Models: A Study on Prompt Design Strategies"'
   venue: EMNLP 2023 Findings
@@ -77,27 +95,6 @@
     - evaluation
   paper_link: https://arxiv.org/pdf/2310.11191.pdf
   arxiv_url: Medical Text Simplification
-- url: https://www.semanticscholar.org/paper/327e0290fd71609bfc1a30478a95f690668fe622
-  title: '"Enhancing Few-shot Text-to-SQL Capabilities of Large Language Models: A Study on Prompt Design Strategies"'
-  venue: EMNLP 2023 Findings
-  year: 2023
-  authors:
-    - Linyong Nan
-    - Yilun Zhao
-    - Weijin Zou
-    - Narutatsu Ri
-    - Jaesung Tae
-    - E. Zhang
-    - Arman Cohan
-    - Dragomir R. Radev.
-  project: other
-  display: 1
-  category:
-    - foundation models
-    - training methods
-    - document understanding
-  paper_link: https://arxiv.org/pdf/2305.12586.pdf
-  arxiv_url: Prompt Mining for Language-based Human Mobility Forecasting
 - url: https://www.semanticscholar.org/paper/5f323abd909a2b364bfd33c5ba0b9b6b4e4d2fcc
   title: '"Open Domain Multi-document Summarization: A Comprehensive Study of Model Brittleness under Retrieval"'
   venue: EMNLP 2023 Findings
@@ -136,25 +133,7 @@
     - evaluation
     - foundation models
   paper_link: https://arxiv.org/pdf/2305.14987.pdf
-  arxiv_url: Investigating Table-to-Text Generation Capabilities of LLMs in Real-World Information Seeking Scenarios
-- url: https://www.semanticscholar.org/paper/99b880398677a04c5442d5afb38d8b68d65151b9
-  title: '"Investigating Table-to-Text Generation Capabilities of Large Language Models in Real-World Information Seeking Scenarios"'
-  venue: EMNLP 2023 industry track
-  year: 2023
-  authors:
-    - Yilun Zhao
-    - Haowei Zhang
-    - Shengyun Si
-    - Linyong Nan
-    - Xiangru Tang
-    - Arman Cohan.
-  project: other
-  display: 1
-  category:
-    - document understanding
-    - foundation models
-    - evaluation
-  arxiv_url: Investigating Table-to-Text Generation Capabilities of LLMs in Real-World Information Seeking Scenarios
+  arxiv_url: https://arxiv.org/pdf/2305.14987.pdf
 - url: https://www.semanticscholar.org/paper/f3ca1504ab4cc14f491f07e5a8b38d93890551e1
   title: '"Peek Across: Improving Multi-Document Modeling via Cross-Document Question-Answering"'
   venue: ACL 2023
@@ -271,26 +250,6 @@
     - foundation models
     - language modeling
   arxiv_url: Adversarial Attacks and Defenses for Social Network Text Processing Applications
-- url: https://www.semanticscholar.org/paper/dcba37400ad86aaf0d47e5cdfa2fcfa98f089401
-  title: '"When do Generative Query and Document Expansions Fail? A Comprehensive Study Across Methods, Retrievers, and Datasets"'
-  venue: Findings 2023
-  year: 2023
-  authors:
-    - Orion Weller
-    - Kyle Lo
-    - David Wadden
-    - Dawn J Lawrie
-    - Benjamin Van Durme
-    - Arman Cohan
-    - Luca Soldaini.
-  project: other
-  display: 1
-  category:
-    - evaluation
-    - document understanding
-    - specialized domains
-  paper_link: https://aclanthology.org/2024.findings-eacl.134.pdf
-  arxiv_url: When do Generative Query and Document Expansions Fail? A Comprehensive Study Across Methods, Retrievers, and Datasets
 - url: https://www.semanticscholar.org/paper/9e3003e5c16aba62bdffd79347e3d10b6b12da74
   title: '"ReFIT: Relevance Feedback from a Reranker during Inference"'
   venue: Preprint

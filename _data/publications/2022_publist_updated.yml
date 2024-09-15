@@ -35,44 +35,6 @@
     - specialized domains
   paper_link: https://arxiv.org/pdf/2210.13777.pdf
   arxiv_url: Robust Claim Verification Through Fact Detection
-- url: https://www.semanticscholar.org/paper/a51fbb55abd0337d2a8d642c410ce07f8b495c51
-  title: '"Open Domain Multi-document Summarization: A Comprehensive Study of Model Brittleness under Retrieval"'
-  venue: EMNLP 2022
-  year: 2022
-  authors:
-    - John Giorgi
-    - Luca Soldaini
-    - Bo Wang
-    - Gary Bader
-    - Kyle Lo
-    - Lucy Lu Wang
-    - Arman Cohan.
-  project: other
-  display: 1
-  category:
-    - evaluation
-    - training methods
-    - document understanding
-  paper_link: https://arxiv.org/pdf/2212.10526.pdf
-  arxiv_url: Open Domain Multi-document Summarization
-- url: https://www.semanticscholar.org/paper/0d68e244faa9a5944228b571d91bc7bed88083cd
-  title: '"SciRepEval: A Multi-Format Benchmark for Scientific Document Representations"'
-  venue: EMNLP 2022
-  year: 2022
-  authors:
-    - Amanpreet Singh
-    - Mike D'Arcy
-    - Arman Cohan
-    - Doug Downey
-    - Sergey Feldman.
-  project: other
-  display: 1
-  category:
-    - document understanding
-    - evaluation
-    - training methods
-  paper_link: https://arxiv.org/pdf/2211.13308.pdf
-  arxiv_url: SPECTER
 - url: https://www.semanticscholar.org/paper/7ff271856b6719cbeb5c5f1c7c46dc185b945d51
   title: '"Generating Scientific Claims for Zero-Shot Scientific Fact Checking"'
   venue: ACL 2022
@@ -113,7 +75,7 @@
   arxiv_url: Improving the Generalizability of Depression Detection by Leveraging Clinical Questionnaires
 - url: https://www.semanticscholar.org/paper/037110f8e99488f9b8f6e962da0a912d927695e5
   title: '"Zero- and Few-Shot NLP with Pretrained Language Models"'
-  venue: ACL 2022
+  venue: ACL 2022, tutorial
   year: 2022
   authors:
     - Iz Beltagy
