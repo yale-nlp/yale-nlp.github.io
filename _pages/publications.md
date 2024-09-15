@@ -426,8 +426,6 @@ mark {
 {% endfor %}
 </ul>
 
-</div>
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const categoryCheckboxes = document.querySelectorAll('.category-checkbox');
