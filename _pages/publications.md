@@ -357,8 +357,8 @@ mark {
 <div id="text-filter">
   <h5>Search:</h5>
   <input type="text" id="search-input" placeholder="Filter by title or author">
-    <!-- <input type="checkbox" id="first-last-author">
-    <label for="first-last-author">First/Last Author Only</label> -->
+    <input type="checkbox" id="first-last-author" style="display: none;">
+    <label for="first-last-author" style="display: none;">First/Last Author Only</label>
 </div>
 
 <div id="publication-list" class="justified-content">
