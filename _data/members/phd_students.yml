@@ -66,7 +66,7 @@
     - Long Context Reasoning
 
 - name: Jacob Dunefsky
-  photo: jacob_dunefsky.jpeg
+  photo: jacob_dunefsky.jpg
   info: Ph.D. Student
   homepage: https://jacobdunefsky.github.io/
   github: https://github.com/jacobdunefsky
@@ -76,3 +76,14 @@
     - Mechanistic Explanation of LLMs
     - Interpretability
     - Steering LLMs
+
+- name: Jujie Wu
+  photo: junjie_wu.png
+  info: Visiting Ph.D. Student
+  homepage: https://wujunjie1998.github.io/
+  github: https://github.com/wujunjie1998
+  google_scholar: https://scholar.google.com.hk/citations?hl=zh-CN&pli=1&user=BuV0LxwAAAAJ
+  twitter: https://twitter.com/jieeijjie
+  interests:
+    - LLM Evaluation
+    - Robustness
