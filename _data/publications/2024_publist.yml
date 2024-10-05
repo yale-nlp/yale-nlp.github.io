@@ -1,3 +1,21 @@
+- url: https://aclanthology.org/2024.acl-long.852/
+  title: "DocMath-Eval: Evaluating Math Reasoning Capabilities of LLMs in Understanding Long and Specialized Documents"
+  venue: ACL 2024
+  year: 2024
+  authors:
+    - Yilun Zhao
+    - Yitao Long
+    - Hongjun Liu
+    - Ryo Kamoi
+    - Linyong Nan
+    - Lyuhao Chen
+    - Yixin Liu
+    - Xiangru Tang
+    - Rui Zhang
+    - Arman Cohan
+  project: other
+  paper_link: https://aclanthology.org/2024.acl-long.852/
+  display: 1
 - url: https://arxiv.org/pdf/2407.13709"
   title: "Understanding Reference Policies in Direct Preference Optimization"
   venue: Preprint
@@ -29,7 +47,6 @@
     - evaluation
     - code generation
   publication-type: journal
-
 - url: https://www.semanticscholar.org/paper/6bf28ebbb8df92582bc53a7fe49016e0caa4c074
   title:
     Quantifying Contamination in Evaluating Code Generation Capabilities of Language

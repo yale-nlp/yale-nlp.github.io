@@ -180,6 +180,28 @@
     - evaluation
     - document understanding
   paper_link: null
+- url: https://aclanthology.org/2024.acl-long.852/
+  title: '"DocMath-Eval: Evaluating Math Reasoning Capabilities of LLMs in Understanding Long and Specialized Documents"'
+  venue: ACL 2024
+  year: 2024
+  authors:
+    - Yilun Zhao
+    - Yitao Long
+    - Hongjun Liu
+    - Ryo Kamoi
+    - Linyong Nan
+    - Lyuhao Chen
+    - Yixin Liu
+    - Xiangru Tang
+    - Rui Zhang
+    - Arman Cohan
+  project: other
+  paper_link: https://aclanthology.org/2024.acl-long.852/
+  category:
+    - evaluation
+    - long-context
+    - document understanding
+  display: 1
 - url: https://arxiv.org/abs/2311.09797
   title: '"FinanceMath: A Knowledge-Intensive Math Reasoning Dataset in Finance Domains"'
   venue: ACL 2024
