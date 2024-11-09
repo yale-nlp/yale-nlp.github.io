@@ -9,6 +9,9 @@ from langchain.utilities import ArxivAPIWrapper
 from langchain_openai import ChatOpenAI
 from requests.sessions import Session
 from tqdm import tqdm
+from dotenv import load_dotenv
+
+load_dotenv()
 
 S2_API_KEY = os.environ.get("S2_API_KEY")
 
@@ -89,7 +92,7 @@ def get_paper_info(session, s2_id, title):
 
 
 def get_categories(title, abstract):
-    chat = ChatOpenAI(model="gpt-4o-mini-2024-07-18")
+    chat = ChatOpenAI(model="gpt-4o-mini")
     prompt = ChatPromptTemplate.from_template(
         "Given the following paper title and abstract, select up to 3 most relevant categories from this list: "
         "[ foundation models, evaluation, training methods, interpretability, code generation, document understanding, specialized domains, LM agents ]\n"

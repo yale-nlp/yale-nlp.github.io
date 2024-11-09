@@ -34,33 +34,6 @@
   paper_link: https://aclanthology.org/2024.emnlp-main.1163.pdf
   display: 1
 
-- url: https://www.semanticscholar.org/paper/2ecfe9a74d1496ac2794fd867a39c2897bcdf278
-  title: 'MIMIR: A Customizable Agent Tuning Platform for Enhanced Scientific Applications'
-  venue: EMNLP 2024 Demo
-  year: 2024
-  authors: Xiangru Tang, Chunyuan Deng, Hanminwang Hanminwang, Haoran Wang, Yilun Zhao, Wenqi Shi, Yi Fung, Wangchunshu Zhou, Jiannan Cao, Heng Ji, Arman Cohan, Mark Gerstein.
-  project: other
-  paper_link: https://aclanthology.org/2024.emnlp-demo.49.pdf
-  display: 1
-
-- url: https://www.semanticscholar.org/paper/c087441f09770fba17f1a923bae19849069e2c50
-  title: 'OpenT2T: An Open-Source Toolkit for Table-to-Text Generation'
-  venue: EMNLP 2024 Demo
-  year: 2024
-  authors: Haowei Zhang, Shengyun Si, Yilun Zhao, Lujing Xie, Zhijian Xu, Lyuhao Chen, Linyong Nan, Pengcheng Wang, Xiangru Tang, Arman Cohan.
-  project: other
-  paper_link: https://aclanthology.org/2024.emnlp-demo.27.pdf
-  display: 1
-
-- url: https://www.semanticscholar.org/paper/f4a08ffe9e63db6f20cdb8fd2c90b54d5e3fe018
-  title: 'TAIL: A Toolkit for Automatic and Realistic Long-Context Large Language Model Evaluation'
-  venue: EMNLP 2024 Demo
-  year: 2024
-  authors: Gefei Gu, Yilun Zhao, Ruoxi Ning, Yanan Zheng, Arman Cohan.
-  project: other
-  paper_link: https://aclanthology.org/2024.emnlp-demo.21.pdf
-  display: 1
-
 - url: https://www.semanticscholar.org/paper/3b0acd330d789d2cc71e5b76a2595770b1ef4795
   title: 'P-FOLIO: Evaluating and Improving Logical Reasoning with Abundant Human-Written Reasoning Chains'
   venue: EMNLP 2024 Findings
@@ -97,6 +70,33 @@
   paper_link: https://aclanthology.org/2024.emnlp-industry.75.pdf
   display: 1
 
+- url: https://www.semanticscholar.org/paper/2ecfe9a74d1496ac2794fd867a39c2897bcdf278
+  title: 'MIMIR: A Customizable Agent Tuning Platform for Enhanced Scientific Applications'
+  venue: EMNLP 2024 Demo
+  year: 2024
+  authors: Xiangru Tang, Chunyuan Deng, Hanminwang Hanminwang, Haoran Wang, Yilun Zhao, Wenqi Shi, Yi Fung, Wangchunshu Zhou, Jiannan Cao, Heng Ji, Arman Cohan, Mark Gerstein.
+  project: other
+  paper_link: https://aclanthology.org/2024.emnlp-demo.49.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/c087441f09770fba17f1a923bae19849069e2c50
+  title: 'OpenT2T: An Open-Source Toolkit for Table-to-Text Generation'
+  venue: EMNLP 2024 Demo
+  year: 2024
+  authors: Haowei Zhang, Shengyun Si, Yilun Zhao, Lujing Xie, Zhijian Xu, Lyuhao Chen, Linyong Nan, Pengcheng Wang, Xiangru Tang, Arman Cohan.
+  project: other
+  paper_link: https://aclanthology.org/2024.emnlp-demo.27.pdf
+  display: 1
+
+- url: https://www.semanticscholar.org/paper/f4a08ffe9e63db6f20cdb8fd2c90b54d5e3fe018
+  title: 'TAIL: A Toolkit for Automatic and Realistic Long-Context Large Language Model Evaluation'
+  venue: EMNLP 2024 Demo
+  year: 2024
+  authors: Gefei Gu, Yilun Zhao, Ruoxi Ning, Yanan Zheng, Arman Cohan.
+  project: other
+  paper_link: https://aclanthology.org/2024.emnlp-demo.21.pdf
+  display: 1
+  
 - url: https://arxiv.org/pdf/2402.07459.pdf
   title: Observable Propagation, Uncovering Feature Vectors in Transformers
   venue: ICML 2024
