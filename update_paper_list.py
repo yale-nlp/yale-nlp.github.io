@@ -12,7 +12,7 @@ from tqdm import tqdm
 def save_to_yaml(data, file_path):
     with open(file_path, "w") as file:
         for item in data:
-            yaml.dump([item], file, default_flow_style=False, sort_keys=False)
+            yaml.dump([item], file, default_flow_style=False, sort_keys=False, width=float("inf"))
             file.write("\n")  # separator for better readability
 
 
@@ -97,6 +97,7 @@ def main():
         paper["authors"] = (
             ", ".join([author["name"] for author in paper["authors"]]) + "."
         )
+        paper["title"] = " ".join(paper["title"].split())
         del paper["paperId"]
         paper["project"] = "other"
 
