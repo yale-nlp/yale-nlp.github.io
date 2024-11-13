@@ -15,11 +15,10 @@ We are aiming to hire one Ph.D. student for Fall 2025.
 
 **How to apply**
 
-- Please apply to <a href="http://yale.edu/graduateschool/admissions/" target="_blank">Yale Computer Science PhD Program</a>
-- Email me your CV and research interests with subject line starting with "[fall2025]"
-- List me as a faculty of interest in your application
+- Please apply to <a href="http://yale.edu/graduateschool/admissions/" target="_blank">Yale Computer Science PhD Program and list me as Faculty of Interest on your Application</a>
+- You don't need to contact me prior to applying, but feel free to email me your CV and research interests with subject line starting with "[fall2025]"
 
-**Note:** Due to the overwhelming number of emails, I probably won't be able to respond to emails.
+**Note:** Due to the overwhelming number of emails, while I'll read them, I probably won't be able to respond to emails.
 
 
 <h3> Masters students </h3>
