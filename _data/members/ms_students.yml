@@ -9,15 +9,18 @@
 - name: Chuhan Li
   photo: chuhan_li.jpg
   info: M.S. Student
+  homepage: https://leechuh.github.io/
+  google_scholar: https://scholar.google.com/citations?user=wRdg5fQAAAAJ&hl=en
   interests:
-    - Multi-modal information processing
-    - AI for Science
+    - NLP in expert domain
+    - Multimodality
     - Reasoning
 
 - name: Ziyao Shangguan
   photo: ziyao_shangguan.jpeg
   info: M.S. Student
-  homepage: www.linkedin.com/in/zshangguan
+  homepage: https://ziyaosg.github.io/
+  google_scholar: https://scholar.google.com/citations?user=iulLFb4AAAAJ&hl=en
   github: https://github.com/ziyaosg
   interests:
     - Multi-modal Information Processing
