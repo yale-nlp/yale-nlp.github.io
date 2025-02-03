@@ -363,12 +363,14 @@ mark {
 
 <div id="publication-list" class="justified-content">
 
-{% assign years = "2024,2023,2022,2021,2020,2019" | split: ',' %}
+{% assign years = "2025,2024,2023,2022,2021,2020,2019" | split: ',' %}
 
 {% for year in years %}
 
 {% assign publication_data = "" %}
 {% case year %}
+  {% when '2025' %}
+    {% assign publication_data = site.data.publications.2025_publist_updated %}
   {% when '2024' %}
     {% assign publication_data = site.data.publications.2024_publist_updated %}
   {% when '2023' %}
@@ -425,6 +427,10 @@ mark {
 {% endfor %}
 {% endfor %}
 </ul>
+<div class="disclaimer" style="margin: 20px 0; padding: 15px; background-color: #f8f9fa; border-left: 4px solid #6c757d; font-size: 0.9em;">
+    <p style="margin: 0;">Note: This publication list is partially automatically derived from Semantic Scholar. While we make efforts to manually verify and correct entries, some errors may still be present. </p>
+</div>
+
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
