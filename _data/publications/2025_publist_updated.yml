@@ -1,0 +1,153 @@
+- url: https://www.semanticscholar.org/paper/004cb08a2dae996f27779c55ded89fa2ca1427ba
+  title: '"Understanding Reference Policies in Direct Preference Optimization"'
+  venue: NAACL 2025, findings
+  year: 2025
+  authors:
+    - Yixin Liu
+    - Pengfei Liu
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - reinforcement learning
+    - preference learning
+    - document understanding
+  paper_link: https://arxiv.org/pdf/2407.13709.pdf
+  arxiv_url: Understanding Reference Policies in Direct Preference Optimization
+- url: https://www.semanticscholar.org/paper/eac4833ee2b22b7ca669ff8dbcb77a0310452bca
+  title: '"TOMATO: Assessing Visual Temporal Reasoning Capabilities in Multimodal Foundation Models"'
+  venue: ICLR 2025
+  year: 2025
+  authors:
+    - Ziyao Shangguan
+    - Chuhan Li
+    - Yuxuan Ding
+    - Yanan Zheng
+    - Yilun Zhao
+    - Tesca Fitzgerald
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - multimodal
+    - vision
+    - evaluation
+  paper_link: https://arxiv.org/pdf/2410.23266.pdf
+  arxiv_url: TOMATO
+- url: https://www.semanticscholar.org/paper/572cc41fc03ad48f8d1a848a6f33a54f20d51b5e
+  title: '"ReIFE: Re-evaluating Instruction-Following Evaluation"'
+  venue: NAACL 2025
+  year: 2025
+  authors:
+    - Yixin Liu
+    - Kejian Shi
+    - Alexander Fabbri
+    - Yilun Zhao
+    - Peifeng Wang
+    - Chien-Sheng Wu
+    - Shafiq Joty
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - foundation models
+    - document understanding
+  paper_link: https://arxiv.org/pdf/2410.07069.pdf
+  arxiv_url: Towards Better Evaluation of Instruction-Following
+- url: https://www.semanticscholar.org/paper/77e07e5542b450a2ee3193993c552700ad9ba82d
+  title: '"FollowIR: Evaluating and Teaching Information Retrieval Models to Follow Instructions"'
+  venue: NAACL 2025
+  year: 2024
+  authors:
+    - Orion Weller
+    - Benjamin Chang
+    - Sean MacAvaney
+    - Kyle Lo
+    - Arman Cohan
+    - Benjamin Van Durme
+    - Dawn Lawrie
+    - Luca Soldaini.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - training methods
+    - document understanding
+  paper_link: https://arxiv.org/pdf/2403.15246.pdf
+  arxiv_url: FollowIR
+- url: https://www.semanticscholar.org/paper/5182f0746ba2d420f943e91e65235650a896bf5a
+  title: '"ChemAgent: Self-updating Library in Large Language Models Improves Chemical Reasoning"'
+  venue: ICLR 2025
+  year: 2025
+  authors:
+    - Xiangru Tang
+    - Tianyu Hu
+    - Muyang Ye
+    - Yanjun Shao
+    - Xunjian Yin
+    - Siru Ouyang
+    - Wangchunshu Zhou
+    - Pan Lu
+    - Zhuosheng Zhang
+    - Yilun Zhao
+    - Arman Cohan
+    - Mark Gerstein.
+  project: other
+  display: 1
+  category:
+    - specialized domains
+    - document understanding
+    - LLM agents
+  paper_link: https://arxiv.org/pdf/2501.06590.pdf
+  arxiv_url: ChemAgent
+- url: https://www.semanticscholar.org/paper/44d46ed197aedcf2344f0b77250cbd6211c9c0a8
+  title: '"MMVU: Measuring Expert-Level Multi-Discipline Video Understanding"'
+  venue: Preprint
+  year: 2025
+  authors:
+    - Yilun Zhao
+    - Lujing Xie
+    - Haowei Zhang
+    - Guo Gan
+    - Yitao Long
+    - Zhiyuan Hu
+    - Tongyan Hu
+    - Weiyuan Chen
+    - Chuhan Li
+    - Junyang Song
+    - Zhijian Xu
+    - Chengye Wang
+    - Weifeng Pan
+    - Ziyao Shangguan
+    - Xiangru Tang
+    - Zhenwen Liang
+    - Yixin Liu
+    - Chen Zhao
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - foundation models
+    - evaluation
+    - specialized domains
+  paper_link: https://arxiv.org/pdf/2501.12380.pdf
+  arxiv_url: A Unified Model for Video Understanding and Knowledge Embedding with Heterogeneous Knowledge Graph Dataset
+- url: https://www.semanticscholar.org/paper/535886bda037af78b4ccc9eb53f6ebfd0efa4be9
+  title: '"RouterRetriever: Exploring the Benefits of Routing over Multiple Expert Embedding Models"'
+  venue: AAAI 2025
+  year: 2025
+  authors:
+    - Hyunji Lee
+    - Luca Soldaini
+    - Arman Cohan
+    - Minjoon Seo
+    - Kyle Lo.
+  project: other
+  display: 1
+  category:
+    - document understanding
+    - evaluation
+    - specialized domains
+  paper_link: https://arxiv.org/pdf/2409.02685.pdf
+  arxiv_url: RouterRetriever

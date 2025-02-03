@@ -13,6 +13,7 @@
   category:
     - document understanding
     - evaluation
+    - LLM agents
   paper_link: https://arxiv.org/pdf/2305.14772.pdf
   arxiv_url: A Question Answering Framework for Decontextualizing User-facing Snippets from Scientific Documents
 - url: https://www.semanticscholar.org/paper/beeaa3b353f0afeb2387f8336c052042a9b78cc0
@@ -29,34 +30,16 @@
     - Simeng Han
     - Xiangru Tang
     - Yumo Xu
-    - Dragomir R. Radev.
     - Arman Cohan
+    - Dragomir R. Radev.
   project: other
   display: 1
   category:
     - document understanding
     - evaluation
     - foundation models
-  paper_link: https://aclanthology.org/2023.emnlp-main.74/
-  arxiv_url: https://arxiv.org/abs/2305.14303
-- url: https://www.semanticscholar.org/paper/0d68e244faa9a5944228b571d91bc7bed88083cd
-  title: '"SciRepEval: A Multi-Format Benchmark for Scientific Document Representations"'
-  venue: EMNLP 2023
-  year: 2023
-  authors:
-    - Amanpreet Singh
-    - Mike D'Arcy
-    - Arman Cohan
-    - Doug Downey
-    - Sergey Feldman.
-  project: other
-  display: 1
-  category:
-    - document understanding
-    - evaluation
-    - training methods
-  paper_link: https://arxiv.org/pdf/2211.13308.pdf
-  arxiv_url: SPECTER
+  paper_link: https://arxiv.org/pdf/2305.14303.pdf
+  arxiv_url: Machamp
 - url: https://www.semanticscholar.org/paper/08dd8304a74f6c98e3d592a565458549ddbb3cd6
   title: '"Enhancing Text-to-SQL Capabilities of Large Language Models: A Study on Prompt Design Strategies"'
   venue: EMNLP 2023 Findings
@@ -73,10 +56,10 @@
   project: other
   display: 1
   category:
-    - document understanding
-    - evaluation
-    - training methods
-  arxiv_url: https://arxiv.org/pdf/2305.12586
+    - "- foundation models"
+    - "- training methods"
+    - "- document understanding"
+  arxiv_url: Prompt Mining for Language-based Human Mobility Forecasting
 - url: https://www.semanticscholar.org/paper/27ce67db279f25a6349dfd2cbd2379364a173438
   title: '"Medical Text Simplification: Optimizing for Readability with Unlikelihood Training and Reranked Beam Search Decoding"'
   venue: EMNLP 2023 Findings
@@ -91,10 +74,31 @@
   display: 1
   category:
     - specialized domains
-    - training methods
+    - document understanding
     - evaluation
   paper_link: https://arxiv.org/pdf/2310.11191.pdf
   arxiv_url: Medical Text Simplification
+- url: https://www.semanticscholar.org/paper/327e0290fd71609bfc1a30478a95f690668fe622
+  title: '"Enhancing Few-shot Text-to-SQL Capabilities of Large Language Models: A Study on Prompt Design Strategies"'
+  venue: EMNLP 2023 Findings
+  year: 2023
+  authors:
+    - Linyong Nan
+    - Yilun Zhao
+    - Weijin Zou
+    - Narutatsu Ri
+    - Jaesung Tae
+    - E. Zhang
+    - Arman Cohan
+    - Dragomir R. Radev.
+  project: other
+  display: 1
+  category:
+    - "- foundation models"
+    - "- evaluation"
+    - "- document understanding"
+  paper_link: https://arxiv.org/pdf/2305.12586.pdf
+  arxiv_url: Prompt Mining for Language-based Human Mobility Forecasting
 - url: https://www.semanticscholar.org/paper/5f323abd909a2b364bfd33c5ba0b9b6b4e4d2fcc
   title: '"Open Domain Multi-document Summarization: A Comprehensive Study of Model Brittleness under Retrieval"'
   venue: EMNLP 2023 Findings
@@ -110,9 +114,9 @@
   project: other
   display: 1
   category:
-    - "- evaluation"
-    - "- training methods"
-    - "- document understanding"
+    - document understanding
+    - evaluation
+    - training methods
   paper_link: https://arxiv.org/pdf/2212.10526.pdf
   arxiv_url: Open Domain Multi-document Summarization
 - url: https://www.semanticscholar.org/paper/8d9a91c4372ec4bc274d27cac52548bf35285358
@@ -133,7 +137,25 @@
     - evaluation
     - foundation models
   paper_link: https://arxiv.org/pdf/2305.14987.pdf
-  arxiv_url: https://arxiv.org/pdf/2305.14987.pdf
+  arxiv_url: Investigating Table-to-Text Generation Capabilities of LLMs in Real-World Information Seeking Scenarios
+- url: https://www.semanticscholar.org/paper/99b880398677a04c5442d5afb38d8b68d65151b9
+  title: '"Investigating Table-to-Text Generation Capabilities of Large Language Models in Real-World Information Seeking Scenarios"'
+  venue: EMNLP 2023 industry track
+  year: 2023
+  authors:
+    - Yilun Zhao
+    - Haowei Zhang
+    - Shengyun Si
+    - Linyong Nan
+    - Xiangru Tang
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - document understanding
+    - LLM agents
+    - foundation models
+  arxiv_url: Investigating Table-to-Text Generation Capabilities of LLMs in Real-World Information Seeking Scenarios
 - url: https://www.semanticscholar.org/paper/f3ca1504ab4cc14f491f07e5a8b38d93890551e1
   title: '"Peek Across: Improving Multi-Document Modeling via Cross-Document Question-Answering"'
   venue: ACL 2023
@@ -147,9 +169,9 @@
   project: other
   display: 1
   category:
-    - foundation models
-    - language modeling
-    - document understanding
+    - multi-document modeling
+    - evaluation
+    - training methods
   paper_link: https://aclanthology.org/2023.acl-long.110.pdf
   arxiv_url: Long-Span Question-Answering
 - url: https://www.semanticscholar.org/paper/a0ee62ff9a6a00d29634a5146f9ffb91ec730e32
@@ -169,7 +191,7 @@
   category:
     - document understanding
     - evaluation
-    - foundation models
+    - specialized domains
   paper_link: https://aclanthology.org/2023.acl-demo.32.pdf
   arxiv_url: Enhancing Tabular Reasoning with Pattern Exploiting Training
 - url: https://www.semanticscholar.org/paper/67cdecbcfed07b9a29d9e2a92da684604383afd7
@@ -187,16 +209,14 @@
   project: other
   display: 1
   category:
-    - foundation models
-    - language modeling
     - training methods
-    - generation
+    - document understanding
+    - foundation models
   paper_link: https://aclanthology.org/2024.eacl-long.144.pdf
   arxiv_url: Dirichlet forms of diffusion processes on Thoma simplex
 - url: https://www.semanticscholar.org/paper/f1f6c61ed0b80a785e4e5d0d97a454dbe6126c63
   title: '"LongEval: Guidelines for Human Evaluation of Faithfulness in Long-form Summarization"'
   venue: EACL 2023
-  award: Outstanding Paper Award
   year: 2023
   authors:
     - Kalpesh Krishna
@@ -211,11 +231,12 @@
   category:
     - evaluation
     - document understanding
+    - specialized domains
   paper_link: https://aclanthology.org/2023.eacl-main.121.pdf
   arxiv_url: Faithfulness-Aware Decoding Strategies for Abstractive Summarization
 - url: https://www.semanticscholar.org/paper/2cad608200ee31884f6392e6290878c236f06248
   title: '"Aligning Factual Consistency for Clinical Studies Summarization through Reinforcement Learning"'
-  venue: Clinical NLP workshop
+  venue: Clinical Natural Language Processing Workshop 2023
   year: 2023
   authors:
     - Xiangru Tang
@@ -224,8 +245,9 @@
   project: other
   display: 1
   category:
-    - training methods
-    - specialized domains
+    - "- document understanding"
+    - "- evaluation"
+    - "- training methods"
   paper_link: https://aclanthology.org/2023.clinicalnlp-1.7.pdf
   arxiv_url: FactReranker
 - url: https://www.semanticscholar.org/paper/5e2d996239189ff92a6f61c4973a9b05e3468f46
@@ -245,11 +267,30 @@
   project: other
   display: 1
   category:
-    - document understanding
     - specialized domains
-    - foundation models
-    - language modeling
+    - document understanding
+    - evaluation
   arxiv_url: Adversarial Attacks and Defenses for Social Network Text Processing Applications
+- url: https://www.semanticscholar.org/paper/dcba37400ad86aaf0d47e5cdfa2fcfa98f089401
+  title: '"When do Generative Query and Document Expansions Fail? A Comprehensive Study Across Methods, Retrievers, and Datasets"'
+  venue: Findings 2023
+  year: 2023
+  authors:
+    - Orion Weller
+    - Kyle Lo
+    - David Wadden
+    - Dawn J Lawrie
+    - Benjamin Van Durme
+    - Arman Cohan
+    - Luca Soldaini.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - training methods
+    - document understanding
+  paper_link: https://aclanthology.org/2024.findings-eacl.134.pdf
+  arxiv_url: When do Generative Query and Document Expansions Fail? A Comprehensive Study Across Methods, Retrievers, and Datasets
 - url: https://www.semanticscholar.org/paper/9e3003e5c16aba62bdffd79347e3d10b6b12da74
   title: '"ReFIT: Relevance Feedback from a Reranker during Inference"'
   venue: Preprint
@@ -265,9 +306,9 @@
   project: other
   display: 1
   category:
+    - document understanding
     - evaluation
     - training methods
-    - document understanding
   paper_link: https://arxiv.org/pdf/2305.11744.pdf
   arxiv_url: ReFIT
 - url: https://www.semanticscholar.org/paper/273248916474b80f643b38c8135ab795e59b73e6
@@ -345,13 +386,13 @@
   project: other
   display: 1
   category:
-    - resource
-    - specialized domains
+    - document understanding
+    - foundation models
     - evaluation
   paper_link: https://arxiv.org/pdf/2301.10140.pdf
   arxiv_url: An open dataset of scholars on Twitter
 - url: https://www.semanticscholar.org/paper/4ca23f7cec223ef713199845d203c4c4300da7f5
-  title: '"ML-Bench: Evaluating Large Language Models and Agents for Machine Learning Tasks on Repository-Level Code"'
+  title: '"ML-Bench: Evaluating Large Language Models for Code Generation in Repository-Level Machine Learning Tasks"'
   venue: Preprint
   year: 2023
   authors:
@@ -384,28 +425,8 @@
   project: other
   display: 1
   category:
-    - evaluation
     - code generation
-    - LM agents
+    - evaluation
+    - LLM agents
   paper_link: https://arxiv.org/pdf/2311.09835.pdf
-  arxiv_url: Creative Agents
-- url: https://www.semanticscholar.org/paper/44d16a076c00ecada3d425203377e4ec951c4ed0
-  title: '"MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning"'
-  venue: Preprint
-  year: 2023
-  authors:
-    - Xiangru Tang
-    - Anni Zou
-    - Zhuosheng Zhang
-    - Yilun Zhao
-    - Xingyao Zhang
-    - Arman Cohan
-    - Mark B. Gerstein.
-  project: other
-  display: 1
-  category:
-    - specialized domains
-    - document understanding
-    - LM agents
-  paper_link: https://arxiv.org/pdf/2311.10537.pdf
-  arxiv_url: Adaptive Collaboration Strategy for LLMs in Medical Decision Making
+  arxiv_url: Large Language Models are not Models of Natural Language
