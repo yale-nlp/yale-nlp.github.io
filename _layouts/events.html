@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .main-content {
+    flex: 0.9;
+  }
+</style>
+
+<div class="page-wrapper">
+  <div class="main-content">
+    <div id="events" class="col-sm-12">
+      {{ content }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,205 @@
+---
+title: "Yale NLP Events"
+layout: events
+excerpt: "Yale NLP Events"
+sitemap: false
+permalink: /events/
+markdown: false
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Yale NLP Events</title>
+  <meta name="description" content="Yale NLP Events" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      padding: 2rem;
+      font-family: sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    /* Constrain the container width and center it */
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h3 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    /* Constrain the event list width and center it */
+    .event-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    /* Single event row layout: left panel with date and organizer, right panel with event info */
+    .event-row {
+      display: flex;
+      flex-direction: row;
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    .event-date {
+      flex: 0 0 180px; /* fixed width for the left column */
+      background-color: #eaecef;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column; /* stack date and organizer vertically */
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      text-align: center;
+    }
+    .event-organizer {
+      margin-top: 0.5rem;
+      font-weight: normal;
+      font-size: 1.2rem;
+      color: #555;
+    }
+    .event-content {
+      flex: 1;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    /* Event title styled with Yale Blue */
+    .event-title {
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+      color: #00356B;
+    }
+    .event-desc {
+      margin-bottom: 0.75rem;
+      line-height: 1.4;
+    }
+    /* 'Learn More' link changed to a less prominent color (#555) */
+    .event-more {
+      display: block;
+      text-decoration: none;
+      color: #555;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 0.5rem;
+    }
+    .event-more:hover {
+      text-decoration: underline;
+    }
+    /* Collapsible content initially hidden */
+    .collapsible-content {
+      display: none;
+      padding: 0.5rem 0;
+      font-size: 0.9rem;
+      line-height: 1.4;
+      border-top: 1px solid #ddd;
+      margin-top: 0.75rem;
+    }
+    /* Bio container: image on left, text on right */
+    .bio-container {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+    }
+    .bio-container img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      margin-right: 1.5rem;
+    }
+    /* Bio text and abstract styling */
+    .bio-text {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+    }
+    .talk-abstract {
+      max-width: 600px;
+      text-align: justify;
+      font-size: 1.4rem;
+    }
+    .talk-abstract {
+      max-width: 800px;
+      margin-top: 0.5rem;
+    }
+    .talk-abstract strong {
+      margin-right: 0.5rem;
+    }
+    .bio-text strong {
+      margin-right: 0.5rem;
+    }
+    /* Event details styling */
+    .event-details p {
+      margin: 0.25rem 0;
+      font-size: 1.4rem;
+    }
+  </style>
+</head>
+
+  <div class="container">
+    <h3 style="margin-top: 10rem;">Upcoming Events</h3>
+
+    <div class="event-list">
+
+      <!-- Event 1: Qingyun Wang -->
+      <div class="event-row">
+        <div class="event-date">
+          Feb 20, 2025
+          <div class="event-organizer">Yale AI4Research Seminar</div>
+        </div>
+        <div class="event-content">
+          <div class="event-title">Qingyun Wang, PhD student at UIUC</div>
+          <div class="event-desc">
+            AI4Scientist: Accelerating and Democratizing Scientific Research Lifecycle
+          </div>
+          <a href="#" class="event-more" data-target="more1">Learn More →</a>
+          <div id="more1" class="collapsible-content">
+            <div class="bio-container">
+              <img src="/images/speakerpic/qingyun.jpg" alt="Speaker Photo" />
+              <div class="bio-text">
+                <strong>Bio:</strong> Qingyun Wang is a Ph.D. candidate in the Siebel School of Computing and Data Science at UIUC. His research lies in NLP for scientific discovery. He served as a PC member for multiple conferences and journals, including ICML, ACL, ICLR, NeurIPS, Nature Communications Chemistry, etc. He previously entered the finalist of the first Alexa Prize competition. He received the NAACL-HLT 2021 Best Demo Reward and NeruIPS 2023 Best Reviewer. He has experience presenting tutorials at EMNLP 2021, EACL 2024, and LREC-COLING 2024. He led an AI4Research workshop at AAAI 2025 and co-organized the Language + Molecules Workshop at ACL 2024.
+              </div>
+            </div>
+            <div class="event-details">
+              <p><strong>Time:</strong> Feb 20, 2025, 4:30 PM</p>
+              <p><strong>Location:</strong> 17 Hillhouse, Room 335</p>
+              <p><strong>Zoom Link:</strong> <a href="https://yale.zoom.us/j/94373196146" target="_blank">https://yale.zoom.us/j/94373196146</a></p>
+            </div>
+            <div class="talk-abstract">
+              <strong>Abstract:</strong> Scientists are experiencing information overload due to the rapid growth of scientific literature. Moreover, the process of discovering new scientific hypotheses has remained slow, expensive, and highly specialist-dependent, due to the increasingly complex experiments. The recent advancements in large language models (LLMs) raise the prospect that they may be able to solve those problems. Despite their impressive progress, these models often fail to incorporate domain-specific knowledge effectively and support their generated results with evidence. To address this issue and lower the entry barrier for interdisciplinary collaboration, I develop AI tools to accelerate and democratize the entire research lifecycle for scientists. I will highlight three stages in the scientific knowledge lifecycle, including (1) the development of scientific knowledge acquisition for limited training data, (2) the integration of domain knowledge in scientific LLM reasoning to narrow search space, and (3) the framework to provide an explainable paper review. Finally, I will outline my future research efforts focused on equipping machines with the ability to interact dynamically with the human and physical world.
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="container" style="margin-top:10rem">
+    <h3>Past Events</h3>
+  </div>
+
+
+  <!-- Script to toggle collapsible content when clicking 'Learn More' -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var links = document.querySelectorAll('.event-more');
+      links.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          var targetId = this.getAttribute('data-target');
+          var content = document.getElementById(targetId);
+          if (content) {
+            content.style.display = (content.style.display === 'block') ? 'none' : 'block';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
