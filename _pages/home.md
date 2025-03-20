@@ -15,12 +15,11 @@ permalink: /
     Active areas of research include (no particular order):
   </p>
   <ul>
-    <li>Understanding and extending generalization capabilities of Large Language Models</li>
-    <li>Evaluation and science of language models</li>
-    <li>Language modeling and representation learning for complex document-level tasks and long sequences</li>
-    <li>Multi-document and extreme multi-document language processing</li>
+    <li>Understanding and extending the capabilities of LLMs</li>
+    <li>Evaluation and science of LLMs</li>
+    <li>AI for science</li>
     <li>Post-training and evaluation of post-training</li>
-    <li>Applications to scientific text</li>
+    <li>Retrieval and exterme multi-document challegnes</li>
   </ul>
 
   <p style="text-align:justify">
