@@ -17,9 +17,9 @@ permalink: /
   <ul>
     <li>Understanding and extending the capabilities of LLMs</li>
     <li>Evaluation and science of LLMs</li>
+    <li>Post-training and adaptation of LLMs</li>
+    <li>Retrieval and exterme multi-document challenges</li>
     <li>AI for science</li>
-    <li>Post-training and evaluation of post-training</li>
-    <li>Retrieval and exterme multi-document challegnes</li>
   </ul>
 
   <p style="text-align:justify">
