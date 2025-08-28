@@ -1,13 +1,3 @@
-- name: Yanan Zheng
-  photo: yanan_zheng.png
-  info: Postdoctoral Associate
-  homepage: https://scholar.google.com/citations?user=0DqJ8eIAAAAJ
-  google_scholar: https://scholar.google.com/citations?user=0DqJ8eIAAAAJ
-  interests:
-    - Understanding LLMs
-    - Alignment
-    - Reasoning
-
 - name: Simeng Han
   photo: simeng_han.png
   info: Ph.D. Student
