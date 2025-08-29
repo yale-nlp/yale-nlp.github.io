@@ -20,4 +20,8 @@
   photo: elizabeth.jpg
   info: Undergraduate Student
   homepage: https://www.elizabethjschaefer.com/
+  interests:
+    - AI for Medicine
+    - Chain of Thought Reasoning
+    - Bias Mitigation
     
