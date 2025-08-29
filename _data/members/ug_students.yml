@@ -4,3 +4,14 @@
   interests:
     - AI for Law
     - NLP for Expert Domains
+
+  - name: Nandan Sarkar
+  photo: nandan_sarkar.jpeg
+  info: Undergraduate Student
+  homepage: https://nandansarkar16.github.io/
+  google_scholar: https://scholar.google.com/citations?user=KwRrnFoAAAAJ&hl=en&authuser=1
+  twitter: https://x.com/nandan_sarkar_
+  interests:
+    - Reasoning
+    - Evaluation
+    - Training,Inference, and Data Efficiency
