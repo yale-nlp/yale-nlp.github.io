@@ -5,7 +5,7 @@
     - AI for Law
     - NLP for Expert Domains
 
-  - name: Nandan Sarkar
+- name: Nandan Sarkar
   photo: nandan_sarkar.jpeg
   info: Undergraduate Student
   homepage: https://nandansarkar16.github.io/
@@ -14,4 +14,10 @@
   interests:
     - Reasoning
     - Evaluation
-    - Training,Inference, and Data Efficiency
+    - Training, Inference, and Data Efficiency
+
+- name: Elizabeth Schaefer
+  photo: elizabeth.jpg
+  info: Undergraduate Student
+  homepage: https://www.elizabethjschaefer.com/
+    
