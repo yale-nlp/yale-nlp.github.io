@@ -73,3 +73,15 @@
   homepage: https://carriegu0818.github.io/
   github: https://github.com/carriegu0818
   google_scholar: https://scholar.google.com/citations?user=81FfsvwAAAAJ&hl=en
+
+- name: Ali Ansari
+  photo: ali_ansari.jpg
+  info: Ph.D. Student
+  homepage: https://allliance.github.io/
+  github: https://github.com/allliance
+  google_scholar: https://scholar.google.com/citations?user=WYxYPXUAAAAJ&hl=en
+  twitter: https://x.com/Ali__Ansari__
+  interests:
+    - Training/Inference Efficiency
+    - Reasoning
+    - LLM Safety
