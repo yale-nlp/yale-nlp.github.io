@@ -1,3 +1,178 @@
+- url: 
+  title: '"CourtReasoner: Can LLM Agents Reason Like Judges?"'
+  venue: EMNLP 2025
+  year: 2025
+  authors:
+    - Simeng Han
+    - Yoshiki Takashima
+    - Shannon Zejiang Shen
+    - Chen Liu
+    - Yixin Liu
+    - Roque K. Thuo
+    - Sonia Knowlton
+    - Ruzica Piskac
+    - Scott J. Shapiro
+    - Arman Cohan
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - specialized domains
+  paper_link: 
+  arxiv_url: '"CourtReasoner: Can LLM Agents Reason Like Judges?'"
+- url: https://www.semanticscholar.org/paper/Diffusion-vs.-Autoregressive-Language-Models%3A-A-Zhang-Zhao/738b8d70e58ac200ef41c8cdc8c8ecc4cf242123
+  title: '"Diffusion vs. Autoregressive Language Models: A Text Embedding Perspective"'
+  venue: EMNLP 2025
+  year: 2025
+  authors:
+    - Siyue Zhang
+    - Yilun Zhao
+    - Liyuan Geng
+    - Arman Cohan
+    - Anh Tuan Luu
+    - Chen Zhao.
+  project: other
+  display: 1
+  category:
+    - retrieval
+    - evaluation
+  paper_link: https://arxiv.org/pdf/2505.15045
+  arxiv_url: '"Diffusion vs. Autoregressive Language Models: A Text Embedding Perspective"'
+- url: https://www.semanticscholar.org/paper/Judging-with-Many-Minds%3A-Do-More-Perspectives-Mean-Ma-Zhang/91aaf5fb6f1866356026d71ed29aa47317be6450
+  title: '"Judging with Many Minds: Do More Perspectives Mean Less Prejudice?"'
+  venue: EMNLP 2025
+  year: 2025
+  authors:
+    - Chiyu Ma
+    - Enpei Zhang
+    - Yilun Zhao
+    - Wenjun Liu
+    - Yaning Jia
+    - Peijun Qing
+    - Lin Shi
+    - Arman Cohan
+    - Yujun Yan
+    - Soroush Vosoughi.
+  project: other
+  display: 1
+  category:
+    - language modelings
+    - evaluation
+    - reasoning
+  paper_link: https://arxiv.org/pdf/2505.19477
+  arxiv_url: '"Judging with Many Minds: Do More Perspectives Mean Less Prejudice?"'
+- url: https://www.semanticscholar.org/paper/MetaFaith%3A-Faithful-Natural-Language-Uncertainty-in-Kaili-May-Liu/f455201fafc7846c127a58506063271e6b8ae119
+  title: '"MetaFaith: Faithful Natural Language Uncertainty Expression in LLMs"'
+  venue: EMNLP 2025
+  year: 2025
+  authors:
+    - Gabrielle Kaili-May Liu
+    - Gal Yona
+    - Avi Caciularu
+    - Idan Szpektor
+    - Tim G. J. Rudner
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - safety and alignment
+    - llm agents
+  paper_link: https://arxiv.org/pdf/2505.24858
+  arxiv_url: '"MetaFaith: Faithful Natural Language Uncertainty Expression in LLMs"'
+- url: https://arxiv.org/abs/2406.07835
+  title: '"SciRIFF: A Resource to Enhance Language Model Instruction-Following over Scientific Literature"'
+  venue: EMNLP 2025
+  year: 2025
+  authors:
+    - David Wadden
+    - Kejian Shi
+    - Jacob Daniel Morrison
+    - Aakanksha Naik
+    - Shruti Singh
+    - Nitzan Barzilay
+    - Kyle Lo
+    - Tom Hope
+    - Luca Soldaini
+    - Shannon Zejiang Shen
+    - Doug Downey
+    - Hanna Hajishirzi
+    - Arman Cohan
+  project: other
+  display: 1
+  category:
+    - post-training
+    - evaluation
+    - safety and alignment
+  paper_link: https://arxiv.org/pdf/2406.07835
+  arxiv_url: '"SciRIFF: A Resource to Enhance Language Model Instruction-Following over Scientific Literature"'
+- url: https://www.semanticscholar.org/paper/Table-R1%3A-Inference-Time-Scaling-for-Table-Yang-Chen/d9c149114c2d71fc6c00e9b3f7faae18d2ff1e08
+  title: '"Table-R1: Inference-Time Scaling for Table Reasoning"'
+  venue: EMNLP 2025
+  year: 2025
+  authors:
+    - Zheyuan Yang
+    - Lyuhao Chen
+    - Arman Cohan
+    - Yilun Zhao
+  project: other
+  display: 1
+  category:
+    - AI for science
+    - post-training
+  paper_link: https://arxiv.org/pdf/2505.23621
+  arxiv_url: 2505.23621
+- url: https://www.semanticscholar.org/paper/MCTS-RAG%3A-Enhancing-Retrieval-Augmented-Generation-Hu-Zhao/7afb80c8c0dc0c5f32d63a847a72b9bc8bada519
+  title: '"MCTS-RAG: Enhancing Retrieval-Augmented Generation with Monte Carlo Tree Search"'
+  venue: EMNLP 2025, Findings
+  year: 2025
+  authors:
+    - Yunhai Hu
+    - Yilun Zhao
+    - Chen Zhao
+    - Arman Cohan
+  project: other
+  display: 1
+  category:
+    - reasoning
+    - post-training
+    - efficiency and scalability of LLMs
+  paper_link: https://arxiv.org/pdf/2503.20757
+  arxiv_url: 2503.20757
+- url: https://www.semanticscholar.org/paper/MSRS%3A-Evaluating-Multi-Source-Retrieval-Augmented-Phanse-Zhou/9a170e202b071c32740bbd7b37b3fb3effda5466
+  title: '"MSRS: Evaluating Multi-Source Retrieval-Augmented Generation"'
+  venue: COLM 2025
+  year: 2025
+  authors:
+    - Rohan Phanse
+    - Yijie Zhou
+    - Kejian Shi
+    - Wencai Zhang
+    - Yixin Liu
+    - Yilun Zhao
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - reasoning 
+  paper_link: https://arxiv.org/pdf/2508.20867
+  arxiv_url: Evaluating Multi-Source Retrieval-Augmented Generation
+- url: https://www.semanticscholar.org/paper/One-shot-Optimized-Steering-Vectors-Mediate-in-LLMs-Dunefsky-Cohan/b4ddfb036e01ffc0fc85b7567bedeeab41abeed2
+  title: '"One-shot Optimized Steering Vectors Mediate Safety-relevant Behaviors in LLMs"'
+  venue: COLM 2025
+  year: 2025
+  authors:
+    - Jacob Dunefsky
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - reasoning 
+    - language modelings
+  paper_link: https://arxiv.org/pdf/2502.18862
+  arxiv_url: One-shot Optimized Steering Vectors Mediate Safety-relevant Behaviors in LLMs
 - url: https://www.semanticscholar.org/paper/004cb08a2dae996f27779c55ded89fa2ca1427ba
   title: '"Understanding Reference Policies in Direct Preference Optimization"'
   venue: NAACL 2025, findings
