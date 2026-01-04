@@ -1,0 +1,84 @@
+- date: August 2025
+  headlines:
+    - Welcome to Siyi Gu and Ali Ansari, who started their PhD in the lab!
+    - Four papers accepted at <b>NeurIPS 2025</b>! Congratulations to the authors!
+
+- date: May 2025
+  headlines:
+    - Congratulations to Kaili Liu for passing her Area Exam! 🎉
+    - "YaleNLP will have a strong presence at <b>ACL 2025</b>: <b>11 Papers</b> accepted to ACL including 8 Main and 3 findings!"
+
+- date: April 2025
+  headlines:
+    - "Yale hosted the <b>New England NLP (NENLP) 2025</b> Workshop! For talks, panel, and program details, see <a href='https://nenlp.github.io/spr2025/' target='_blank'>https://nenlp.github.io/spr2025/</a>"
+
+- date: January 2025
+  headlines:
+    - Two of our papers have been accepted at ICLR 2025!
+    - Six papers will be presented at NAACL 2025, including four in the main track and two in Findings.
+
+- date: September 2024
+  headlines:
+    - Thrilled to announce that 7 of our papers have been accepted at EMNLP 2024, including 4 in the main track and 3 as findings! Proud to highlight that several of these papers feature master's and undergraduate students as lead or key co-authors.
+
+- date: August 2024
+  headlines:
+    - Welcome to our new Ph.D. students, Jacob Dunefsky and Alan Li, who have joined the lab!
+    - Happy new semester! Excited to welcome back our returning students and meet our new ones!
+    - Olmo (Open Language Models) won a best paper award at ACL 2024!
+    - We presented 5 papers at ACL main conference!
+
+- date: July 2024
+  headlines:
+    - Congratulations to Jacob Dunefsky for his first paper presentation at ICML in Vienna.
+    - Congratulations to Dr. Linyong Nan on his successful PhD thesis defense titled "Generative Question Answering from Heterogeneous Knowledge Sources"! We are thrilled to announce that he will be joining Zoom as a Research Scientist. Wishing him every success in his new role!
+    - We're honored that our paper, <a href="https://arxiv.org/abs/2406.14275" target="_blank">"Step-Back Profiling - Distilling User History for Personalized Scientific Writing"</a>, received the Best Paper Award at AI4Research Workshop at IJCAI 2024!
+    - Thrilled to announce that the <a href="https://arxiv.org/abs/2309.17446" target="_blank">LC2Eval</a> paper has been accepted at TACL!
+
+- date: June 2024
+  headlines:
+    - Congratulations to Dr. Ansong Ni on his successful defense of his PhD thesis titled "Program Synthesis from Natural Language Using Language Models"! We are thrilled to announce that he will be joining FAIR at Meta as a Research Scientist. Wishing him every success in his new role!
+
+- date: May 2024
+  headlines:
+    - Thrilled to announce that 8 of our papers have been accepted at ACL 2024, including 5 in the main track and 3 as findings! This also includes 2 papers by undergrads as the first authors!
+    - Congratulations, Yixin, for passing the prospectus defense!
+
+- date: April 2024
+  headlines:
+    - We were delighted to host <a href="https://www.thespermwhale.com/jaseweston/" target="_blank">Jason Weston</a> from Meta AI and NYU for a talk on "Self-Alignment of Large Language Models."
+    - We were delighted to host <a href="https://soldaini.net/" target="_blank">Luca Soldaini</a> from Allen Institute for AI for a talk on "OLMo - The Quest to build an (O)pen (L)anguage (Mo)del."
+
+- date: March 2024
+  headlines:
+    - Thrilled to announce that 5 of our papers have been accepted at NAACL 2024, including 3 in the main track and 2 as findings!
+    - We were delighted to host <a href="https://akariasai.github.io/" target="_blank">Akari Asai</a> from UW for a talk on "Retreival-Augmented Language Models."
+
+- date: January 2024
+  headlines:
+    - Congratulations, Lj, for acceptance of his paper in the main EACL 2024 conference!
+
+- date: December 2023
+  headlines:
+    - Yale NLP had a great time attending the <a href="https://2023.emnlp.org/" target="_blank">EMNLP 2023</a> Conference in Singapore!
+
+- date: October 2023
+  headlines:
+    - We were delighted to host <a href="https://www.cs.utexas.edu/~xiye/" target="_blank">Xi Ye</a> from UT Austin for a talk on "Logical Reasoning in Language Models."
+    - Thrilled to announce that 6 of our papers have been accepted at EMNLP 2023, including 3 in the main track and 3 as findings!
+
+- date: September 2023
+  headlines:
+    - We were delighted to host <a href="https://dennyzhou.github.io/" target="_blank">Denny Zhou</a> from DeepMind for a discussion on reasoning in large language models.
+
+- date: August 2023
+  headlines:
+    - A warm welcome to our new Ph.D. students, Yilun Zhao and Kaili Liu, who have joined our lab!
+
+- date: July 2023
+  headlines:
+    - Yale NLP had a great time attending <a href="https://2023.aclweb.org/" target="_blank">ACL 2023</a> in Toronto, Canada.
+
+- date: May 2023
+  headlines:
+    - We're honored that our paper, <a href="https://aclanthology.org/2023.eacl-main.121/" target="_blank">"LongEval- Guidelines for Human Evaluation of Faithfulness in Long-form Summarization"</a>, received an Outstanding Paper Award at EACL 2023!

@@ -1,0 +1,33 @@
+- name: Katherine He
+  photo: katherine_he.jpg
+  info: Undergraduate Student
+  interests:
+    - AI for Law
+    - NLP for Expert Domains
+
+- name: Nandan Sarkar
+  photo: nandan_sarkar.jpeg
+  info: Undergraduate Student
+  homepage: https://nandansarkar16.github.io/
+  google_scholar: https://scholar.google.com/citations?user=KwRrnFoAAAAJ&hl=en&authuser=1
+  twitter: https://x.com/nandan_sarkar_
+  interests:
+    - Reasoning
+    - Evaluation
+    - Training, Inference, and Data Efficiency
+
+- name: Elizabeth Schaefer
+  photo: elizabeth.jpg
+  info: Undergraduate Student
+  homepage: https://www.elizabethjschaefer.com/
+  interests:
+    - AI for Medicine
+    - Chain of Thought Reasoning
+    - Bias Mitigation
+
+- name: Rohan Phanse
+  photo: rohan_phanse.jpeg
+  info: Undergraduate Student
+  homepage: https://www.linkedin.com/in/rohan-phanse
+  interests:
+    - Retrieval-Augmented Generation

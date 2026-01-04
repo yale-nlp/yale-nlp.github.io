@@ -1,0 +1,10 @@
+- name: Leyao (Laura) Wang
+  photo: leyao_wang.jpg
+  info: M.S. Student
+  homepage: https://lwang-laura.github.io/leyaowang.github.io/
+  google_scholar: https://scholar.google.com/citations?user=8MsC-v0AAAAJ&hl=en
+  github: https://github.com/LWang-Laura
+  interests:
+    - Trustworthy LLMs
+    - Interpretability
+    - Alignment

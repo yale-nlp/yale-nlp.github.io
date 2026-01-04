@@ -1,0 +1,120 @@
+- url: https://www.semanticscholar.org/paper/a550ad9d7f47b65f7788287a23717a4f7c5b75c7
+  title: Pretrained Language Models for Sequential Sentence Classification
+  venue: EMNLP 2019
+  year: 2019
+  authors: Arman Cohan, Iz Beltagy, Daniel King, Bhavana Dalvi, Daniel S. Weld.
+  project: other
+  paper_link: https://aclanthology.org/D19-1383.pdf
+  display: 1
+  category:
+  - training methods
+  - foundation models
+
+- url: https://www.semanticscholar.org/paper/156d217b0a911af97fa1b5a71dc909ccef7a8028
+  title: 'SciBERT: A Pretrained Language Model for Scientific Text'
+  venue: EMNLP 2019
+  year: 2019
+  authors: Iz Beltagy, Kyle Lo, Arman Cohan.
+  project: other
+  paper_link: https://aclanthology.org/D19-1371.pdf
+  display: 1
+  category:
+  - foundation models
+  - language modeling
+  - scientific text
+
+- url: https://www.semanticscholar.org/paper/95ebe37c856e914b760bc5db63561f461ec444cc
+  title: Structural Scaffolds for Citation Intent Classification in Scientific Publications
+  venue: NAACL 2019
+  year: 2019
+  authors: Arman Cohan, Bridger Waleed Ammar, Madeleine van Zuylen, Field Cady.
+  project: other
+  paper_link: https://aclanthology.org/N19-1361.pdf
+  display: 1
+  category:
+  - training methods
+  - scientific text
+  - specialized domains
+
+- url: https://www.semanticscholar.org/paper/2a951d96c689a99935abdafb74fcc623e631e547
+  title: 'SUPP.AI: finding evidence for supplement-drug interactions'
+  venue: ACL 2019
+  year: 2019
+  authors: Lucy Lu Wang, Oyvind Tafjord, Arman Cohan, Sarthak Jain, Sam Skjonsberg,
+    Carissa Schoenick, Nick Botner, Bridger Waleed Ammar.
+  project: other
+  paper_link: https://aclanthology.org/2020.acl-demos.41.pdf
+  display: 1
+  category:
+  - specialized domains
+  - information extraction
+
+- url: https://www.semanticscholar.org/paper/5a8c3728285be5a7e23383e4438df759a5f09289
+  title: Extracting evidence of supplement-drug interactions from literature
+  venue: BioNLP workshop
+  year: 2019
+  authors: Lucy Lu Wang, Oyvind Tafjord, Sarthak Jain, Arman Cohan, Sam Skjonsberg,
+    Carissa Schoenick, Nick Botner, Bridger Waleed Ammar.
+  project: other
+  paper_link: https://arxiv.org/pdf/1909.08135.pdf
+  display: 1
+  category:
+  - specialized domains
+  - information extraction
+
+- url: https://www.semanticscholar.org/paper/1ec78c0ec945572673fabd50bf263870fe9d3601
+  title: 'CEDR: Contextualized Embeddings for Document Ranking'
+  venue: SIGIR 2019
+  year: 2019
+  authors: Sean MacAvaney, Andrew Yates, Arman Cohan, Nazli Goharian.
+  project: other
+  paper_link: https://arxiv.org/pdf/1904.07094.pdf
+  display: 1
+  category:
+  - retrieval
+  - representation learning
+
+- url: https://www.semanticscholar.org/paper/4977dc46999fad4527c248bf6810d9d40a18dff8
+  title: Ontology-Aware Clinical Abstractive Summarization
+  venue: SIGIR 2019
+  year: 2019
+  authors: Sean MacAvaney, Sajad Sotudeh, Arman Cohan, Nazli Goharian, Ish A. Talati,
+    Ross W. Filice.
+  project: other
+  paper_link: https://arxiv.org/pdf/1905.05818.pdf
+  display: 1
+  category:
+  - scientific text
+  - summarization
+  - specialized domains
+
+- url: https://www.semanticscholar.org/paper/b173afb4623586ddb81248a0043d248b530d4a3e
+  title: Text Summarization and Categorization for Scientific and Health-Related Data
+  venue: SIGIR 2019
+  year: 2019
+  authors: Arman Cohan.
+  project: other
+  display: 1
+  category:
+  - specialized domains
+  - summarization
+
+- url: https://www.semanticscholar.org/paper/ff4b8dc5ffae5d417f13dd743f7b33a0e71ce403
+  title: Contextualized Word Representations for Document Re-Ranking
+  venue: Preprint
+  year: 2019
+  authors: Sean MacAvaney, Andrew Yates, Arman Cohan, Nazli Goharian.
+  project: other
+  display: 1
+  category:
+  - retrieval
+  - representation learning
+
+- url: https://www.semanticscholar.org/paper/87078d95bee341a1767034d9432fb34937ecf65a
+  title: 'SciBERT: Pretrained Contextualized Embeddings for Scientific Text'
+  venue: Preprint
+  year: 2019
+  authors: Iz Beltagy, Arman Cohan, Kyle Lo.
+  project: other
+  display: 1
+

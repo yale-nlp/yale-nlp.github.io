@@ -1,0 +1,450 @@
+- url: https://neurips.cc/virtual/2025/poster/118315
+  title: '"On Evaluating LLM Alignment by Evaluating LLMs as Judges"'
+  venue: NeurIPS 2025
+  year: 2025
+  authors:
+    - Yixin Liu
+    - Pengfei Liu
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - alignment
+  paper_link: 
+  arxiv_url: On Evaluating LLM Alignment by Evaluating LLMs as Judges
+- url: https://www.semanticscholar.org/paper/DyFlow%3A-Dynamic-Workflow-Framework-for-Agentic-Wang-Xu/adcf542438d49fc056e2c78eec19ef99ca8adc45
+  title: '"DyFlow: Dynamic Workflow Framework for Agentic Reasoning"'
+  venue: NeurIPS 2025
+  year: 2025
+  authors:
+    - Yanbo Wang
+    - Zixiang Xu
+    - Yue Huang
+    - Xiangqi Wang
+    - Zirui Song
+    - Lang Gao
+    - Chenxi Wang
+    - Xiangru Tang
+    - Yue Zhao
+    - Arman Cohan
+    - Xiangliang Zhang
+    - Xiuying Chen.
+  project: other
+  display: 1
+  category:
+    - agents
+    - reasoning
+  paper_link: https://arxiv.org/pdf/2509.26062
+  arxiv_url: DyFlow
+- url: https://neurips.cc/virtual/2025/poster/119452
+  title: '"Measuring what Matters: Construct Validity in Large Language Model Benchmarks"'
+  venue: NeurIPS 2025
+  year: 2025
+  authors:
+    - Andrew M. Bean
+    - Ryan Othniel Kearns
+    - Angelika Romanou
+    - Franziska Sofia Hafner
+    - Harry Mayne
+    - Jan Batzner
+    - Negar Foroutan Eghlidi
+    - Chris Schmitz
+    - Karolina Korgul
+    - Hunar Batra
+    - Oishi Deb
+    - Emma Beharry
+    - Cornelius Emde
+    - Thomas Foster
+    - Anna Gausen
+    - María Grandury
+    - Sophia Simeng Han
+    - Valentin Hofmann
+    - Lujain Ibrahim
+    - Hazel Kim
+    - Hannah Rose Kirk
+    - Fangru Lin
+    - Gabrielle Liu
+    - Lennart Luettgau
+    - Jabez Magomere
+    - Jonathan Rystrøm
+    - Anna Sotnikova
+    - Yushi Yang
+    - Yilun Zhao
+    - Adel Bibi
+    - Antoine Bosselut
+    - Ronald Clark
+    - Arman Cohan
+    - Jakob Foerster
+    - Yarin Gal
+    - Scott Hale
+    - Deborah Raji
+    - Christopher Summerfield
+    - Philip Torr
+    - Cozmin Ududec
+    - Luc Rocher
+    - Adam Mahdi.
+  project: other
+  display: 1
+  category:
+    - evaluation
+  paper_link: 
+  arxiv_url: Measuring what Matters
+- url: https://www.semanticscholar.org/paper/SciArena%3A-An-Open-Evaluation-Platform-for-Models-in-Zhao-Zhang/c79ad5456e27af073d69a837e691aad4fc1c655d
+  title: '"SciArena: An Open Evaluation Platform for Foundation Models in Scientific Literature Tasks"'
+  venue: NeurIPS 2025
+  year: 2025
+  authors:
+    - Yilun Zhao
+    - Kaiyan Zhang
+    - Tiansheng Hu
+    - Sihong Wu
+    - Ronan Le Bras
+    - Taira Anderson
+    - Jonathan Bragg
+    - Joseph Chee Chang
+    - Jesse Dodge
+    - Matt Latzke
+    - Yixin Liu
+    - Charles McGrady
+    - Xiangru Tang
+    - Zihang Wang
+    - Chen Zhao
+    - Hannaneh Hajishirzi
+    - Doug Downey
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - foundation models
+  paper_link: https://arxiv.org/pdf/2507.01001
+  arxiv_url: 2507.01001
+- url: 
+  title: '"CourtReasoner: Can LLM Agents Reason Like Judges?"'
+  venue: EMNLP 2025
+  year: 2025
+  authors:
+    - Simeng Han
+    - Yoshiki Takashima
+    - Shannon Zejiang Shen
+    - Chen Liu
+    - Yixin Liu
+    - Roque K. Thuo
+    - Sonia Knowlton
+    - Ruzica Piskac
+    - Scott J. Shapiro
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - specialized domains
+  paper_link: 
+  arxiv_url: CourtReasoner
+- url: https://www.semanticscholar.org/paper/Diffusion-vs.-Autoregressive-Language-Models%3A-A-Zhang-Zhao/738b8d70e58ac200ef41c8cdc8c8ecc4cf242123
+  title: '"Diffusion vs. Autoregressive Language Models: A Text Embedding Perspective"'
+  venue: EMNLP 2025
+  year: 2025
+  authors:
+    - Siyue Zhang
+    - Yilun Zhao
+    - Liyuan Geng
+    - Arman Cohan
+    - Anh Tuan Luu
+    - Chen Zhao.
+  project: other
+  display: 1
+  category:
+    - retrieval
+    - evaluation
+  paper_link: https://arxiv.org/pdf/2505.15045
+  arxiv_url: Diffusion vs Autoregressive Language Models
+- url: https://www.semanticscholar.org/paper/Judging-with-Many-Minds%3A-Do-More-Perspectives-Mean-Ma-Zhang/91aaf5fb6f1866356026d71ed29aa47317be6450
+  title: '"Judging with Many Minds: Do More Perspectives Mean Less Prejudice?"'
+  venue: EMNLP 2025
+  year: 2025
+  authors:
+    - Chiyu Ma
+    - Enpei Zhang
+    - Yilun Zhao
+    - Wenjun Liu
+    - Yaning Jia
+    - Peijun Qing
+    - Lin Shi
+    - Arman Cohan
+    - Yujun Yan
+    - Soroush Vosoughi.
+  project: other
+  display: 1
+  category:
+    - language modelings
+    - evaluation
+    - reasoning
+  paper_link: https://arxiv.org/pdf/2505.19477
+  arxiv_url: Judging with Many Minds
+- url: https://www.semanticscholar.org/paper/MetaFaith%3A-Faithful-Natural-Language-Uncertainty-in-Kaili-May-Liu/f455201fafc7846c127a58506063271e6b8ae119
+  title: '"MetaFaith: Faithful Natural Language Uncertainty Expression in LLMs"'
+  venue: EMNLP 2025
+  year: 2025
+  authors:
+    - Gabrielle Kaili-May Liu
+    - Gal Yona
+    - Avi Caciularu
+    - Idan Szpektor
+    - Tim G. J. Rudner
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - safety and alignment
+    - llm agents
+  paper_link: https://arxiv.org/pdf/2505.24858
+  arxiv_url: MetaFaith
+- url: https://arxiv.org/abs/2406.07835
+  title: '"SciRIFF: A Resource to Enhance Language Model Instruction-Following over Scientific Literature"'
+  venue: EMNLP 2025
+  year: 2025
+  authors:
+    - David Wadden
+    - Kejian Shi
+    - Jacob Daniel Morrison
+    - Aakanksha Naik
+    - Shruti Singh
+    - Nitzan Barzilay
+    - Kyle Lo
+    - Tom Hope
+    - Luca Soldaini
+    - Shannon Zejiang Shen
+    - Doug Downey
+    - Hanna Hajishirzi
+    - Arman Cohan
+  project: other
+  display: 1
+  category:
+    - post-training
+    - evaluation
+    - safety and alignment
+  paper_link: https://arxiv.org/pdf/2406.07835
+  arxiv_url: SciRIFF
+- url: https://www.semanticscholar.org/paper/Table-R1%3A-Inference-Time-Scaling-for-Table-Yang-Chen/d9c149114c2d71fc6c00e9b3f7faae18d2ff1e08
+  title: '"Table-R1: Inference-Time Scaling for Table Reasoning"'
+  venue: EMNLP 2025
+  year: 2025
+  authors:
+    - Zheyuan Yang
+    - Lyuhao Chen
+    - Arman Cohan
+    - Yilun Zhao
+  project: other
+  display: 1
+  category:
+    - AI for science
+    - post-training
+  paper_link: https://arxiv.org/pdf/2505.23621
+  arxiv_url: 2505.23621
+- url: https://www.semanticscholar.org/paper/MCTS-RAG%3A-Enhancing-Retrieval-Augmented-Generation-Hu-Zhao/7afb80c8c0dc0c5f32d63a847a72b9bc8bada519
+  title: '"MCTS-RAG: Enhancing Retrieval-Augmented Generation with Monte Carlo Tree Search"'
+  venue: EMNLP 2025, Findings
+  year: 2025
+  authors:
+    - Yunhai Hu
+    - Yilun Zhao
+    - Chen Zhao
+    - Arman Cohan
+  project: other
+  display: 1
+  category:
+    - reasoning
+    - post-training
+    - efficiency and scalability of LLMs
+  paper_link: https://arxiv.org/pdf/2503.20757
+  arxiv_url: 2503.20757
+- url: https://www.semanticscholar.org/paper/MSRS%3A-Evaluating-Multi-Source-Retrieval-Augmented-Phanse-Zhou/9a170e202b071c32740bbd7b37b3fb3effda5466
+  title: '"MSRS: Evaluating Multi-Source Retrieval-Augmented Generation"'
+  venue: COLM 2025
+  year: 2025
+  authors:
+    - Rohan Phanse
+    - Yijie Zhou
+    - Kejian Shi
+    - Wencai Zhang
+    - Yixin Liu
+    - Yilun Zhao
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - reasoning 
+  paper_link: https://arxiv.org/pdf/2508.20867
+  arxiv_url: Evaluating Multi-Source Retrieval-Augmented Generation
+- url: https://www.semanticscholar.org/paper/One-shot-Optimized-Steering-Vectors-Mediate-in-LLMs-Dunefsky-Cohan/b4ddfb036e01ffc0fc85b7567bedeeab41abeed2
+  title: '"One-shot Optimized Steering Vectors Mediate Safety-relevant Behaviors in LLMs"'
+  venue: COLM 2025
+  year: 2025
+  authors:
+    - Jacob Dunefsky
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - reasoning 
+    - language modelings
+  paper_link: https://arxiv.org/pdf/2502.18862
+  arxiv_url: One-shot Optimized Steering Vectors Mediate Safety-relevant Behaviors in LLMs
+- url: https://www.semanticscholar.org/paper/004cb08a2dae996f27779c55ded89fa2ca1427ba
+  title: '"Understanding Reference Policies in Direct Preference Optimization"'
+  venue: NAACL 2025, findings
+  year: 2025
+  authors:
+    - Yixin Liu
+    - Pengfei Liu
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - reinforcement learning
+    - preference learning
+    - document understanding
+  paper_link: https://arxiv.org/pdf/2407.13709.pdf
+  arxiv_url: Understanding Reference Policies in Direct Preference Optimization
+- url: https://www.semanticscholar.org/paper/eac4833ee2b22b7ca669ff8dbcb77a0310452bca
+  title: '"TOMATO: Assessing Visual Temporal Reasoning Capabilities in Multimodal Foundation Models"'
+  venue: ICLR 2025
+  year: 2025
+  authors:
+    - Ziyao Shangguan
+    - Chuhan Li
+    - Yuxuan Ding
+    - Yanan Zheng
+    - Yilun Zhao
+    - Tesca Fitzgerald
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - multimodal
+    - vision
+    - evaluation
+  paper_link: https://arxiv.org/pdf/2410.23266.pdf
+  arxiv_url: TOMATO
+- url: https://www.semanticscholar.org/paper/572cc41fc03ad48f8d1a848a6f33a54f20d51b5e
+  title: '"ReIFE: Re-evaluating Instruction-Following Evaluation"'
+  venue: NAACL 2025
+  year: 2025
+  authors:
+    - Yixin Liu
+    - Kejian Shi
+    - Alexander Fabbri
+    - Yilun Zhao
+    - Peifeng Wang
+    - Chien-Sheng Wu
+    - Shafiq Joty
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - foundation models
+    - document understanding
+  paper_link: https://arxiv.org/pdf/2410.07069.pdf
+  arxiv_url: Towards Better Evaluation of Instruction-Following
+- url: https://www.semanticscholar.org/paper/77e07e5542b450a2ee3193993c552700ad9ba82d
+  title: '"FollowIR: Evaluating and Teaching Information Retrieval Models to Follow Instructions"'
+  venue: NAACL 2025
+  year: 2024
+  authors:
+    - Orion Weller
+    - Benjamin Chang
+    - Sean MacAvaney
+    - Kyle Lo
+    - Arman Cohan
+    - Benjamin Van Durme
+    - Dawn Lawrie
+    - Luca Soldaini.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - training methods
+    - document understanding
+  paper_link: https://arxiv.org/pdf/2403.15246.pdf
+  arxiv_url: FollowIR
+- url: https://www.semanticscholar.org/paper/5182f0746ba2d420f943e91e65235650a896bf5a
+  title: '"ChemAgent: Self-updating Library in Large Language Models Improves Chemical Reasoning"'
+  venue: ICLR 2025
+  year: 2025
+  authors:
+    - Xiangru Tang
+    - Tianyu Hu
+    - Muyang Ye
+    - Yanjun Shao
+    - Xunjian Yin
+    - Siru Ouyang
+    - Wangchunshu Zhou
+    - Pan Lu
+    - Zhuosheng Zhang
+    - Yilun Zhao
+    - Arman Cohan
+    - Mark Gerstein.
+  project: other
+  display: 1
+  category:
+    - specialized domains
+    - document understanding
+    - LLM agents
+  paper_link: https://arxiv.org/pdf/2501.06590.pdf
+  arxiv_url: ChemAgent
+- url: https://www.semanticscholar.org/paper/44d46ed197aedcf2344f0b77250cbd6211c9c0a8
+  title: '"MMVU: Measuring Expert-Level Multi-Discipline Video Understanding"'
+  venue: Preprint
+  year: 2025
+  authors:
+    - Yilun Zhao
+    - Lujing Xie
+    - Haowei Zhang
+    - Guo Gan
+    - Yitao Long
+    - Zhiyuan Hu
+    - Tongyan Hu
+    - Weiyuan Chen
+    - Chuhan Li
+    - Junyang Song
+    - Zhijian Xu
+    - Chengye Wang
+    - Weifeng Pan
+    - Ziyao Shangguan
+    - Xiangru Tang
+    - Zhenwen Liang
+    - Yixin Liu
+    - Chen Zhao
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - foundation models
+    - evaluation
+    - specialized domains
+  paper_link: https://arxiv.org/pdf/2501.12380.pdf
+  arxiv_url: A Unified Model for Video Understanding and Knowledge Embedding with Heterogeneous Knowledge Graph Dataset
+- url: https://www.semanticscholar.org/paper/535886bda037af78b4ccc9eb53f6ebfd0efa4be9
+  title: '"RouterRetriever: Exploring the Benefits of Routing over Multiple Expert Embedding Models"'
+  venue: AAAI 2025
+  year: 2025
+  authors:
+    - Hyunji Lee
+    - Luca Soldaini
+    - Arman Cohan
+    - Minjoon Seo
+    - Kyle Lo.
+  project: other
+  display: 1
+  category:
+    - document understanding
+    - evaluation
+    - specialized domains
+  paper_link: https://arxiv.org/pdf/2409.02685.pdf
+  arxiv_url: RouterRetriever
