@@ -1,0 +1,79 @@
+- url: https://iclr.cc/virtual/2026/poster/10009831
+  title: '"Improving LLM Alignment with References"'
+  venue: ICLR 2026
+  year: 2026
+  authors:
+    - Kejian Shi
+    - Yixin Liu
+    - PeiFeng Wang
+    - Alexander Fabbri
+    - Shafiq Joty
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - alignment
+  paper_link:
+  arxiv_url: Improving LLM Alignment with References
+- url: https://iclr.cc/virtual/2026/poster/10008960
+  title: '"MRMR: A Realistic and Expert-Level Multidisciplinary Benchmark for Reasoning-Intensive Multimodal Retrieval"'
+  venue: ICLR 2026
+  year: 2026
+  authors:
+    - Siyue Zhang
+    - Yuan Gao
+    - Xiao Zhou
+    - Yilun Zhao
+    - Tingyu Song
+    - Arman Cohan
+    - Anh Tuan Luu
+    - Chen Zhao.
+  project: other
+  display: 1
+  category:
+    - benchmark
+    - retrieval
+    - multimodal
+  paper_link: 
+  arxiv_url: MRMR
+- url: https://iclr.cc/virtual/2026/poster/10009743
+  title: '"COMAL: A Convergent Meta-Algorithm for Aligning LLMs with General Preferences"'
+  venue: ICLR 2026
+  year: 2026
+  authors:
+    - Yixin Liu
+    - Argyris Oikonomou
+    - Weiqiang Zheng
+    - Yang Cai
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - alignment
+  paper_link: 
+  arxiv_url: COMAL
+- url: https://iclr.cc/virtual/2026/poster/10008091
+  title: '"Medical thinking with multiple images"'
+  venue: ICLR 2026
+  year: 2026
+  authors:
+    - Zonghai Yao
+    - Benlu Wang
+    - Yifan Zhang
+    - Junda Wang
+    - Iris Xia
+    - Zhipeng Tang
+    - Shuo Han
+    - Feiyun Ouyang
+    - Zhichao Yang
+    - Arman Cohan
+    - Hong Yu.
+  project: other
+  display: 1
+  category:
+    - benchmark
+    - multimodal
+    - specialized domains
+  paper_link: 
+  arxiv_url: Medical thinking with multiple images

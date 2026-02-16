@@ -363,12 +363,14 @@ mark {
 
 <div id="publication-list" class="justified-content">
 
-{% assign years = "2025,2024,2023,2022,2021,2020,2019" | split: ',' %}
+{% assign years = "2026,2025,2024,2023,2022,2021,2020,2019" | split: ',' %}
 
 {% for year in years %}
 
 {% assign publication_data = "" %}
 {% case year %}
+  {% when '2026' %}
+    {% assign publication_data = site.data.publications.2026_publist_updated %}
   {% when '2025' %}
     {% assign publication_data = site.data.publications.2025_publist_updated %}
   {% when '2024' %}

@@ -737,24 +737,6 @@
     - "- document understanding"
   paper_link: https://arxiv.org/pdf/2406.07835.pdf
   arxiv_url: SciRIFF
-- url: https://www.semanticscholar.org/paper/8c5764ce45df3cedb2429cfa4a13f55dcd4ce404
-  title: '"COMAL: A Convergent Meta-Algorithm for Aligning LLMs with General Preferences"'
-  venue: Preprint
-  year: 2024
-  authors:
-    - Yixin Liu
-    - Argyris Oikonomou
-    - Weiqiang Zheng
-    - Yang Cai
-    - Arman Cohan.
-  project: other
-  display: 1
-  category:
-    - foundation models
-    - evaluation
-    - training methods
-  paper_link: https://arxiv.org/pdf/2410.23223.pdf
-  arxiv_url: Towards Improved Preference Optimization Pipeline
 - url: https://www.semanticscholar.org/paper/bbc237299b0c87cd7c1a05b7320fe6cc20e71d58
   title: '"MetaMath: Integrating Natural Language and Code for Enhanced Mathematical Reasoning in Large Language Models"'
   venue: Preprint
