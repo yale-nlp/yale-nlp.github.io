@@ -159,6 +159,26 @@ permalink: /publications/
   margin-left: 5px;
 }
 
+.publication-code-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  margin: 2px 4px 2px 0;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 12px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.publication-code-link:hover,
+.publication-code-link:focus {
+  color: #6a1b9a;
+  text-decoration: none;
+  background-color: #e9e9e9;
+}
+
 .publication-category {
   display: inline-block;
   padding: 2px 8px;
@@ -413,6 +433,14 @@ mark {
             <span class="publication-authors">{{ publi.authors | join: ', ' }}</span>
             <div class="publication-venue-categories">
                 <span class="publication-venue publication-venue-{{ pub_type }}">{{ publi.venue }}</span>
+                {% assign code_url = publi.code_url | default: publi.code %}
+                {% if code_url %}
+                    <span class="separator">|</span>
+                    <a class="publication-code-link" href="{{ code_url }}" target="_blank" rel="noopener" title="Code">
+                        <span class="glyphicon glyphicon-console" aria-hidden="true"></span>
+                        <span>Code</span>
+                    </a>
+                {% endif %}
                 {% if publi.category %}
                     <span class="separator">|</span>
                     <div class="publication-categories">

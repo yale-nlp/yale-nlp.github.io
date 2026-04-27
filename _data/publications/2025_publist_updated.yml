@@ -12,6 +12,7 @@
     - evaluation
     - alignment
   paper_link: 
+  code: https://github.com/yale-nlp/AlignEval
   arxiv_url: On Evaluating LLM Alignment by Evaluating LLMs as Judges
 - url: https://www.semanticscholar.org/paper/DyFlow%3A-Dynamic-Workflow-Framework-for-Agentic-Wang-Xu/adcf542438d49fc056e2c78eec19ef99ca8adc45
   title: '"DyFlow: Dynamic Workflow Framework for Agentic Reasoning"'
@@ -119,6 +120,7 @@
     - evaluation
     - foundation models
   paper_link: https://arxiv.org/pdf/2507.01001
+  code: https://github.com/yale-nlp/SciArena
   arxiv_url: 2507.01001
 - url: 
   title: '"CourtReasoner: Can LLM Agents Reason Like Judges?"'
@@ -141,6 +143,7 @@
     - evaluation
     - specialized domains
   paper_link: 
+  code: https://github.com/Yale-NLP/CourtReasoner
   arxiv_url: CourtReasoner
 - url: https://www.semanticscholar.org/paper/Diffusion-vs.-Autoregressive-Language-Models%3A-A-Zhang-Zhao/738b8d70e58ac200ef41c8cdc8c8ecc4cf242123
   title: '"Diffusion vs. Autoregressive Language Models: A Text Embedding Perspective"'
@@ -201,6 +204,7 @@
     - safety and alignment
     - llm agents
   paper_link: https://arxiv.org/pdf/2505.24858
+  code: https://github.com/yale-nlp/MetaFaith
   arxiv_url: MetaFaith
 - url: https://arxiv.org/abs/2406.07835
   title: '"SciRIFF: A Resource to Enhance Language Model Instruction-Following over Scientific Literature"'
@@ -227,6 +231,7 @@
     - evaluation
     - safety and alignment
   paper_link: https://arxiv.org/pdf/2406.07835
+  code: https://github.com/allenai/SciRIFF
   arxiv_url: SciRIFF
 - url: https://www.semanticscholar.org/paper/Table-R1%3A-Inference-Time-Scaling-for-Table-Yang-Chen/d9c149114c2d71fc6c00e9b3f7faae18d2ff1e08
   title: '"Table-R1: Inference-Time Scaling for Table Reasoning"'
@@ -243,6 +248,7 @@
     - AI for science
     - post-training
   paper_link: https://arxiv.org/pdf/2505.23621
+  code: https://github.com/Table-R1/Table-R1
   arxiv_url: 2505.23621
 - url: https://www.semanticscholar.org/paper/MCTS-RAG%3A-Enhancing-Retrieval-Augmented-Generation-Hu-Zhao/7afb80c8c0dc0c5f32d63a847a72b9bc8bada519
   title: '"MCTS-RAG: Enhancing Retrieval-Augmented Generation with Monte Carlo Tree Search"'
@@ -260,6 +266,7 @@
     - post-training
     - efficiency and scalability of LLMs
   paper_link: https://arxiv.org/pdf/2503.20757
+  code: https://github.com/yale-nlp/MCTS-RAG
   arxiv_url: 2503.20757
 - url: https://www.semanticscholar.org/paper/MSRS%3A-Evaluating-Multi-Source-Retrieval-Augmented-Phanse-Zhou/9a170e202b071c32740bbd7b37b3fb3effda5466
   title: '"MSRS: Evaluating Multi-Source Retrieval-Augmented Generation"'
@@ -279,6 +286,7 @@
     - evaluation
     - reasoning 
   paper_link: https://arxiv.org/pdf/2508.20867
+  code: https://github.com/yale-nlp/MSRS
   arxiv_url: Evaluating Multi-Source Retrieval-Augmented Generation
 - url: https://www.semanticscholar.org/paper/One-shot-Optimized-Steering-Vectors-Mediate-in-LLMs-Dunefsky-Cohan/b4ddfb036e01ffc0fc85b7567bedeeab41abeed2
   title: '"One-shot Optimized Steering Vectors Mediate Safety-relevant Behaviors in LLMs"'
@@ -310,6 +318,7 @@
     - preference learning
     - document understanding
   paper_link: https://arxiv.org/pdf/2407.13709.pdf
+  code: https://github.com/yale-nlp/refdpo
   arxiv_url: Understanding Reference Policies in Direct Preference Optimization
 - url: https://www.semanticscholar.org/paper/eac4833ee2b22b7ca669ff8dbcb77a0310452bca
   title: '"TOMATO: Assessing Visual Temporal Reasoning Capabilities in Multimodal Foundation Models"'
@@ -330,6 +339,7 @@
     - vision
     - evaluation
   paper_link: https://arxiv.org/pdf/2410.23266.pdf
+  code: https://github.com/yale-nlp/TOMATO
   arxiv_url: TOMATO
 - url: https://www.semanticscholar.org/paper/572cc41fc03ad48f8d1a848a6f33a54f20d51b5e
   title: '"ReIFE: Re-evaluating Instruction-Following Evaluation"'
@@ -351,6 +361,7 @@
     - foundation models
     - document understanding
   paper_link: https://arxiv.org/pdf/2410.07069.pdf
+  code: https://github.com/yale-nlp/ReIFE
   arxiv_url: Towards Better Evaluation of Instruction-Following
 - url: https://www.semanticscholar.org/paper/77e07e5542b450a2ee3193993c552700ad9ba82d
   title: '"FollowIR: Evaluating and Teaching Information Retrieval Models to Follow Instructions"'
@@ -586,6 +597,7 @@
     - document understanding
     - LLM agents
   paper_link: https://arxiv.org/pdf/2501.06590.pdf
+  code: https://github.com/gersteinlab/ChemAgent
   arxiv_url: ChemAgent
 - url: https://www.semanticscholar.org/paper/44d46ed197aedcf2344f0b77250cbd6211c9c0a8
   title: '"MMVU: Measuring Expert-Level Multi-Discipline Video Understanding"'
@@ -618,6 +630,7 @@
     - evaluation
     - specialized domains
   paper_link: https://arxiv.org/pdf/2501.12380.pdf
+  code: https://github.com/yale-nlp/MMVU
   arxiv_url: A Unified Model for Video Understanding and Knowledge Embedding with Heterogeneous Knowledge Graph Dataset
 - url: https://www.semanticscholar.org/paper/535886bda037af78b4ccc9eb53f6ebfd0efa4be9
   title: '"RouterRetriever: Exploring the Benefits of Routing over Multiple Expert Embedding Models"'

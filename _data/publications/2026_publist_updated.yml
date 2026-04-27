@@ -99,6 +99,7 @@
     - evaluation
     - alignment
   paper_link:
+  code: https://github.com/yale-nlp/RLRR
   arxiv_url: Improving LLM Alignment with References
 - url: https://iclr.cc/virtual/2026/poster/10008960
   title: '"MRMR: A Realistic and Expert-Level Multidisciplinary Benchmark for Reasoning-Intensive Multimodal Retrieval"'
@@ -120,6 +121,7 @@
     - retrieval
     - multimodal
   paper_link: 
+  code: https://github.com/rebeccaz4/MRMR
   arxiv_url: MRMR
 - url: https://iclr.cc/virtual/2026/poster/10009743
   title: '"COMAL: A Convergent Meta-Algorithm for Aligning LLMs with General Preferences"'
@@ -136,6 +138,7 @@
   category:
     - alignment
   paper_link: 
+  code: https://github.com/yale-nlp/COMAL
   arxiv_url: COMAL
 - url: https://iclr.cc/virtual/2026/poster/10008091
   title: '"Medical thinking with multiple images"'
@@ -160,4 +163,5 @@
     - multimodal
     - specialized domains
   paper_link: 
+  code: https://github.com/benluwang/MedThinkVQA
   arxiv_url: Medical thinking with multiple images
