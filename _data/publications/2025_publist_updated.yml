@@ -373,6 +373,195 @@
     - document understanding
   paper_link: https://arxiv.org/pdf/2403.15246.pdf
   arxiv_url: FollowIR
+- url: https://www.semanticscholar.org/paper/a9d7a85fbd1028be86e93410f095a51148656a56
+  title: '"IRIS: Interactive Research Ideation System for Accelerating Scientific Discovery"'
+  venue: ACL 2025 Demo
+  year: 2025
+  authors:
+    - Aniketh Garikaparthi
+    - Manasi Patwardhan
+    - Lovekesh Vig
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - scientific-discovery
+    - agent
+  paper_link:
+  arxiv_url: IRIS
+- url: https://www.semanticscholar.org/paper/MIR%3A-Methodology-Inspiration-Retrieval-for-Research-Garikaparthi-Patwardhan/499a81b10c41ac9942fd1b3ff1c7ed1c317a17c6
+  title: '"MIR: Methodology Inspiration Retrieval for Scientific Research Problems"'
+  venue: ACL 2025
+  year: 2025
+  authors:
+    - Aniketh Garikaparthi
+    - Manasi Patwardhan
+    - Aditya Sanjiv Kanade
+    - Aman Hassan
+    - Lovekesh Vig
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - retrieval
+    - scientific-discovery
+  paper_link:
+  arxiv_url: MIR
+- url: https://www.semanticscholar.org/paper/SciVer%3A-Evaluating-Foundation-Models-for-Multimodal-Wang-Shen/02d17393bd1ee28e329641a6b303e3f843b254e1
+  title: '"SciVer: Evaluating Foundation Models for Multimodal Scientific Claim Verification"'
+  venue: ACL 2025
+  year: 2025
+  authors:
+    - Chengye Wang
+    - Yifei Shen
+    - Zexi Kuang
+    - Arman Cohan
+    - Yilun Zhao.
+  project: other
+  display: 1
+  category:
+    - benchmark
+    - multimodal
+  paper_link:
+  arxiv_url: SciVer
+- url: https://www.semanticscholar.org/paper/AbGen%3A-Evaluating-Large-Language-Models-in-Ablation-Zhao-Chen/d3e635423811d53e85c4c48d15dde277fe093509
+  title: '"AbGen: Evaluating Large Language Models in Ablation Study Design and Evaluation for Scientific Research"'
+  venue: ACL 2025
+  year: 2025
+  authors:
+    - Yilun Zhao
+    - Weiyuan Chen
+    - Zhijian Xu
+    - Manasi Patwardhan
+    - Chengye Wang
+    - Yixin Liu
+    - Lovekesh Vig
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - benchmark
+    - evaluation
+  paper_link:
+  arxiv_url: AbGen
+- url: https://www.semanticscholar.org/paper/HumanEval-Pro-and-MBPP-Pro%3A-Evaluating-Large-Models-Yu-Zhao/44c47a0bf21d0b555e7aedc1cd8a9bbf3295d46d
+  title: '"HumanEval Pro and MBPP Pro: Evaluating Large Language Models on Self-invoking Code Generation Task"'
+  venue: ACL Findings 2025
+  year: 2025
+  authors:
+    - Zhaojian Yu
+    - Yilun Zhao
+    - Arman Cohan
+    - Xiaoping Zhang.
+  project: other
+  display: 1
+  category:
+    - benchmark
+    - code-generation
+    - evaluation
+  paper_link:
+  arxiv_url: HumanEval Pro and MBPP Pro
+- url: https://dblp.org/rec/conf/acl/Feng00YZSC25
+  title: '"Physics: Benchmarking Foundation Models on University-Level Physics Problem Solving"'
+  venue: ACL Findings 2025
+  year: 2025
+  authors:
+    - Kaiyue Feng
+    - Yilun Zhao
+    - Yixin Liu
+    - Tianyu Yang
+    - Chen Zhao
+    - John Sous
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - benchmark
+    - specialized domains
+  paper_link:
+  arxiv_url: Physics
+- url: https://www.semanticscholar.org/paper/Can-Multimodal-Foundation-Models-Understand-An-on-Zhao-Wang/0f1b584b2acb9af60b2bfc4beb4753435993e7ca
+  title: '"Can Multimodal Foundation Models Understand Schematic Diagrams? An Empirical Study on Information-Seeking QA over Scientific Papers"'
+  venue: ACL Findings 2025
+  year: 2025
+  authors:
+    - Yilun Zhao
+    - Chengye Wang
+    - Chuhan Li
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - multimodal
+    - evaluation
+  paper_link:
+  arxiv_url: Can Multimodal Foundation Models Understand Schematic Diagrams?
+- url: https://aclanthology.org/2025.acl-long.1009/
+  title: '"Can LLMs Identify Critical Limitations within Scientific Research? A Systematic Evaluation on AI Research Papers"'
+  venue: ACL 2025
+  year: 2025
+  authors:
+    - Zhijian Xu
+    - Yilun Zhao
+    - Manasi Patwardhan
+    - Lovekesh Vig
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - evaluation
+  paper_link:
+  arxiv_url: Can LLMs Identify Critical Limitations within Scientific Research?
+- url: https://dblp.org/rec/conf/acl/TaeIKC25
+  title: '"TESS 2: A Large-Scale Generalist Diffusion Language Model"'
+  venue: ACL 2025
+  year: 2025
+  authors:
+    - Jaesung Tae
+    - Hamish Ivison
+    - Sachin Kumar
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - language-modeling
+    - diffusion
+  paper_link:
+  arxiv_url: TESS
+- url: https://aclanthology.org/2025.acl-long.1162/
+  title: '"Ref-Long: Benchmarking the Long-context Referencing Capability of Long-context Language Models"'
+  venue: ACL 2025
+  year: 2025
+  authors:
+    - Junjie Wu
+    - Gefei Gu
+    - Yanan Zheng
+    - Dit-Yan Yeung
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - benchmark
+    - evaluation
+  paper_link:
+  arxiv_url: Ref-Long
+- url: https://www.semanticscholar.org/paper/6e31b451f0d06c59b142537626375a5579533495
+  title: '"MDCure: A Scalable Pipeline for Multi-Document Instruction-Following"'
+  venue: ACL 2025
+  year: 2025
+  authors:
+    - Gabrielle Kaili-May Liu
+    - Bowen Shi
+    - Avi Caciularu
+    - Idan Szpektor
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - instruction-following
+    - multi-document
+  paper_link:
+  arxiv_url: MDCure
 - url: https://www.semanticscholar.org/paper/5182f0746ba2d420f943e91e65235650a896bf5a
   title: '"ChemAgent: Self-updating Library in Large Language Models Improves Chemical Reasoning"'
   venue: ICLR 2025

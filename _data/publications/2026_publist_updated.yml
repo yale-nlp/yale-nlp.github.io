@@ -1,3 +1,87 @@
+- url: https://aclanthology.org/2026.eacl-long.64/
+  title: '"Patient-Similarity Cohort Reasoning in Clinical Text-to-SQL"'
+  venue: EACL 2026
+  year: 2026
+  authors:
+    - Yifei Shen
+    - Yilun Zhao
+    - Justice Ou
+    - Tinglin Huang
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - clinical
+    - reasoning
+  paper_link:
+  arxiv_url: Patient-Similarity Cohort Reasoning in Clinical Text-to-SQL
+- url: https://aclanthology.org/2026.eacl-long.303/
+  title: '"SciRAG: Adaptive, Citation-Aware, and Outline-Guided Retrieval and Synthesis for Scientific Literature"'
+  venue: EACL 2026
+  year: 2026
+  authors:
+    - Hang Ding
+    - Yilun Zhao
+    - Tiansheng Hu
+    - Zihang Wang
+    - Manasi Patwardhan
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - retrieval
+    - rag
+  paper_link:
+  arxiv_url: SciRAG
+- url: https://www.semanticscholar.org/paper/Investigating-Retrieval-Augmented-Generation-on-Liu-Li/7baa5edb21ef7bba20580379fd5cdd69fb20b65c
+  title: '"Investigating Retrieval-Augmented Generation Systems on Unanswerable, Uncheatable, Realistic, Multi-hop Queries"'
+  venue: ECIR 2026
+  year: 2026
+  authors:
+    - Gabrielle Kaili-May Liu
+    - Bryan Li
+    - Arman Cohan
+    - William Gantt Walden
+    - Eugene Yang.
+  project: other
+  display: 1
+  category:
+    - retrieval
+    - rag
+    - evaluation
+  paper_link:
+  arxiv_url: Investigating Retrieval-Augmented Generation Systems
+- url: https://openreview.net/forum?id=eY9RXNbIwr
+  title: '"ResearchGym: Evaluating Language Model Agents on Real-World AI Research"'
+  venue: ICLR 2026 Workshop
+  year: 2026
+  authors:
+    - Aniketh Garikaparthi
+    - Manasi Patwardhan
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - agent
+    - benchmark
+  paper_link:
+  arxiv_url: ResearchGym
+- url: https://openreview.net/forum?id=ihcRmUkXHF
+  title: '"Self-Adapting Agents for Automating Research Coding Workflows"'
+  venue: ICLR 2026 Workshop
+  year: 2026
+  authors:
+    - Balaji Dinesh Gangireddi
+    - Aniketh Garikaparthi
+    - Manasi Patwardhan
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - agents
+    - coding
+  paper_link:
+  arxiv_url: Self-Adapting Agents for Automating Research Coding Workflows
 - url: https://iclr.cc/virtual/2026/poster/10009831
   title: '"Improving LLM Alignment with References"'
   venue: ICLR 2026
