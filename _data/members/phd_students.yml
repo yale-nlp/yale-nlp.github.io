@@ -79,3 +79,15 @@
     - Training/Inference Efficiency
     - Reasoning
     - LLM Safety
+
+- name: Jolie Zhou
+  photo: jolie_zhou.jpg
+  info: Ph.D. Student
+  homepage: https://jolzhou.github.io/
+  github: https://github.com/jolzhou
+  google_scholar: https://scholar.google.com/citations?user=6FkFpxAAAAAJ
+  twitter: https://x.com/jolzhou
+  interests:
+    - Science of language models
+    - Interpretability
+  
