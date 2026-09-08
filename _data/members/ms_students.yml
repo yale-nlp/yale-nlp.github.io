@@ -8,3 +8,13 @@
     - Trustworthy LLMs
     - Interpretability
     - Alignment
+
+- name: Yanan He
+  photo: yanan_he.jpg
+  info: M.S. Student
+  homepage: https://echoo113.github.io/about/
+  github: https://github.com/Echoo113
+  interests:
+    - Interpretability
+    - Post-training
+    - Reasoning
