@@ -79,7 +79,15 @@
     - Training/Inference Efficiency
     - Reasoning
     - LLM Safety
-
+- name: Haojun Shi
+  photo: haojun_shi.png
+  info: Ph.D. Student
+  homepage: https://stonehj05.github.io/
+  github: https://github.com/stonehj05
+  google_scholar: https://scholar.google.com/citations?user=BN-NEn8AAAAJ&hl=en
+  interests:
+    - Post-Training
+    - Long-term memory
 - name: Jolie Zhou
   photo: jolie_zhou.jpg
   info: Ph.D. Student
@@ -90,4 +98,3 @@
   interests:
     - Science of language models
     - Interpretability
-  
