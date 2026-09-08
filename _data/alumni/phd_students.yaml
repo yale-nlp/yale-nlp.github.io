@@ -1,3 +1,16 @@
+- name: Yixin Liu
+  photo: yixin_liu.jpeg
+  year: Ph.D., 2026
+  info: → Research Scientist at Scale AI
+  homepage: https://yixinl7.github.io/
+  github: https://github.com/yixinL7
+  google_scholar: https://scholar.google.com/citations?user=sFtxaMkAAAAJ
+  twitter: https://twitter.com/YixinLiu17
+  interests:
+    - NLG
+    - Evaluation
+    - Alignment
+
 - name: Ansong Ni
   photo: ansong_ni.jpeg
   year: Ph.D., 2024

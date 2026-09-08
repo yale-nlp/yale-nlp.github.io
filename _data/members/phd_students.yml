@@ -1,15 +1,3 @@
-- name: Yixin Liu
-  photo: yixin_liu.jpeg
-  info: Ph.D. Student
-  homepage: https://yixinl7.github.io/
-  github: https://github.com/yixinL7
-  google_scholar: https://scholar.google.com/citations?user=sFtxaMkAAAAJ
-  twitter: https://twitter.com/YixinLiu17
-  interests:
-    - NLG
-    - Evaluation
-    - Alignment
-
 - name: Yilun Zhao
   photo: yilun_zhao.jpeg
   info: Ph.D. Student
