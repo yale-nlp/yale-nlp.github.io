@@ -1,3 +1,80 @@
+- url: https://arxiv.org/abs/2609.03261
+  title: '"MedQA-MM: Shortcuts Behind Medical Visual Reasoning"'
+  venue: EMNLP 2026
+  year: 2026
+  authors:
+    - Benlu Wang
+    - Yifan Zhang
+    - Jiaqing Yu
+    - Chin Siang Ong
+    - Juncheng Huang
+    - Zhuohao Li
+    - Zhenyu Zhang
+    - Arman Cohan
+    - Hong Yu
+    - Zonghai Yao.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - multimodal
+    - clinical
+  paper_link: https://arxiv.org/pdf/2609.03261
+  arxiv_url: 2609.03261
+- url: https://arxiv.org/abs/2608.20960
+  title: '"Can Scientific Claims Be Removed from Large Language Models? A Systematic Evaluation of Claim-Level Unlearning"'
+  venue: EMNLP 2026
+  year: 2026
+  authors:
+    - Snigdha Paul
+    - Manasi Patwardhan
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - training methods
+    - scientific-discovery
+    - safety and alignment
+  paper_link: https://arxiv.org/pdf/2608.20960
+  arxiv_url: 2608.20960
+- url: https://arxiv.org/abs/2608.30005
+  title: '"Small Language Models as Judges for Rubric-Based Reinforcement Learning"'
+  venue: EMNLP Findings 2026
+  year: 2026
+  authors:
+    - Fengyu Xie
+    - Yilun Zhao
+    - Bingsen Chen
+    - Arman Cohan
+    - Chen Zhao.
+  project: other
+  display: 1
+  category:
+    - reinforcement learning
+    - evaluation
+    - post-training
+  paper_link: https://arxiv.org/pdf/2608.30005
+  arxiv_url: 2608.30005
+- url: https://arxiv.org/abs/2609.24921
+  title: '"BackTrend: Evaluating Scientific Weak-Signal Prediction via Backward Reconstruction"'
+  venue: EMNLP Findings 2026
+  year: 2026
+  authors:
+    - Xiao Zhou
+    - Yilun Zhao
+    - Owen Jiang
+    - Tiansheng Hu
+    - Cai Xu
+    - Manasi Patwardhan
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - benchmark
+    - evaluation
+    - scientific-discovery
+  paper_link: https://arxiv.org/pdf/2609.24921
+  arxiv_url: 2609.24921
 - url: https://aclanthology.org/2026.acl-long.1566/
   title: '"MMSciCode: Real-world Evaluation of Multilingual Multi-Discipline Scientific Research Coding"'
   venue: ACL 2026
@@ -116,6 +193,24 @@
     - specialized domains
   paper_link: https://aclanthology.org/2026.acl-long.1961.pdf
   arxiv_url: 2603.08291
+- url: https://aclanthology.org/2026.acl-long.150/
+  title: '"Evaluating Legal Reasoning Traces with Legal Issue Tree Rubrics"'
+  venue: ACL 2026
+  year: 2026
+  authors:
+    - Jinu Lee
+    - Kyoung-Woon On
+    - Simeng Han
+    - Arman Cohan
+    - Julia Hockenmaier.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - reasoning
+    - specialized domains
+  paper_link: https://aclanthology.org/2026.acl-long.150.pdf
+  arxiv_url: 2512.01020
 - url: https://aclanthology.org/2026.findings-acl.1696/
   title: '"RbtAct: Rebuttal as Supervision for Actionable Review Feedback Generation"'
   venue: ACL Findings 2026
@@ -288,6 +383,77 @@
     - scientific-discovery
   paper_link: https://arxiv.org/pdf/2603.20667
   arxiv_url: 2603.20667
+- url: https://openreview.net/forum?id=BNx62Wx1ej
+  title: '"LegalScope: Measuring Exam-to-Case Transfer in LLM Legal Reasoning"'
+  venue: COLM 2026 Workshop
+  year: 2026
+  authors:
+    - Hongyu Wang
+    - Rilyn R. Han
+    - Yilun Zhao
+    - Xuandong Zhao
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - benchmark
+    - evaluation
+    - specialized domains
+  paper_link: https://openreview.net/forum?id=BNx62Wx1ej
+  code: https://github.com/EternWang/LegalScope
+  arxiv_url: LegalScope
+- url: https://openreview.net/group?id=colmweb.org/COLM/2026/Workshop/LM4Sci
+  title: '"IdeaAnchor: Training LLMs to Synthesize Research Ideas from Literature"'
+  venue: COLM 2026 Workshop
+  year: 2026
+  authors:
+    - Ziyu Chen
+    - Yilun Zhao
+    - J. Sun
+    - Yiling Ma
+    - Manasi Patwardhan
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - training methods
+    - scientific-discovery
+  arxiv_url: IdeaAnchor
+- url: https://arxiv.org/abs/2607.01233
+  title: '"Measuring the Gap Between Human and LLM Research Ideas"'
+  venue: COLM 2026 Workshop
+  year: 2026
+  authors:
+    - Ziyu Chen
+    - Yilun Zhao
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - evaluation
+    - scientific-discovery
+    - foundation models
+  paper_link: https://arxiv.org/pdf/2607.01233
+  arxiv_url: 2607.01233
+- url: https://arxiv.org/abs/2604.27151
+  title: '"Step-level Optimization for Efficient Computer-use Agents"'
+  venue: COLM 2026 Workshop
+  year: 2026
+  authors:
+    - Jinbiao Wei
+    - Kangqi Ni
+    - Yilun Zhao
+    - Guo Gan
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - agents
+    - training methods
+    - efficiency and scalability of LLMs
+  paper_link: https://arxiv.org/pdf/2604.27151
+  code: https://github.com/yale-nlp/StepWise
+  arxiv_url: 2604.27151
 - url: https://icml.cc/virtual/2026/poster/62667
   title: '"VideoKR: Towards Knowledge- and Reasoning-Intensive Video Understanding"'
   venue: ICML 2026
@@ -393,22 +559,129 @@
   paper_link: https://arxiv.org/pdf/2602.20629
   code: https://github.com/qqliu/Yale-QEDBench
   arxiv_url: 2602.20629
-- url: https://arxiv.org/abs/2608.20960
-  title: '"Can Scientific Claims Be Removed from Large Language Models? A Systematic Evaluation of Claim-Level Unlearning"'
+- url: https://arxiv.org/abs/2610.06750
+  title: '"Balancing Memory Pathways: Analyzing and Improving Memory Utilization in Hybrid LMs"'
   venue: Preprint
   year: 2026
   authors:
-    - Snigdha Paul
+    - Hyunji Lee
+    - Joykirat Singh
+    - Zaid Khan
+    - Justin Chih-Yao Chen
+    - Elias Stengel-Eskin
+    - Alessandro Sordoni
+    - Arman Cohan
+    - Mohit Bansal.
+  project: other
+  display: 1
+  category:
+    - foundation models
+    - interpretability
+    - training methods
+  paper_link: https://arxiv.org/pdf/2610.06750
+  code: https://github.com/amy-hyunji/Balancing-Memory-Pathways
+  arxiv_url: 2610.06750
+- url: https://arxiv.org/abs/2609.13009
+  title: '"How Good Are Frontier Models at Physics? Expert Re-Grading Reveals Broken Evaluations and Near-Saturation of Leading Benchmarks"'
+  venue: Preprint
+  year: 2026
+  authors:
+    - Ali Ansari
+    - Haoran Sun
+    - Andy Zeyi Liu
+    - Mark Jabbour
+    - Yongshan Ding
+    - Steven Girvin
+    - Yu He
+    - Sohrab Ismail-Beigi
+    - Aleksander Kubica
+    - Owen D. Miller
+    - Corey O'Hern
+    - Vidvuds Ozolins
+    - David Poland
+    - A. Douglas Stone
+    - Frank C. van den Bosch
+    - Logan Wright
+    - Navid Akbari
+    - Santanu Antu
+    - Kangle Cai
+    - Andrew Calabrese-Day
+    - Mateo Cárdenes Wuttig
+    - Meng Cheng
+    - Barry T. Chiang
+    - Ali Ghorashi
+    - Shouzhen Gu
+    - Haoyang Huang
+    - Zhibo Kang
+    - Lukas Kienesberger
+    - Hantian Liu
+    - Charles Lomba
+    - Zhongling Lu
+    - Wenchao Ma
+    - Rohin E. McIntosh
+    - Evan McKinney
+    - Ivan Rojkov
+    - Xulei Sun
+    - Yarone Meir Tokayer
+    - Naveen Balaji Umasankar
+    - Mira Varma
+    - Leda Wang
+    - Qimin Wang
+    - Tyler Wang
+    - Haoyu Wei
+    - Jinming Yang
+    - Jinchen Zhao
+    - Sherlock Tingrui Zhao
+    - Qinyuan Zheng
+    - Jay S. Zou
+    - Lucas Baker
+    - Arman Cohan
+    - John Sous.
+  project: other
+  display: 1
+  category:
+    - benchmark
+    - evaluation
+    - specialized domains
+  paper_link: https://arxiv.org/pdf/2609.13009
+  arxiv_url: 2609.13009
+- url: https://arxiv.org/abs/2609.10539
+  title: '"IdeaAMBIG: Benchmarking Implementation-Critical Gaps in Research-Idea Specifications"'
+  venue: Preprint
+  year: 2026
+  authors:
+    - Yiling Ma
+    - Yilun Zhao
+    - Sihong Wu
+    - Manasi Patwardhan
+    - Arman Cohan.
+  project: other
+  display: 1
+  category:
+    - benchmark
+    - evaluation
+    - scientific-discovery
+  paper_link: https://arxiv.org/pdf/2609.10539
+  arxiv_url: 2609.10539
+- url: https://arxiv.org/abs/2609.09076
+  title: '"ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation"'
+  venue: Preprint
+  year: 2026
+  authors:
+    - Yiling Ma
+    - Yilun Zhao
+    - Sihong Wu
+    - Ziyu Chen
     - Manasi Patwardhan
     - Arman Cohan.
   project: other
   display: 1
   category:
     - training methods
+    - reinforcement learning
     - scientific-discovery
-    - safety and alignment
-  paper_link: https://arxiv.org/pdf/2608.20960
-  arxiv_url: 2608.20960
+  paper_link: https://arxiv.org/pdf/2609.09076
+  arxiv_url: 2609.09076
 - url: https://arxiv.org/abs/2607.11881
   title: '"Metacognition in LLMs: Foundations, Progress, and Opportunities"'
   venue: Preprint
@@ -429,22 +702,6 @@
   paper_link: https://arxiv.org/pdf/2607.11881
   code: https://github.com/yale-nlp/LLM-Metacognition
   arxiv_url: 2607.11881
-- url: https://arxiv.org/abs/2607.01233
-  title: '"Measuring the Gap Between Human and LLM Research Ideas"'
-  venue: Preprint
-  year: 2026
-  authors:
-    - Ziyu Chen
-    - Yilun Zhao
-    - Arman Cohan.
-  project: other
-  display: 1
-  category:
-    - evaluation
-    - scientific-discovery
-    - foundation models
-  paper_link: https://arxiv.org/pdf/2607.01233
-  arxiv_url: 2607.01233
 - url: https://arxiv.org/abs/2606.24551
   title: '"GUI vs. CLI: Execution Bottlenecks in Screen-Only and Skill-Mediated Computer-Use Agents"'
   venue: Preprint
@@ -736,25 +993,6 @@
     - foundation models
   paper_link: https://arxiv.org/pdf/2605.09649
   arxiv_url: 2605.09649
-- url: https://arxiv.org/abs/2604.27151
-  title: '"Step-level Optimization for Efficient Computer-use Agents"'
-  venue: Preprint
-  year: 2026
-  authors:
-    - Jinbiao Wei
-    - Kangqi Ni
-    - Yilun Zhao
-    - Guo Gan
-    - Arman Cohan.
-  project: other
-  display: 1
-  category:
-    - agents
-    - training methods
-    - efficiency and scalability of LLMs
-  paper_link: https://arxiv.org/pdf/2604.27151
-  code: https://github.com/yale-nlp/StepWise
-  arxiv_url: 2604.27151
 - url: https://arxiv.org/abs/2603.12246
   title: '"Examining Reasoning LLMs-as-Judges in Non-Verifiable LLM Post-Training"'
   venue: Preprint
