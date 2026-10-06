@@ -19,3 +19,23 @@
     - Interpretability
     - Post-training
     - Reasoning
+
+- name: Jennifer Zhang
+  photo: jennifer_zhang.jpg
+  info: M.S. Student
+  homepage: https://jen6yt.github.io/
+  google_scholar: https://scholar.google.com/citations?user=1GrCDH8AAAAJ&hl=en
+  github: https://github.com/JEN6YT
+  interests:
+    - Agents
+    - Multimodality
+    - Reasoning
+
+- name: Wenkuan Zhao
+  photo: wenkuan_zhao.jpg
+  info: M.S. Student
+  google_scholar: https://scholar.google.com/citations?user=Sx5jHPcAAAAJ&hl=en
+  interests:
+    - Information Retrieval & RAG
+    - AI for Scientist
+    - Recommender Systems
