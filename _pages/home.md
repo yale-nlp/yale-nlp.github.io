@@ -15,10 +15,10 @@ permalink: /
     Active areas of research include (no particular order):
   </p>
   <ul>
-    <li>Understanding and extending the capabilities of LLMs</li>
+    <li>Training and evaluating language models in hard-to-verify domains</li>
     <li>Reasoning in knowledge-intensive environments</li>
-    <li>Evaluation and Mechanistic Interpretability</li>    
-    <li>AI for Science</li>
+    <li>Reliability and interpretability of AI systems</li>    
+    <li>AI for Scientific Research</li>
   </ul>
 
   <p style="text-align:justify">
